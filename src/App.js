@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Map from "./components/map";
 
-import "./App.scss";
+import "./styles/App.scss";
 
 function App() {
   return (
     <Router>
-      <div >
+      <div className="wrapper">
         <ul className="nav">
           <li>
             <Link to="/">Home</Link>
@@ -20,8 +20,6 @@ function App() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
         </ul>
-
-        <hr />
 
         {/*
           A <Switch> looks through all its children <Route>
