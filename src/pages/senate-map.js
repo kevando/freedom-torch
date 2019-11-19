@@ -1,7 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import Map from "../components/map";
+import Map from "../components/senate-map";
+
+
 
 export default () => {
   return (
@@ -9,7 +11,6 @@ export default () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Senate Map</title>
-        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
       </Helmet>
       <Map />
     </>

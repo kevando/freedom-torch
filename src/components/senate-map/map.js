@@ -4,7 +4,7 @@ import * as d3 from "d3";
 import * as topojson from "topojson";
 
 import { typeUnitedStates } from "./types";
-import { dataUrls } from "../data";
+import { dataUrls } from "../../data";
 import {
 
   drawRank,
@@ -15,6 +15,8 @@ import {
 
 import Legend from "./legend";
 import Tooltip from "./tooltip";
+
+import "./map.scss";
 
 let topoFeatureData;
 let svg;

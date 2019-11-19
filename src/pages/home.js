@@ -9,7 +9,7 @@ const Home = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/map">Map</Link>
+          <Link to="/senate-map">Senate Map</Link>
         </li>
       </ul>
     </div>

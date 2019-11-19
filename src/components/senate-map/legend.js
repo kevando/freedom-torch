@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { numberWithCommas } from "./helpers";
+import React from "react";
 
 const Legend = ({ handleChange, selectedRank }) => {
   return (

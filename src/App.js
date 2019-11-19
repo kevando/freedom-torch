@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import NotFound from "./pages/not-found";
-import Map from "./pages/map";
+import SenateMap from "./pages/senate-map";
 
 import "./styles/App.scss";
 
@@ -14,8 +14,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/map">
-            <Map />
+          <Route path="/senate-map">
+            <SenateMap />
           </Route>
           <Route component={NotFound} />
         </Switch>
