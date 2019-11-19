@@ -1,9 +1,5 @@
 @import "base/variables", "base/mixins", "base/base", "base/typography";
 
 @import "layout/map";
-// 'base/mixins',
-// 'base/base',
-// 'base/fonts',
-// 'base/typography';
 
-@import "components/legend", "components/tooltip", "components/titles";
+@import "components/titles";

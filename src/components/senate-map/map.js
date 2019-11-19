@@ -16,7 +16,7 @@ import {
 import Legend from "./legend";
 import Tooltip from "./tooltip";
 
-// import "./map.scss";
+import "./map.scss";
 
 let topoFeatureData;
 let svg;
