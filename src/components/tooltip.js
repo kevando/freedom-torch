@@ -1,9 +1,9 @@
 import React from "react";
 import { numberWithCommas } from "./helpers";
 
-const Tooltip = ({ handleChange, selectedRank }) => {
+const Tooltip = () => {
   return (
-    <div id="Tooltip" className="tool-tip wrapper">
+    <div id="Tooltip" className="tool-tip wrapper" style={{visibility: 'hidden'}}>
       <h1 id="StateName"></h1>
 
       <div>

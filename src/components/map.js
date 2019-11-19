@@ -75,14 +75,12 @@ function Map() {
     <div className="map">
       <div className="container">
         <div className="top-bar">
-          <h1>Congress Connections</h1>
+          <h1>US Senate</h1>
         </div>
         <div className="content">
           <div className="main">
             <svg width="960" height="600" id="main" className="map">
               <g id="basemap"></g>
-
-              
             </svg>
           </div>
           <div className="side-bar">
