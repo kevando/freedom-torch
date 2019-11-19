@@ -1,4 +1,5 @@
 export const dataUrls = {
   map: "/data/us-geo.json",
-  unitedStates: require("./states-data.tsv")
+  unitedStates: require("./states-data.tsv"),
+  senate: require("./senate.tsv")
 };
