@@ -67,7 +67,7 @@ h1.title {
 // map
 svg.map {
   .states {
-    // fill: #ccc;
+    fill: #ddd;
     cursor: context-menu; // help good too
   }
 
@@ -86,7 +86,7 @@ svg.map {
   }
 
   .active {
-    fill: blue;
+    fill: #000;
     // transform: scale(2); interesting result
   }
 
@@ -103,64 +103,11 @@ svg.map {
   }
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
-
-.tool-tip.wrapper {
-  width: 200px;
-  height: 300px;
-  border: solid 8px #fff;
-  top: 40%;
-  right: 20%;
-
-  background: #000;
-  border-radius: 10px;
-  color: white;
-  // box-shadow: #d2d2d2 -19px 18px 11px 10px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  // width: 200px;
-  // height: 200px;
-
-  margin: 15px 30px;
-  width: 200px;
-
-
-/* this CS forms the triangles */
-&:before {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 100%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-
-    top: 1px;
-    border-color: transparent #ffffff63 transparent transparent ;
-    border-width: 230px 200px 55px 20px;
-    pointer-events: none;
+.grow {
+  transition: all 0.2s ease-in-out;
 }
-
-
-  p.label {
-    margin: 0;
-    font-family: Tahoma;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 3px;
-    color: #b1b1b1;
-    text-align: center;
-  }
-  p.value {
-    margin: 0;
-    font-family: monospace;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    text-align: center;
-  }
+.grow:hover {
+  transform: scale(1.1);
 }
 
 .rank.text {
@@ -170,68 +117,8 @@ svg.map {
   text-shadow: 1px 1px 0 #252525, 1px -1px 0 #252525, -1px 1px 0 #252525,
     -1px -1px 0 #252525;
   pointer-events: none;
+  &.active {
+    display: none;
+  }
 }
 // -----
-
-.land {
-  fill: #dddddd;
-}
-
-.border {
-  fill: none;
-  stroke-width: 1px;
-}
-
-.interior {
-  stroke: white;
-}
-
-.exterior {
-  stroke: #bbbbbb;
-}
-
-.airport {
-  fill: white;
-  opacity: 0.6;
-  stroke: #252525;
-}
-
-.flight {
-  fill: none;
-  stroke: #252525;
-  stroke-width: 1px;
-  stroke-opacity: 0.1;
-}
-
-.voronoi {
-  fill: none;
-  stroke: none;
-  stroke-width: 1px;
-}
-
-.highlight {
-  opacity: 1 !important;
-  stroke: orange !important;
-  stroke-width: 2px !important;
-  stroke-opacity: 0.8 !important;
-}
-
-g#voronoi {
-  pointer-events: all;
-}
-
-/* shadow trick from bl.ocks.org */
-#tooltip {
-  font-size: 10pt;
-  font-weight: 900;
-  fill: white;
-  text-shadow: 1px 1px 0 #252525, 1px -1px 0 #252525, -1px 1px 0 #252525,
-    -1px -1px 0 #252525;
-  pointer-events: none;
-}
-
-#mainsvg {
-  border: solid 1px red;
-}
-
-// ----

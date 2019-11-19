@@ -6,11 +6,11 @@ import * as topojson from "topojson";
 import { typeUnitedStates } from "./types";
 import { dataUrls } from "../data";
 import {
-  getStateClasses,
-  handleMouseOutState,
-  handleMouseOverState,
+
   drawRank,
-  drawTooltip
+  drawTooltip,
+  drawStates,
+  drawStateBorders
 } from "./helpers";
 
 import Legend from "./legend";
@@ -24,17 +24,15 @@ let g;
 function Map() {
   const [selectedRank, setSelectedRank] = useState("total_audience_rank");
 
-  // Set Global vars
-
   const handleChange = event => {
     setSelectedRank(event.target.value);
-
     drawRank({ selectedRank: event.target.value, g, topoFeatureData });
   };
 
   function processData(values) {
     let map = values[0];
     let unitedStates = values[1];
+
     drawMap(map, unitedStates);
   }
 
@@ -55,26 +53,13 @@ function Map() {
     g = {
       basemap: svg.select("g#basemap")
     };
+    path = d3.geoPath();
 
-    g.basemap
-      .selectAll("path")
-      .data(topoFeatureData)
-      .enter()
 
-      .append("path")
-      .attr("class", getStateClasses)
-      .on("mouseover", handleMouseOverState)
-      .on("mouseout", handleMouseOutState)
-      .attr("d", path);
 
-    g.basemap
-      .append("path")
-      .attr("class", "state-borders")
-      .attr(
-        "d",
-        path(topojson.mesh(map, map.objects.states, (a, b) => a !== b))
-      );
 
+    drawStates({topoFeatureData, path})
+    drawStateBorders({map, path})
     drawRank({ selectedRank, g, topoFeatureData });
     drawTooltip();
   }
@@ -97,7 +82,7 @@ function Map() {
             <svg width="960" height="600" id="main" className="map">
               <g id="basemap"></g>
 
-              <text id="Rank"></text>
+              
             </svg>
           </div>
           <div className="side-bar">

@@ -4,6 +4,7 @@ import { numberWithCommas } from "./helpers";
 const Tooltip = ({ handleChange, selectedRank }) => {
   return (
     <div id="Tooltip" className="tool-tip wrapper">
+      <h1 id="StateName"></h1>
 
       <div>
         <p id="TwitterAudience" className="value">fff</p>

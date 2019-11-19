@@ -1,0 +1,77 @@
+
+.tool-tip.wrapper {
+  width: 200px;
+  height: 300px;
+  border: solid 6px #fff;
+  top: 40%;
+  right: 20%;
+
+  background: #000;
+  color: white;
+  // box-shadow: #d2d2d2 -19px 18px 11px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin: 15px 30px;
+  width: 200px;
+
+  /* this CS forms the triangles */
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: 1px;
+    border-color: transparent #ffffff63 transparent transparent;
+    border-width: 230px 200px 55px 20px;
+    pointer-events: none;
+  }
+  
+  &:after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    right: 377px;
+    width: 10px;
+    height: 10px;
+    top: 229px;
+    pointer-events: none;
+    border-radius: 10px;
+    background: white;
+    box-shadow: white 0px 0px 7px 8px;
+  }
+
+  h1 {
+    font-family: Verdana;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    background: white;
+    color: black;
+    margin: 0;
+    padding: 0 10px 5px 10px;
+    font-weight: 100;
+  }
+
+  p.label {
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #b1b1b1;
+    text-align: center;
+  }
+  p.value {
+    margin: 0;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
