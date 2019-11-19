@@ -1,0 +1,38 @@
+.legend {
+  height: 400px;
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  right: 50px;
+  padding: 10px;
+
+  @include win95button;
+
+  h1 {
+    font-family: Tahoma;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    background: black;
+    color: white;
+    margin: -10px -10px 30px -10px;
+    padding: 5px 10px;
+  }
+
+  p.label {
+      margin: 0;
+      font-family: Tahoma;
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 3px;   
+      color: #6d6d6d;
+
+  }
+  p.value {
+      margin: 0;
+      font-family: monospace;
+      font-size: 27px;
+      font-weight: bold;
+      margin-bottom: 27px;
+
+  }
+}

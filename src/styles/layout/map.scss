@@ -1,72 +1,170 @@
-.nav {
-  display: none;
-}
-
-.map-wrapper {
+div.map {
   height: 100%;
-  background-color: $yellow;
+  width: 100%;
+  border: solid 2px blue;
+  display: flex;
 
-  h1.title {
-    position: absolute;
-    top: -20px;
-    left: 10px;
-  }
-  svg.map {
-    float: left;
-    margin-top: 60px;
-    margin-left: 60px;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 
-    .states {
-      fill: #ccc;
-      border: solid 1px red;
-    }
-    .states :hover {
-      // fill: red;
-    }
+    .top-bar {
+      display: flex;
+      background: #090458;
+      // flex-grow: 1;
+      height: 120px;
+      border-bottom: red 20px solid;
 
-    .purple {
-      fill: purple;
-    }
-
-    .visted {
-      fill: #aaa;
-    }
-
-    .active {
-      fill: blue;
-    }
-
-    .state-borders {
-      fill: none;
-      stroke: #fff;
-      stroke-width: 2.5px;
-      stroke-linejoin: round;
-      stroke-linecap: round;
-      pointer-events: none;
-      &.thick {
-        stroke-width: 10px;
+      h1 {
+        color: white;
+        font-family: "Arial Black";
+        font-size: 80px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
       }
     }
-  }
+    .content {
+      display: flex;
+      background: orange;
+      flex-grow: 1;
+      // border: solid 5px blue;
+      min-height: 600px !important;
 
-  .legend {
-    height: 300px;
-    width: 200px;
-    position: absolute;
-    top: 30%;
-    right: 50px;
-    background-color: #ccc;
-    border: solid 2px black;
+      .main {
+        display: flex;
+        background: $yellow;
+        flex-grow: 1;
+        width: 800px; // too wide on ipad
+        // width: 800px!important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .side-bar {
+        display: flex;
+        background: $yellow;
+        flex-grow: 1;
+      }
+    }
+
+    .bottom-bar {
+      display: flex;
+      height: 0px;
+    }
   }
 }
 
-// Tool tipper
-.tool-tip {
+h1.title {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+}
+
+// map
+svg.map {
+  .states {
+    // fill: #ccc;
+    cursor: context-menu; // help good too
+  }
+
+  .purple {
+    fill: purple;
+  }
+  .red {
+    fill: red;
+  }
+  .blue {
+    fill: blue;
+  }
+
+  .visted {
+    fill: #aaa;
+  }
+
+  .active {
+    fill: blue;
+    // transform: scale(2); interesting result
+  }
+
+  .state-borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+    &.thick {
+      stroke-width: 10px;
+    }
+  }
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.tool-tip.wrapper {
+  width: 200px;
+  height: 300px;
+  border: solid 8px #fff;
+  top: 40%;
+  right: 20%;
+
+  background: #000;
+  border-radius: 10px;
   color: white;
+  // box-shadow: #d2d2d2 -19px 18px 11px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  // width: 200px;
+  // height: 200px;
+
+  margin: 15px 30px;
+  width: 200px;
+
+
+/* this CS forms the triangles */
+&:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+
+    top: 1px;
+    border-color: transparent #ffffff63 transparent transparent ;
+    border-width: 230px 200px 55px 20px;
+    pointer-events: none;
 }
 
-#ToolTip {
-  font-size: 10pt;
+
+  p.label {
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #b1b1b1;
+    text-align: center;
+  }
+  p.value {
+    margin: 0;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
+
+.rank.text {
+  font-size: 14pt;
   font-weight: 900;
   fill: white;
   text-shadow: 1px 1px 0 #252525, 1px -1px 0 #252525, -1px 1px 0 #252525,

@@ -8,7 +8,7 @@
 //     align-items: $a;
 //     flex-direction: $d;
 //   }
-  
+
 //   @mixin transition($args...) {
 //     -webkit-transition: $args;
 //     -moz-transition: $args;
@@ -16,67 +16,51 @@
 //     -o-transition: $args;
 //     transition: $args;
 //   }
+
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+
+// use like this..
+
+// .header-title {  
+//     font-size: 2rem;  
   
-  
-//   // ---------------------------
-//   //         Text
-//   // ---------------------------
-  
-//   @mixin link-size {
-//     // font-size: 15px; //maxx(2px,10vw)
-//     font-size: calc(1vw + 1vh + .5vmin);
-//   }
-  
-//   @mixin meta {
-//     font-family: $work-font;
-//     font-size: 12px;
-//     color: $meta-gray;
-//     font-weight: 200;
-//   }
-  
-  
-//   @mixin cursive {
-//     font-family: $cursive-font;
-//   }
-  
-//   @mixin serif {
-//     font-family: $arvo-font;
-//   }
-  
-//   @mixin sans-serif {
-//     font-family: $work-font;
-//     color: $charcoal;
-//     font-weight: 200;
-//   }
-  
-  
-//   /// Event wrapper
-//   /// @author Harry Roberts
-//   /// @param {Bool} $self [false] - Whether or not to include current selector
-//   /// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
-//   @mixin on-event($self: false) {
-//     @if $self {
-//       &,
-//       &:hover,
-//       &:active,
-//       &:focus {
-//         @content;
-//       }
-//     } @else {
-//       &:hover,
-//       &:active,
-//       &:focus {
-//         @content;
-//       }
+//     @include for-phone-only {    
+//        font-size: 1rem; 
 //     }
-//   }
-  
-//   /// Make a context based selector a little more friendly
-//   /// @author Hugo Giraudel
-//   /// @param {String} $context
-//   @mixin when-inside($context) {
-//     #{$context} & {
-//       @content;
-//     }
-//   }
-  
+//  }
+
+
+// Borders
+@mixin win95button {
+    box-shadow: -1px -1px 0px #DFDFDF, 1px 1px 0px #000000, 1px -1px 0px #666666;
+    background: $gray;
+    border-top: solid 1px #ffffff;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    border-left: solid 1px #ffffff;
+  }
