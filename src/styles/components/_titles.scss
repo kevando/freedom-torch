@@ -15,3 +15,15 @@ h1.the90s {
   text-indent: 15px;
   padding-right: 15px;
 }
+
+h1.logo {
+  font-family: $wacky;
+  font-weight: normal;
+  font-size: 60px;
+  background-color: $red;
+  color: white;
+  border-top: solid 15px $blue76;
+  border-bottom: solid 15px $blue76;
+  text-align: center;
+  letter-spacing: 0.1em;
+}

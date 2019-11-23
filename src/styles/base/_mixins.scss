@@ -17,6 +17,23 @@
 //     transition: $args;
 //   }
 
+@mixin text-shadow($color,$length: 20) {
+
+  $shadow-value: 0px 0px $color;
+
+  @for $i from 1 through $length {
+    $shadow-value: #{$shadow-value}, #{$i}px #{$i}px $color;
+  }
+  // @return $val;
+
+  text-shadow: $shadow-value;
+
+
+
+  // text-shadow: 2px 6px 0 $color, 2px 7px 0 $color, 3px 8px 0 $color,
+  //   4px 9px 0 $color;
+}
+
 @mixin for-phone-only {
   @media (max-width: 599px) {
     @content;
@@ -43,24 +60,22 @@
   }
 }
 
-
 // use like this..
 
-// .header-title {  
-//     font-size: 2rem;  
-  
-//     @include for-phone-only {    
-//        font-size: 1rem; 
+// .header-title {
+//     font-size: 2rem;
+
+//     @include for-phone-only {
+//        font-size: 1rem;
 //     }
 //  }
 
-
 // Borders
 @mixin win95button {
-    box-shadow: -1px -1px 0px #DFDFDF, 1px 1px 0px #000000, 1px -1px 0px #666666;
-    background: $gray;
-    border-top: solid 1px #ffffff;
-    border-right: solid 1px #000000;
-    border-bottom: solid 1px #000000;
-    border-left: solid 1px #ffffff;
-  }
+  box-shadow: -1px -1px 0px #dfdfdf, 1px 1px 0px #000000, 1px -1px 0px #666666;
+  background: $gray;
+  border-top: solid 1px #ffffff;
+  border-right: solid 1px #000000;
+  border-bottom: solid 1px #000000;
+  border-left: solid 1px #ffffff;
+}
