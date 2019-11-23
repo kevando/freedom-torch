@@ -1,40 +1,23 @@
 import React, { useEffect, useState } from "react";
-import styled from "styled-components";
 import { useTable, useSortBy } from "react-table";
 import * as d3 from "d3";
 
-import makeData from "./makeData";
-// import readData from './read-data';
 import { dataUrls } from "../../data";
 
-const Styles = styled.div`
-  padding: 1rem;
+import { numberWithCommas } from "../../lib/helpers";
 
-  table {
-    border-spacing: 0;
-    border: 1px solid black;
+import "./table.scss";
 
-    tr {
-      :last-child {
-        td {
-          border-bottom: 0;
-        }
-      }
-    }
+function cellRenderer({ cell }) {
+  const val = cell.value;
+  console.log(cell)
 
-    th,
-    td {
-      margin: 0;
-      padding: 0.5rem;
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
-
-      :last-child {
-        border-right: 0;
-      }
-    }
+  if (["Population","Tweets","Friends","Followers"].includes(cell.column.Header)) {
+    return numberWithCommas(val);
   }
-`;
+
+  return val;
+}
 
 function Table({ columns, data }) {
   const {
@@ -46,7 +29,15 @@ function Table({ columns, data }) {
   } = useTable(
     {
       columns,
-      data
+      data,
+      initialState: {
+        sortBy: [
+          {
+            id: 'state',
+            desc: false,
+          }
+        ]
+      },
     },
     useSortBy
   );
@@ -66,8 +57,8 @@ function Table({ columns, data }) {
                   <span>
                     {column.isSorted
                       ? column.isSortedDesc
-                        ? " 🔽"
-                        : " 🔼"
+                        ? "🔽"
+                        : "🔼"
                       : ""}
                   </span>
                 </th>
@@ -82,7 +73,14 @@ function Table({ columns, data }) {
               <tr {...row.getRowProps()}>
                 {row.cells.map(cell => {
                   return (
-                    <td {...cell.getCellProps()}>{cell.render("Cell")}</td>
+                    <td
+                      {...cell.getCellProps({
+                        className: cell.column.className,
+                        // style: {color: 'red'}
+                      })}
+                    >
+                      {cell.render(cellRenderer)}
+                    </td>
                   );
                 })}
               </tr>
@@ -101,36 +99,43 @@ function SenateTable() {
       {
         Header: "Full Name",
         accessor: "full_name"
+      },
+      {
+        Header: "State",
+        accessor: "state"
+      },
+      {
+        Header: "Population",
+        accessor: "state_population",
+        className: "number",
+      },
+      {
+        Header: "Followers",
+        accessor: "followers_count",
+        className: "number",
+      },
+      {
+        Header: "Friends",
+        accessor: "friends_count",
+        className: "number",
+      },
+      {
+        Header: "Tweets",
+        accessor: "statuses_count",
+        className: "number",
+      },
+      {
+        Header: "Twitter Age",
+        accessor: "twitter_age",
+        className: "number",
       }
-      // {
-      //   Header: "Last Name",
-      //   accessor: "lastName"
-      // },
-      // {
-      //   Header: "Age",
-      //   accessor: "age"
-      // },
-      // {
-      //   Header: "Visits",
-      //   accessor: "visits"
-      // },
-      // {
-      //   Header: "Status",
-      //   accessor: "status"
-      // },
-      // {
-      //   Header: "Profile Progress",
-      //   accessor: "progress"
-      // }
     ],
     []
   );
 
   const [data, setData] = useState([]);
 
-  console.log("data", data);
   function processData(tsvData) {
-    console.log("tsv", tsvData);
     setData(tsvData);
   }
 
@@ -142,9 +147,9 @@ function SenateTable() {
     return null;
   }
   return (
-    <Styles>
+    <div className="table">
       <Table columns={columns} data={data} />
-    </Styles>
+    </div>
   );
 }
 

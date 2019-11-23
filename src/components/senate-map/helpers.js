@@ -2,6 +2,8 @@ import * as d3 from "d3";
 
 import * as topojson from "topojson";
 
+import { numberWithCommas} from '../../lib/helpers'
+
 export function getStateClasses(d) {
   var classes = "states";
 
@@ -30,10 +32,6 @@ export function handleMouseOverState(d) {
 export function handleMouseOutState(d) {
   d3.select(this).classed("active", false);
   d3.select(`#State${d.id}Rank`).classed("active", false);
-}
-
-export function numberWithCommas(x) {
-  return x && x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 export const drawRank = ({ selectedRank, g, topoFeatureData }) => {

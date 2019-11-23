@@ -20,10 +20,17 @@ h1.logo {
   font-family: $wacky;
   font-weight: normal;
   font-size: 60px;
+
   background-color: $red;
   color: white;
   border-top: solid 15px $blue76;
   border-bottom: solid 15px $blue76;
+
+  // background-color: white;
+  // color: $blue76;
+  // border-top: solid 15px $red;
+  // border-bottom: solid 15px $red;
+
   text-align: center;
   letter-spacing: 0.1em;
 }
