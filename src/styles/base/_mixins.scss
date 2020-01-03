@@ -17,12 +17,12 @@
 //     transition: $args;
 //   }
 
-@mixin text-shadow($color,$length: 20) {
+@mixin text-shadow($color,$length: 20,$xOffset: 0, $yOffset: 0) {
 
   $shadow-value: 0px 0px $color;
 
   @for $i from 1 through $length {
-    $shadow-value: #{$shadow-value}, #{$i}px #{$i}px $color;
+    $shadow-value: #{$shadow-value}, #{-$i + $xOffset}px #{$i + $yOffset}px $color;
   }
   // @return $val;
 

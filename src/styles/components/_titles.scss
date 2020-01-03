@@ -33,4 +33,5 @@ h1.logo {
 
   text-align: center;
   letter-spacing: 0.1em;
+  @include text-shadow($blue76,8,0,-2);
 }
