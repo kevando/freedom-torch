@@ -1,0 +1,25 @@
+@import "../../styles/App";
+
+.large {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    // font-family: $press;
+    font-family: $diplo;
+
+    border-bottom: 5px solid black;
+    margin: 10px 0 30px;
+  }
+}
+
+
+.small {
+    h1 {
+        font-size: 16px;
+        /* text-align: center; */
+        font-family: "Diplomata SC", cursive;
+        /* border-bottom: 5px solid black; */
+        margin: 10px 0 30px 10px;
+    }
+  }
+  

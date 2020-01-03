@@ -1,66 +1,61 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Button, Container, Grid } from "semantic-ui-react";
+import { Card, Container, Image, Icon } from "semantic-ui-react";
 
-import './style.scss'
+import Nav from '../../components/nav';
+
 
 const Meta = () => (
   <Helmet>
     <meta charSet="utf-8" />
-    <title>Congress Connections</title>
+    <title>Kamila Harris | The Congress Connection</title>
   </Helmet>
 );
 
-const Home = () => {
+const Profile = () => {
   return (
-    <Container className="profile">
-      <Grid>
-        <Grid.Row className="title-wrapper">
-          <Grid.Column width={16}>
-            <h1 className="title1">The Congress Connection</h1>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-
-      <Grid celled="internally">
-        <Grid.Row>
-          <Grid.Column width={3}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-          <Grid.Column width={10}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-        </Grid.Row>
-
-        <Grid.Row>
-          <Grid.Column width={3}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-          <Grid.Column width={10}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Button>Click Here</Button>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Container>
-  );
-  return (
-    <div className="home">
+    <div className="profile">
       <Meta />
-      <h1 className="logo1">congress connections</h1>
-      <h5 className="center">Exploring how congress uses Twitter</h5>
-      <Button>Click Here</Button>
+      <Nav  />
+    <Container >
+
+      <h3>from Illinois</h3>
+      <h4>Democrat</h4>
+
+    <Card>
+    <Image src='https://pbs.twimg.com/profile_images/1154780940226486273/VkOMx-UV_400x400.jpg' wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>@kevando</Card.Header>
+      <Card.Meta>
+        <span className='date'>Joined Twitter in 2015 </span>
+      </Card.Meta>
+      <Card.Description>
+      <strong>Kamila Harris </strong> is U.S. Senator. Wife, Momala, Auntie. Still fighting for the people. She/her.
+      </Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='users' />
+        3.3M Followers
+
+      </a>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='twitter' />
+        3,203 Tweets
+
+      </a>
+    </Card.Content>
+  </Card>
+    </Container>
     </div>
   );
+
 };
 
-export default Home;
+export default Profile;
 
 {
   /* <Link to="/senate-table">Senate Table</Link> */

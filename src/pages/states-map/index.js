@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 
+import { Helmet } from "react-helmet";
+import { Card, Container, Image, Icon } from "semantic-ui-react";
+
+import Nav from '../../components/nav';
+
 import * as d3 from "d3";
 import * as topojson from "topojson";
 
@@ -23,7 +28,17 @@ let svg;
 let path;
 let g;
 
-function Map() {
+
+const Meta = () => (
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Map | The Congress Connection</title>
+    </Helmet>
+  );
+
+  
+
+function StatesMap() {
   const [selectedRank, setSelectedRank] = useState("total_audience_rank");
 
   const handleChange = event => {
@@ -75,10 +90,13 @@ function Map() {
 
   return (
     <div className="map">
-      <div className="container">
-        <div className="top-bar">
-          <h1>US Senate</h1>
-        </div>
+
+      <Meta />
+      <Nav  />
+    <Container >
+
+
+
         <div className="content">
           <div className="main">
             <svg width="960" height="600" id="main" className="map">
@@ -92,10 +110,11 @@ function Map() {
 
         <Tooltip />
         <div className="bottom-bar"></div>
-      </div>
+
+      </Container>
     </div>
   );
 }
 
-export default Map;
+export default StatesMap;
 
