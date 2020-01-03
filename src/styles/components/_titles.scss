@@ -1,37 +1,11 @@
-h1.the90s {
-  display: inline-block;
-  height: 55px;
-  font-size: 50px;
-  line-height: 50px;
-  padding: 0px;
-  font-family: "Telefon Black", Sans-Serif;
-  font-weight: 600;
-  color: #ebef1a;
-  font-style: italic;
-  text-align: center;
-  border-bottom: solid 5px #d81c1c;
-  text-shadow: 5px 3px 1px #000000, 2px 2px 0px black;
-  letter-spacing: 0.05em;
-  text-indent: 15px;
-  padding-right: 15px;
-}
 
-h1.logo {
-  font-family: $wacky;
-  font-weight: normal;
-  font-size: 60px;
 
-  background-color: $red;
-  color: white;
-  border-top: solid 15px $blue76;
-  border-bottom: solid 15px $blue76;
+h1.title1 {
+    font-size: 40px;
+    text-align: center;
+    // font-family: $press;
+    font-family: $diplo;
 
-  // background-color: white;
-  // color: $blue76;
-  // border-top: solid 15px $red;
-  // border-bottom: solid 15px $red;
-
-  text-align: center;
-  letter-spacing: 0.1em;
-  @include text-shadow($blue76,8,0,-2);
+    border-bottom: 5px solid black;
+    margin: 10px 0 30px;
 }

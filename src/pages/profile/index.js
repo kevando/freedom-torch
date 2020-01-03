@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Button, Container, Grid } from "semantic-ui-react";
 
+import './style.scss'
+
 const Meta = () => (
   <Helmet>
     <meta charSet="utf-8" />
@@ -12,9 +14,9 @@ const Meta = () => (
 
 const Home = () => {
   return (
-    <Container className="home">
+    <Container className="profile">
       <Grid>
-        <Grid.Row>
+        <Grid.Row className="title-wrapper">
           <Grid.Column width={16}>
             <h1 className="title1">The Congress Connection</h1>
           </Grid.Column>
