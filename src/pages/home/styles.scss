@@ -1,0 +1,24 @@
+.newspaper-column {
+  h2.header {
+    font-family: "Georgia";
+    margin-bottom: 5px;
+  }
+  p {
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+    margin-bottom: 1.2em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.coming-soon {
+  border: solid 1px black;
+  text-align: center;
+  padding: 100px 0;
+}

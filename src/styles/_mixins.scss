@@ -1,21 +1,4 @@
-// // -----------------------------------------------------------------------------
-// // This file contains all application-wide Sass mixins.
-// // -----------------------------------------------------------------------------
 
-// @mixin flex($j: center, $a: center, $d: row) {
-//     display: flex;
-//     justify-content: $j;
-//     align-items: $a;
-//     flex-direction: $d;
-//   }
-
-//   @mixin transition($args...) {
-//     -webkit-transition: $args;
-//     -moz-transition: $args;
-//     -ms-transition: $args;
-//     -o-transition: $args;
-//     transition: $args;
-//   }
 
 @mixin text-shadow($color,$length: 20,$xOffset: 0, $yOffset: 0) {
 
@@ -78,4 +61,28 @@
   border-right: solid 1px #000000;
   border-bottom: solid 1px #000000;
   border-left: solid 1px #ffffff;
+}
+
+
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(
+          #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+            ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+        );
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
 }

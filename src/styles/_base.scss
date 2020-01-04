@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Remove weird border from focus elements
+:focus {
+  outline: none;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  // -webkit-text-size-adjust: 100%; // might need for ipad
+}
+
+#root {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+}
+

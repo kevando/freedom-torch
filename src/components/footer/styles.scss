@@ -1,0 +1,36 @@
+@import "../../styles/App";
+
+$footer-height: 100px;
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+.app-wrapper {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: $footer-height;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  border-top: solid 1px $gray;
+  width: 100%;
+  padding: 20px;
+  p {
+    text-align: center;
+    color: $light-black;
+
+    span {
+      font-size: 1.3em;
+      margin: 0px 8px 0px 0px;
+    }
+  }
+}

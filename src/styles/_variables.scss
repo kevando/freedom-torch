@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton|Bungee+Shade|Diplomata+SC|Faster+One|Press+Start+2P&display=swap");
+
+@font-face {
+  font-family: Chomsky;
+  src: url("./fonts/Chomsky.woff") format("woff"),
+    url("./fonts/Chomsky.otf") format("opentype");
+}
+
+// Fonts
+$wacky: "Monoton", cursive;
+$press: "Press Start 2P", cursive;
+$faster: "Faster One", cursive;
+$bungee: "Bungee Shade", cursive;
+$diplo: "Diplomata SC", cursive;
+$chomsky: "Chomsky";
+
+// Colors
+$white: #fff;
+$gray: #eaeaea;
+$black: #000;
+$light-black: #222;
+
+$yellow: #ffcd00;
+$purple: #6f006f;
+$red: #d81c1c;
+
+$blue: #000085;
+$blue76: #061fab;
+
+$green: #00cbd7;
+$orange: #ff7000;
