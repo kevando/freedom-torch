@@ -1,13 +1,14 @@
 import React from "react";
 
 import { Helmet } from "react-helmet";
-import { Container, Grid } from "semantic-ui-react";
+import { Container, Grid, Divider } from "semantic-ui-react";
 
 import Nav from "../../components/nav";
 
 import Welcome from "./welcome";
 import Popular from "./popular";
 import Tweet from "./tweet";
+import Newbies from './newbies';
 import ComingSoon from "./coming-soon";
 
 const Meta = () => (
@@ -31,6 +32,18 @@ const Home = () => {
             </Grid.Column>
             <Grid.Column width={4} tablet={5}>
               <Tweet />
+            </Grid.Column>
+          </Grid.Row>
+          <Divider />
+          <Grid.Row stretched >
+            <Grid.Column width={16}>
+              <Popular />
+            </Grid.Column>
+          </Grid.Row>
+          <Divider />
+          <Grid.Row stretched>
+            <Grid.Column width={16}>
+              <Newbies />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row stretched>

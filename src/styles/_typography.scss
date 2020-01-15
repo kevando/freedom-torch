@@ -25,6 +25,19 @@ p {
   font-family: Georgia;
 }
 
+.number {
+  font-family: 'Courier New';
+
+  &.green {
+    color: #00BB29;
+  }
+  &.bold {
+    font-weight: 900;
+    font-family: 'Courier';
+    font-size: 1.1em;
+  }
+}
+
 // TITLE: The Congress Connection
 
 @mixin logo-font {

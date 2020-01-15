@@ -1,3 +1,5 @@
+@import "../../styles/App";
+
 .newspaper-column {
   h2.header {
     font-family: "Georgia";
@@ -15,7 +17,7 @@
     font-size: 1.2em;
     line-height: 1.5em;
     letter-spacing: 0.01em;
-    margin-bottom: 1.2em;
+    margin-bottom: $paragraph-spacing;
 
     &:last-child {
       margin-bottom: 0;
@@ -24,9 +26,10 @@
 }
 
 .coming-soon {
-  border: solid 1px #d4d4d4;
-  padding: 100px 0;
-  background: #f9f9f9;
+  // border-top: solid 1px #d4d4d4;
+  // border-bottom: solid 1px #d4d4d4;
+  padding: 87px 0;
+  background-color: #f9f9f9;
 
   span.title {
     display: flex;
@@ -35,10 +38,33 @@
 
     span.emoji {
       font-size: 5em;
+      margin-left: -80px;
     }
     span.text {
       font-size: 1.7em;
       font-family: Georgia;
+      i {
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+.senate-table {
+  margin-top: $paragraph-spacing + $paragraph-spacing;
+  margin-bottom: $paragraph-spacing + $paragraph-spacing;
+  .sen-SenSanders {
+    .followers {
+      font-family: Courier;
+    }
+    .voters {
+      font-family: Courier;
+    }
+    .amplitude {
+      color: #00bb29;
+      font-weight: 900;
+      font-family: "Courier";
+      font-size: 1.1em;
     }
   }
 }
