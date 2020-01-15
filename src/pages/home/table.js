@@ -61,10 +61,10 @@ const topSenators = [
 
 const TableExamplePadded = () => (
   <div className="senate-table">
-    <Table celled padded  compact>
+    <Table padded  compact  basic='very' >
       <Table.Header>
         <Table.Row>
-          <Table.HeaderCell textAlign="center">State</Table.HeaderCell>
+          <Table.HeaderCell textAlign="left">State</Table.HeaderCell>
           <Table.HeaderCell>Senator</Table.HeaderCell>
           <Table.HeaderCell textAlign="right">Followers</Table.HeaderCell>
           <Table.HeaderCell textAlign="right">Eligible Voters</Table.HeaderCell>
@@ -85,7 +85,7 @@ const TableExamplePadded = () => (
           return (
             <Table.Row className={`sen-${s[5]}`}>
               <Table.Cell>
-                <Header as="h4" textAlign="center">
+                <Header as="h4" textAlign="left">
                   {s[0]}
                 </Header>
               </Table.Cell>

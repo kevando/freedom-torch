@@ -1,39 +1,38 @@
-
-
-
 // Responsive Design
 
 @include for-tablet-portrait-up {
-    body {
-        background-color: white;
-    }
+  body {
+    background-color: white;
+  }
 
-    .ui.container {
-        width: 750px;
-    }
+  .ui.container {
+    width: 750px;
+  }
 }
 
 @include for-tablet-landscape-up {
-    body {
-        background-color: yellow;
-    }
+  body {
+    background-color: white;
+  }
+  .ui.container {
+    width: 950px;
+  }
 }
 
 @include for-phone-only {
-    body {
-        background-color: orange;
-    }
+  body {
+    background-color: white;
+  }
 }
 
 @include for-desktop-up {
-    body {
-        background-color: blue;
-    }
+  body {
+    background-color: white;
+  }
 }
 
 @include for-big-desktop-up {
-    body {
-        background-color: white;
-    }
+  body {
+    background-color: white;
+  }
 }
-

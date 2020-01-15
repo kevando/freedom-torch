@@ -27,10 +27,10 @@ const Home = () => {
         <Nav large />
         <Grid stackable>
           <Grid.Row stretched>
-            <Grid.Column width={12} tablet={11}>
+            <Grid.Column width={12} tablet={11} computer={10}>
               <Welcome />
             </Grid.Column>
-            <Grid.Column width={4} tablet={5}>
+            <Grid.Column width={4} tablet={5} computer={6}>
               <Tweet />
             </Grid.Column>
           </Grid.Row>

@@ -53,18 +53,39 @@
 .senate-table {
   margin-top: $paragraph-spacing + $paragraph-spacing;
   margin-bottom: $paragraph-spacing + $paragraph-spacing;
+
+  th {
+    border-bottom: solid 1px #949494 !important;
+    padding-bottom: 5px!important;
+  }
+  td {
+    border-top: none!important;
+    padding: .3em .7em!important;
+  }
   .sen-SenSanders {
-    .followers {
-      font-family: Courier;
-    }
-    .voters {
-      font-family: Courier;
-    }
+    
     .amplitude {
       color: #00bb29;
       font-weight: 900;
       font-family: "Courier";
       font-size: 1.1em;
+    }
+  }
+  .followers {
+    font-family: Courier;
+  }
+}
+
+
+.newbies {
+
+  .cards.ui {
+    justify-content: space-evenly;
+
+    .ribbon.label {
+      position: absolute;
+      top: 21px;
+      left: calc(100% + 1rem);
     }
   }
 }

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        <span>🇺🇸</span>Made in America
+        <span className="flag waving">🇺🇸</span>Made in America
       </p>
     </footer>
   );
