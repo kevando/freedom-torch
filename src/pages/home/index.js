@@ -7,7 +7,8 @@ import Nav from "../../components/nav";
 
 import Welcome from "./welcome";
 import Popular from "./popular";
-import ComingSoon from './coming-soon'
+import Tweet from "./tweet";
+import ComingSoon from "./coming-soon";
 
 const Meta = () => (
   <Helmet>
@@ -20,22 +21,22 @@ const Home = () => {
   return (
     <div className="home">
       <Meta />
-      <Nav large />
+
       <Container>
+        <Nav large />
         <Grid stackable>
           <Grid.Row stretched>
-            <Grid.Column width={4}>
+            <Grid.Column width={12} tablet={11}>
               <Welcome />
             </Grid.Column>
-            <Grid.Column width={12}>
-              <Popular />
+            <Grid.Column width={4} tablet={5}>
+              <Tweet />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row stretched>
             <Grid.Column width={16}>
               <ComingSoon />
             </Grid.Column>
-
           </Grid.Row>
         </Grid>
       </Container>

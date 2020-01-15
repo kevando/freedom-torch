@@ -1,0 +1,39 @@
+
+
+
+// Responsive Design
+
+@include for-tablet-portrait-up {
+    body {
+        background-color: white;
+    }
+
+    .ui.container {
+        width: 750px;
+    }
+}
+
+@include for-tablet-landscape-up {
+    body {
+        background-color: yellow;
+    }
+}
+
+@include for-phone-only {
+    body {
+        background-color: orange;
+    }
+}
+
+@include for-desktop-up {
+    body {
+        background-color: blue;
+    }
+}
+
+@include for-big-desktop-up {
+    body {
+        background-color: white;
+    }
+}
+

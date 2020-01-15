@@ -1,7 +1,13 @@
 .newspaper-column {
   h2.header {
     font-family: "Georgia";
-    margin-bottom: 5px;
+    margin-bottom: 1px;
+    font-size: 31px;
+  }
+  h3.header {
+    font-family: "Georgia";
+    margin-bottom: 1px;
+    font-size: 31px;
   }
   p {
     text-align: justify;
@@ -18,7 +24,21 @@
 }
 
 .coming-soon {
-  border: solid 1px black;
-  text-align: center;
+  border: solid 1px #d4d4d4;
   padding: 100px 0;
+  background: #f9f9f9;
+
+  span.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span.emoji {
+      font-size: 5em;
+    }
+    span.text {
+      font-size: 1.7em;
+      font-family: Georgia;
+    }
+  }
 }

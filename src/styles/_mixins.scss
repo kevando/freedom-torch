@@ -43,16 +43,6 @@
   }
 }
 
-// use like this..
-
-// .header-title {
-//     font-size: 2rem;
-
-//     @include for-phone-only {
-//        font-size: 1rem;
-//     }
-//  }
-
 // Borders
 @mixin win95button {
   box-shadow: -1px -1px 0px #dfdfdf, 1px 1px 0px #000000, 1px -1px 0px #666666;
@@ -86,3 +76,4 @@
     }
   }
 }
+

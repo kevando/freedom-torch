@@ -5,7 +5,10 @@ import "./styles.scss";
 
 const ComingSoon = () => (
   <div className="coming-soon">
-    <Header as="h1">More content: Coming Soon!</Header>
+    <span className="title">
+      <span className="emoji">🚧</span>
+      <span className="text"><strong>More content</strong> coming soon</span>
+    </span>
   </div>
 );
 

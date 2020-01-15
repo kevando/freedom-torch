@@ -1,29 +1,12 @@
 @import "../../styles/App";
 
 .nav-wrapper {
-  @include for-desktop-up {
-    width: 1127px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  $min_width: 320px;
-  $max_width: 1200px;
-  $min_font: 22px;
-  $max_font: 60px;
-
   h1 {
-    font-family: $chomsky;
-    color: $light-black;
-    margin: 10px 0 30px;
-    padding: 0;
-    line-height: 1em;
-    letter-spacing: 0.05em;
-
-    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    @include logo-font;
 
     &.large {
       text-align: center;
+      word-spacing: 10px;
 
       @include for-phone-only {
         padding: 10px 0;
@@ -32,7 +15,7 @@
       }
 
       @include for-tablet-portrait-up {
-        padding: 30px 0;
+        padding: 25px 0 25px 0;
         margin: 0;
       }
     }
@@ -41,20 +24,25 @@
       // font-size: 16px;
     }
   }
+}
 
-  p {
-    border-top: solid 5px black;
-    border-bottom: solid 5px black;
-    text-align: center;
-    line-height: 1.6em;
-    font-size: 0.9em;
+p.title-border {
+  $border-width: 2px;
+  $border-color: #333;
 
-    &.large {
-      margin-bottom: 60px;
-    }
+  border-top: solid $border-width + 2 $border-color;
+  border-bottom: solid $border-width $border-color;
+  text-align: center;
+  line-height: 3px;
+  font-size: 0.9em;
 
-    @include for-phone-only {
-      display: none;
-    }
+  color: #fff0;
+
+  &.large {
+    margin-bottom: 40px;
+  }
+
+  @include for-phone-only {
+    display: none;
   }
 }
