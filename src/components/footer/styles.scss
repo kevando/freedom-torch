@@ -4,21 +4,21 @@ $footer-height: 100px;
 
 @keyframes pulse {
   0% {
-    transform: scale(1.7,1.7) skew(0deg, 0deg);
+    transform: scale(1.7, 1.7) skew(0deg, 0deg);
   }
 
   25% {
-    transform: scale(1.75,1.7) skew(0deg, 3deg);
+    transform: scale(1.72, 1.7) skew(0deg, 2deg);
   }
 
   50% {
-    transform: scale(1.8,1.7)skew(0deg, 0deg);
+    transform: scale(1.74, 1.7) skew(0deg, 0deg);
   }
   75% {
-    transform: scale(1.75,1.7) skew(0deg, -2deg);
+    transform: scale(1.72, 1.7) skew(0deg, -2deg);
   }
   100% {
-    transform: scale(1.7,1.7) skew(0deg, 0deg);
+    transform: scale(1.7, 1.7) skew(0deg, 0deg);
   }
 }
 
@@ -48,12 +48,10 @@ footer {
     span.flag {
       display: inline-block;
       margin: 0px 16px 0px 0px;
-      transform: scale(1.7,1.7) skew(0deg, 0deg);
+      transform: scale(1.7, 1.7) skew(0deg, 0deg);
 
       &.waving {
-        
-        animation: 1s ease infinite pulse;
-        
+        animation: 2s ease infinite pulse;
       }
     }
   }

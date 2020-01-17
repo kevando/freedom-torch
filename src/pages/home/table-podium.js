@@ -64,13 +64,10 @@ const TableExamplePadded = () => (
     <Table padded  compact  basic='very' unstackable>
       <Table.Header>
         <Table.Row>
-          <Table.HeaderCell textAlign="left">State</Table.HeaderCell>
           <Table.HeaderCell>Senator</Table.HeaderCell>
-          <Table.HeaderCell  textAlign="right">Followers</Table.HeaderCell>
-          <Table.HeaderCell textAlign="right">Eligible Voters</Table.HeaderCell>
           <Popup
             trigger={
-              <Table.HeaderCell textAlign="right">Amplitude</Table.HeaderCell>
+              <Table.HeaderCell textAlign="right">Digital Podium</Table.HeaderCell>
             }
             content="The ratio of Followers to the number of people who can vote in their state."
             inverted
@@ -84,11 +81,7 @@ const TableExamplePadded = () => (
         {topSenators.map(s => {
           return (
             <Table.Row className={`sen-${s[5]}`}>
-              <Table.Cell>
-                <Header as="h4" textAlign="left">
-                  {s[0]}
-                </Header>
-              </Table.Cell>
+      
               <Table.Cell singleLine>
                 {s[1]} &nbsp;
                 <a href={`https://twitter.com/${s[5]}`} target="_blank">
@@ -98,12 +91,6 @@ const TableExamplePadded = () => (
                     size="small"
                   />
                 </a>
-              </Table.Cell>
-              <Table.Cell textAlign="right" className="number followers">
-                {s[2]}
-              </Table.Cell>
-              <Table.Cell textAlign="right" className="number voters">
-                {s[3]}
               </Table.Cell>
               <Table.Cell textAlign="right" className="number amplitude">
                 {s[4]}

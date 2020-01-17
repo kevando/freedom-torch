@@ -13,10 +13,13 @@ $faster: "Faster One", cursive;
 $bungee: "Bungee Shade", cursive;
 $diplo: "Diplomata SC", cursive;
 $chomsky: "Chomsky";
+$sans-serif: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+  Arial, sans-serif;
 
 // Colors
 $white: #fff;
-$gray: #eaeaea;
+$light-gray: #eaeaea;
+$gray: #a2a2a2;
 $black: #000;
 $light-black: #222;
 
@@ -31,4 +34,5 @@ $green: #00cbd7;
 $orange: #ff7000;
 
 // Margins
-$paragraph-spacing: 20px;
+$paragraph-spacing: 25px;
+$content-spacing: 25px;

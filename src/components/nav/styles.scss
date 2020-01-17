@@ -1,16 +1,17 @@
 @import "../../styles/App";
 
+
 .nav-wrapper {
   h1 {
     @include logo-font;
 
     &.large {
       text-align: center;
-      word-spacing: 10px;
+      word-spacing: 5px;
 
       @include for-phone-only {
-        padding: 10px 0;
-        margin-bottom: 40px;
+        padding: $content-spacing 0;
+        margin-bottom: $content-spacing;
         border-bottom: 1px solid $gray;
       }
 

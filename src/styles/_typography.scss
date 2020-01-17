@@ -13,6 +13,24 @@ ul {
   }
 }
 
+h2.ui.header {
+  font-family: $sans-serif;
+    letter-spacing: -0.022em;
+    font-weight: 600;
+    line-height: 1.18;
+    font-size: 28px;
+    margin-bottom: 0.15em;
+
+}
+h3.ui.header {
+  font-family: $sans-serif;
+    letter-spacing: -0.022em;
+    font-weight: 600;
+    line-height: 1.18;
+    font-size: 22px;
+    margin-bottom: 0.15em;
+}
+
 h5 {
   font-size: 25px;
   font-weight: normal;
@@ -23,17 +41,25 @@ h5 {
 
 p {
   font-family: Georgia;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  margin-bottom: $paragraph-spacing;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .number {
-  font-family: 'Courier New';
+  font-family: "Courier New";
 
   &.green {
-    color: #00BB29;
+    color: #00bb29;
   }
   &.bold {
     font-weight: 900;
-    font-family: 'Courier';
+    font-family: "Courier";
     font-size: 1.1em;
   }
 }
@@ -41,18 +67,16 @@ p {
 // TITLE: The Congress Connection
 
 @mixin logo-font {
-  $min_width: 320px;
+  $min_width: 340px;
   $max_width: 1000px;
   $min_font: 22px;
   $max_font: 60px;
 
   font-family: $chomsky;
   color: $light-black;
-  // margin: 10px 0 30px;
   padding: 0;
   line-height: 1em;
   letter-spacing: 0.02em;
 
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
-

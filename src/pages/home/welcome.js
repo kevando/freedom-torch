@@ -4,26 +4,25 @@ import { Header } from "semantic-ui-react";
 import "./styles.scss";
 
 const Welcome = () => (
-  <div className="newspaper-column">
-    <Header as="h2">Welcome</Header>
+  <div className="newspaper content">
     <p>
-      The internet changed how we communicate as a species and it's finally
-      affecting goverment. Mostly through Twitter. My goal is to simply report
-      pure statistics and let you the reader draw your own conclusions. No, The
-      Spin Doctors will not be appearing here. However - expect some flavors
-      from the 90s. I also plan to share old content, like a cspan video,
-      evidence that our political discourse wasn't always polluted.
+      <strong>Welcome</strong> to The Congress Connection, the most boring
+      online newspaper in The United States of America. We pull data from the
+      Twitter API and explore how members of congress use the internet. It's
+      pure data so there's totally no bias. We report only statistics and let
+      you the reader draw your own conclusions. Here's what one of our readers
+      in Iowa had to say.
     </p>
 
     <p>
-      I designed the interface to take advantage of "visited" attributes in
-      HTML. Instead of turning links from blue to purple, content will shift
-      from greyscale to color as you explore. I hope this encourages you to come
-      back and explore.
+      <blockquote>"Data don't "</blockquote>
     </p>
-
     <p>
-      <i>January 3, 2020</i>
+      One thing to note. Referring to him as "one of our readers" is factually
+      correct based on data, we only have one reader. He's our one reader. If
+      it's this easy to create a bias from a dataset of 1, we need to be
+      careful. It seems very easy to mislead even if we're making factual
+      statements about data.
     </p>
   </div>
 );

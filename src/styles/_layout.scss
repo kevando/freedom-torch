@@ -1,5 +1,3 @@
-// Responsive Design
-
 @include for-tablet-portrait-up {
   body {
     background-color: white;
@@ -22,6 +20,11 @@
 @include for-phone-only {
   body {
     background-color: white;
+  }
+
+  .ui.container {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
   }
 }
 

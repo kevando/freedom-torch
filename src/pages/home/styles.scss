@@ -1,35 +1,37 @@
 @import "../../styles/App";
 
-.newspaper-column {
-  h2.header {
-    font-family: "Georgia";
-    margin-bottom: 1px;
-    font-size: 31px;
+.newspaper {
+  @include for-phone-only {
+    margin-left: $content-spacing !important;
+    margin-right: $content-spacing !important;
   }
-  h3.header {
-    font-family: "Georgia";
-    margin-bottom: 1px;
-    font-size: 31px;
+
+  .ui.divider {
+    border-top: 1px solid rgba(0, 45, 90, 0.69) !important;
+    border-bottom: 1px solid rgba(41, 0, 0, 0.1) !important;
+    margin-left: 6em !important;
+    margin-right: 6em !important;
+    margin-top: $content-spacing !important;
+    margin-bottom: $content-spacing !important;
   }
+
   p {
     text-align: justify;
-    font-family: Georgia;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    letter-spacing: 0.01em;
-    margin-bottom: $paragraph-spacing;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  blockquote {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.54);
+    font-style: italic;
+    margin: 0;
   }
 }
 
 .coming-soon {
-  // border-top: solid 1px #d4d4d4;
-  // border-bottom: solid 1px #d4d4d4;
   padding: 87px 0;
-  background-color: #f9f9f9;
+  background-color: #eee;
 
   span.title {
     display: flex;
@@ -37,11 +39,11 @@
     justify-content: space-evenly;
 
     span.emoji {
-      font-size: 5em;
-      margin-left: -80px;
+      font-size: 4em;
+      margin-left: -10px;
     }
     span.text {
-      font-size: 1.7em;
+      font-size: 1.3em;
       font-family: Georgia;
       i {
         font-size: 0.9em;
@@ -51,19 +53,18 @@
 }
 
 .senate-table {
-  margin-top: $paragraph-spacing + $paragraph-spacing;
-  margin-bottom: $paragraph-spacing + $paragraph-spacing;
+  margin-top: $content-spacing;
+  margin-bottom: $content-spacing;
 
   th {
     border-bottom: solid 1px #949494 !important;
-    padding-bottom: 5px!important;
+    padding: 0.3em 0em 5px 0em !important;
   }
   td {
-    border-top: none!important;
-    padding: .3em .7em!important;
+    border-top: none !important;
+    padding: 0.3em 0em !important;
   }
   .sen-SenSanders {
-    
     .amplitude {
       color: #00bb29;
       font-weight: 900;
@@ -76,9 +77,7 @@
   }
 }
 
-
 .newbies {
-
   .cards.ui {
     justify-content: space-evenly;
 

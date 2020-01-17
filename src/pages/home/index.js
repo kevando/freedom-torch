@@ -6,9 +6,10 @@ import { Container, Grid, Divider } from "semantic-ui-react";
 import Nav from "../../components/nav";
 
 import Welcome from "./welcome";
+import Bernie from "./bernie";
 import Popular from "./popular";
 import Tweet from "./tweet";
-import Newbies from './newbies';
+import Newbies from "./newbies";
 import ComingSoon from "./coming-soon";
 
 const Meta = () => (
@@ -25,27 +26,27 @@ const Home = () => {
 
       <Container>
         <Nav large />
-        <Grid stackable>
+        <Grid stackable className="newspaper">
           <Grid.Row stretched>
-            <Grid.Column width={12} tablet={11} computer={10}>
+            <Grid.Column mobile={16} tablet={4} computer={4}>
               <Welcome />
             </Grid.Column>
-            <Grid.Column width={4} tablet={5} computer={6}>
-              <Tweet />
-            </Grid.Column>
-          </Grid.Row>
-          <Divider />
-          <Grid.Row stretched >
-            <Grid.Column width={16}>
+            <Grid.Column width={12} only="tablet computer">
               <Popular />
             </Grid.Column>
           </Grid.Row>
           <Divider />
-          <Grid.Row stretched>
+          <Grid.Row stretched only="mobile">
+            <Grid.Column width={16}>
+              <Bernie />
+            </Grid.Column>
+          </Grid.Row>
+          {/* <Divider /> */}
+          {/* <Grid.Row stretched>
             <Grid.Column width={16}>
               <Newbies />
             </Grid.Column>
-          </Grid.Row>
+          </Grid.Row> */}
           <Grid.Row stretched>
             <Grid.Column width={16}>
               <ComingSoon />
