@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "semantic-ui-react";
 
 import TableFull from "./table-full";
+import ComingSoon from './coming-soon'
 
 import "./styles.scss";
 
@@ -25,15 +26,13 @@ const Popular = () => (
     <span className="green number bold">17x</span>{" "}{" "}
     the people in his state.
   </p>
+  <br />
   <TableFull />
-  <p>
-    All 100 U.S. Senators have a Twitter account. The newest additions are
-    Josh Hawley (MO), Mike Braun (IN), and Cindy Hyde-Smith (MS). They joined
-    Twitter less than 1 year ago and not suprisingly sit in the bottom 5 for
-    both total followers and total tweets. All 3 are Republican. The two most
-    popular Senators are Bernie Sanders (8.7m) and Elizabeth Warren (5.4).
-    Together they have more followers than the next 14 Senators combined!
-  </p>
+
+  <br />
+
+  <ComingSoon />
+
 </div>
 );
 

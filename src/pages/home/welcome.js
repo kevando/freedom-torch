@@ -6,7 +6,7 @@ import "./styles.scss";
 const Welcome = () => (
   <div className="newspaper content">
     <p>
-      <strong>Welcome</strong> to The Congress Connection, the most boring
+      Welcome to The Congress Connection, the most boring
       online newspaper in The United States of America. We pull data from the
       Twitter API and explore how members of congress use the internet. It's
       pure data so there's totally no bias. We report only statistics and let
@@ -15,7 +15,7 @@ const Welcome = () => (
     </p>
 
     <p>
-      <blockquote>"Data don't "</blockquote>
+      <blockquote>"Data don't lie"</blockquote>
     </p>
     <p>
       One thing to note. Referring to him as "one of our readers" is factually

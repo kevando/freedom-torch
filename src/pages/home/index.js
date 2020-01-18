@@ -8,9 +8,6 @@ import Nav from "../../components/nav";
 import Welcome from "./welcome";
 import Bernie from "./bernie";
 import Popular from "./popular";
-import Tweet from "./tweet";
-import Newbies from "./newbies";
-import ComingSoon from "./coming-soon";
 
 const Meta = () => (
   <Helmet>
@@ -28,10 +25,10 @@ const Home = () => {
         <Nav large />
         <Grid stackable className="newspaper">
           <Grid.Row stretched>
-            <Grid.Column mobile={16} tablet={4} computer={4}>
+            <Grid.Column mobile={16} tablet={5} computer={4}>
               <Welcome />
             </Grid.Column>
-            <Grid.Column width={12} only="tablet computer">
+            <Grid.Column tablet={11} computer={12} only="tablet computer">
               <Popular />
             </Grid.Column>
           </Grid.Row>
@@ -39,17 +36,6 @@ const Home = () => {
           <Grid.Row stretched only="mobile">
             <Grid.Column width={16}>
               <Bernie />
-            </Grid.Column>
-          </Grid.Row>
-          {/* <Divider /> */}
-          {/* <Grid.Row stretched>
-            <Grid.Column width={16}>
-              <Newbies />
-            </Grid.Column>
-          </Grid.Row> */}
-          <Grid.Row stretched>
-            <Grid.Column width={16}>
-              <ComingSoon />
             </Grid.Column>
           </Grid.Row>
         </Grid>
