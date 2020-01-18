@@ -1,6 +1,13 @@
-// @import "src/styles/base/mixins";
-// @import "src/styles/base/variables";
+@import "src/styles/App";
 
+table {
+    width: 100%;
+    th {
+        text-align: left;
+        border-bottom: solid 1px #ccc;
+    }
+
+}
 // $background-color: $white;
 // $border-color: #888;
 // $cell-color: $white;
