@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "semantic-ui-react";
+import  { Link } from 'react-router-dom';
 
 import TableFull from "./table-full";
 import ComingSoon from './coming-soon'
@@ -29,6 +30,9 @@ const Popular = () => (
   <br />
   <TableFull />
 
+  <h4><Link to="/senate-table">See Full List of Senators</Link></h4>
+
+  <br />
   <br />
 
   <ComingSoon />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "semantic-ui-react";
+import { Link } from "react-router-dom"
 
 import TableFollowers from "./table-followers";
 import TablePodium from "./table-podium";
@@ -27,6 +28,8 @@ const Popular = () => (
       <span className="green number bold">17x</span>{" "}{" "}
       the people in his state.
     </p>
+    <h4><Link to="/senate-table">See Full List of Senators</Link></h4>
+
     <TablePodium />
   </div>
 );

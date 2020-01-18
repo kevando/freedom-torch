@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Container } from "semantic-ui-react";
+import Nav from "../components/nav";
 
 import Table from "../components/senate-table";
-
-
 
 export default () => {
   return (
@@ -12,7 +12,10 @@ export default () => {
         <meta charSet="utf-8" />
         <title>Senate Table</title>
       </Helmet>
-      <Table />
+      <Container>
+        <Nav large />
+        <Table />
+      </Container>
     </>
   );
 };
