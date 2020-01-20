@@ -1,7 +1,7 @@
 import React from "react";
-
 import { Helmet } from "react-helmet";
 import { Container, Grid, Divider } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 import Nav from "../../components/nav";
 
@@ -23,6 +23,7 @@ const Home = () => {
 
       <Container>
         <Nav large />
+        <Link class="yearbook" to="/116th/yearbook">The Yearbook is Out</Link>
         <Grid stackable className="newspaper">
           <Grid.Row stretched>
             <Grid.Column mobile={16} tablet={5} computer={4}>

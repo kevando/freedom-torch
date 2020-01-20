@@ -1,5 +1,13 @@
 @import "../../styles/App";
 
+
+.home {
+  a.yearbook {
+    color: black;
+    text-align: center;
+    font-size: 6em;
+  }
+}
 .newspaper {
   @include for-phone-only {
     margin-left: $content-spacing !important;
@@ -29,6 +37,8 @@
     font-style: italic;
     margin: 0;
   }
+
+
 }
 
 .coming-soon {

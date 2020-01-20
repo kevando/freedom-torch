@@ -2,8 +2,11 @@ import React from "react";
 
 const NotFound = () => {
   return (
-    <h1>404</h1>
+    <div>
+      <h1>404</h1>
+      <p>{process.env.NODE_ENV || "Dev probably"}</p>
+    </div>
   );
-}
+};
 
 export default NotFound;

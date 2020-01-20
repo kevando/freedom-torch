@@ -24,6 +24,13 @@
     &.small {
       // font-size: 16px;
     }
+    a {
+      font-weight: 100;
+      color: $black;
+      &:hover {
+        font-weight: 900;
+      }
+    }
   }
 }
 

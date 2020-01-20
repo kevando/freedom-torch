@@ -1,0 +1,25 @@
+@import "../../styles/App";
+
+.senate.yearbook {
+
+    @include for-phone-only {
+        .ui.grid > .row {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        
+            > .column {
+              padding-left: 0.5em;
+              padding-right: 0.5em;
+            }
+          }
+    }
+//   .ui.grid > .row {
+//     padding-top: 0.5em;
+//     padding-bottom: 0.5em;
+
+//     > .column {
+//       padding-left: 0.5em;
+//       padding-right: 0.5em;
+//     }
+//   }
+}
