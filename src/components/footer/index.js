@@ -6,8 +6,9 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        <span className="flag waving">🇺🇸</span>Made in America
+        <span className="flag waving" role="img" aria-label="America">🇺🇸</span>Made in America
       </p>
+      <p>{process.env.NODE_ENV || "Dev probably"}</p>
     </footer>
   );
 };

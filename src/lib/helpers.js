@@ -2,12 +2,15 @@ export function numberWithCommas(x) {
   return x && x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-// api url
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:8080/api/v1/"
+    : "https://freedom-torch-api.appspot.com/api/v1/";
+
 const dataUrl = API_URL + "senators";
 
-// api fetch
 export const fetchSenators = callback => {
+  console.log("fetching data from dataUrl ", dataUrl);
   fetch(dataUrl)
     .then(res => res.json())
     .then(

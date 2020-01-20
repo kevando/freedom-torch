@@ -1,27 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Icon, Table, Rating, Header, Image } from "semantic-ui-react";
+import { Table, Header } from "semantic-ui-react";
 import _ from "lodash";
 
 import "./styles.scss";
 
-const API_URL = "http://localhost:8080/api/v1/";
-const dataUrl = API_URL + "senators?limit=100";
+import { fetchSenators } from "../../lib/helpers";
 
 const Debug = () => {
   const [senators, setSenators] = useState([]);
 
   useEffect(() => {
-    fetch(dataUrl)
-      .then(res => res.json())
-      .then(
-        result => {
-          console.log("result", result);
-          setSenators(result);
-        },
-        error => {
-          console.log(error);
-        }
-      );
+    fetchSenators(setSenators);
   }, [setSenators]);
 
   return (
@@ -36,36 +25,38 @@ const Debug = () => {
           </Table.Row>
         </Table.Header>
         <Table.Body>
-          {senators.map(({ name, twitterLocation, twitterColors, twitterDescription, status }) => {
-            return (
-              <Table.Row>
-                <Table.Cell>
-                  <Header as="h4" image>
-                    <Header.Content>
-                      {name}
-                      <Header.Subheader>{twitterLocation}</Header.Subheader>
-                    </Header.Content>
-                  </Header>
-                </Table.Cell>
-                <Table.Cell className="color-pallete">
-                  <div>
-                  {_.map(twitterColors, (rgb) => (
-                    <div style={{backgroundColor: `#${rgb}`}}>
+          {senators.map(
+            ({
+              name,
+              twitterLocation,
+              twitterColors,
+              twitterDescription,
+              status
+            }) => {
+              return (
+                <Table.Row>
+                  <Table.Cell>
+                    <Header as="h4" image>
+                      <Header.Content>
+                        {name}
+                        <Header.Subheader>{twitterLocation}</Header.Subheader>
+                      </Header.Content>
+                    </Header>
+                  </Table.Cell>
+                  <Table.Cell className="color-pallete">
+                    <div>
+                      {_.map(twitterColors, rgb => (
+                        <div style={{ backgroundColor: `#${rgb}` }}></div>
+                      ))}
                     </div>
-                  ))}
-                  </div>
-                </Table.Cell>
+                  </Table.Cell>
 
-
-                <Table.Cell>
-                  {twitterDescription}
-                </Table.Cell>
-                <Table.Cell>
-                  {status && status.text}
-                </Table.Cell>
-              </Table.Row>
-            );
-          })}
+                  <Table.Cell>{twitterDescription}</Table.Cell>
+                  <Table.Cell>{status && status.text}</Table.Cell>
+                </Table.Row>
+              );
+            }
+          )}
         </Table.Body>
       </Table>
     </div>

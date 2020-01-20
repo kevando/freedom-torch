@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Table, Icon, Popup } from "semantic-ui-react";
+import { Table, Icon, Popup } from "semantic-ui-react";
 
 const topSenators = [
   ["VT", "Bernie Sanders", "8,793,048", "493,535", "17.8x", "SenSanders", "D"],
@@ -84,7 +84,7 @@ const TableExamplePadded = () => (
       
               <Table.Cell singleLine>
                 {s[1]} &nbsp;
-                <a href={`https://twitter.com/${s[5]}`} target="_blank">
+                <a href={`https://twitter.com/${s[5]}`} target="_blank" rel="noopener noreferrer">
                   <Icon
                     name="twitter"
                     color={s[6] === "D" ? "blue" : "red"}

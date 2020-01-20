@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Grid, Image, Reveal } from "semantic-ui-react";
 import _ from "lodash";
 

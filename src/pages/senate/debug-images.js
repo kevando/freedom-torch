@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Icon, Table, Rating, Header, Image } from "semantic-ui-react";
-import _ from "lodash";
+import { Table, Header, Image } from "semantic-ui-react";
 
 import "./styles.scss";
 

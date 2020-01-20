@@ -91,7 +91,7 @@ const TableExamplePadded = () => (
               </Table.Cell>
               <Table.Cell singleLine>
                 {s[1]} &nbsp;
-                <a href={`https://twitter.com/${s[5]}`} target="_blank">
+                <a href={`https://twitter.com/${s[5]}`} target="_blank" rel="noopener noreferrer">
                   <Icon
                     name="twitter"
                     color={s[6] === "D" ? "blue" : "red"}
