@@ -6,7 +6,7 @@ import "./styles.scss";
 
 import { fetchSenators } from "../../lib/helpers";
 
-const Debug = () => {
+const SenateTable = () => {
   const [senators, setSenators] = useState([]);
 
   useEffect(() => {
@@ -63,4 +63,4 @@ const Debug = () => {
   );
 };
 
-export default Debug;
+export default SenateTable;
