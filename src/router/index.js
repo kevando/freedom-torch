@@ -18,9 +18,9 @@ function Router() {
         <Route component={Pages.SenateYearbook} path="/senate/yearbook" />
         <Route component={Pages.Senate} path="/senate" />
 
-        <Route component={Pages.Senator} path="/senator/:id" />
+        <Route component={Pages.Member} path="/m/:docId" />
 
-        <Route component={Pages.State} path="/state/:stateName" />
+        <Route component={Pages.StatesView} path="/states/:stateName" />
         <Route component={Pages.States} path="/states" />
 
         <Route component={Pages.NotFound} />

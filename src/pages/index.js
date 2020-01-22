@@ -6,9 +6,9 @@ import NotFound from "./not-found";
 import Senate from "./senate";
 import SenateTable from './senate/table'
 import SenateYearbook from './senate/yearbook'
-import Senator from "./senator";
+import Member from "./member";
 import States from "./states";
-import State from "./state";
+import StatesView from "./states/view";
 
 export default {
   Activity,
@@ -19,7 +19,7 @@ export default {
   Senate,
   SenateYearbook,
   SenateTable,
-  Senator,
+  Member,
   States,
-  State
+  StatesView
 };

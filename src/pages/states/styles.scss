@@ -1,0 +1,14 @@
+@import "../../styles/App";
+
+h2.title {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 100px;
+    // margin-top: -35px;
+    letter-spacing: 0.06em
+}
+
+.ui.breadcrumb {
+    display: flex;
+    justify-content: center;
+}

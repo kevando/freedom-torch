@@ -26,16 +26,14 @@ export const fetchSenators = callback => {
 
 export const fetchData = async endpoint => {
   const dataUrl = API_URL + endpoint;
-  console.log('dataUrl',dataUrl)
 
   try {
     const data = await fetch(dataUrl).then(res => res.json());
-    console.log('data',data)
+    console.log("data", data);
     return data;
   } catch (error) {
-    console.log("ERROR!!!",dataUrl)
+    console.log("ERROR!!!", dataUrl);
     console.log(error);
-    throw new Error(error)
   }
 };
 
@@ -45,3 +43,4 @@ export function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
+

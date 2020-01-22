@@ -39,19 +39,22 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  // border-top: solid 1px $gray;
-  padding: 40px;
+  border-top: solid 1px $light-gray;
+  padding:14px 0;
   p {
+    font-family: Verdana;
     text-align: center;
-    color: $light-black;
+    color: #464646;
+    font-size: 12px;
+    font-weight: 500;
 
     span.flag {
       display: inline-block;
-      margin: 0px 16px 0px 0px;
-      transform: scale(1.7, 1.7) skew(0deg, 0deg);
+      margin: 0px 6px 0px 0px;
+      // transform: scale(1.7, 1.7) skew(0deg, 0deg);
 
       &.waving {
-        animation: 2s ease infinite pulse;
+        // animation: 2s ease infinite pulse;
       }
     }
   }

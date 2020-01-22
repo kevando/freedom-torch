@@ -8,7 +8,6 @@ const Footer = () => {
       <p>
         <span className="flag waving" role="img" aria-label="America">🇺🇸</span>Made in America
       </p>
-      <p>{process.env.NODE_ENV || "Dev probably"}</p>
     </footer>
   );
 };
