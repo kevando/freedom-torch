@@ -1,6 +1,7 @@
 {
-  "name": "congress",
+  "name": "Congress Connections React",
   "version": "0.1.1",
+  "author": "Kevando",
   "private": true,
   "dependencies": {
     "@babel/core": "7.6.0",

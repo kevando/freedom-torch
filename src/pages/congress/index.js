@@ -1,14 +1,34 @@
-import React from "react";
-import { Link } from "react-router-dom"
+import React, { useEffect, useState } from "react";
+// import { Container } from "semantic-ui-react";
 
-const Congress = () => {
+import Container from "../../components/container";
+import Meta from "../../components/meta";
+
+import Table from "./table";
+
+import { fetchData } from "../../lib/helpers";
+
+const States = props => {
+  const [members, setMembers] = useState(null);
+
+  useEffect(() => {
+    async function fetchMembers() {
+      const data = await fetchData("members");
+      data && setMembers(data.members);
+    }
+    fetchMembers();
+  }, []);
+
   return (
-    <div>
-      <h1>Congress</h1>
-      <p><Link to="/senate">Senate</Link></p>
-      <p><Link to="/house">House</Link></p>
+    <div className="states">
+      <Meta title="Congress" />
+
+      <Container nav>
+        <h1>The United States Congress</h1>
+        {members && <Table members={members} />}
+      </Container>
     </div>
   );
 };
 
-export default Congress;
+export default States;

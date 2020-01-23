@@ -1,0 +1,102 @@
+@import "../../styles/App";
+
+
+.home {
+  a.yearbook {
+    color: black;
+    text-align: center;
+    font-size: 6em;
+  }
+}
+.newspaper {
+  @include for-phone-only {
+    margin-left: $content-spacing !important;
+    margin-right: $content-spacing !important;
+  }
+
+  .ui.divider {
+    border-top: 1px solid rgba(0, 45, 90, 0.69) !important;
+    border-bottom: 1px solid rgba(41, 0, 0, 0.1) !important;
+    margin-top: $content-spacing !important;
+    margin-bottom: $content-spacing !important;
+    @include for-phone-only {
+      margin-left: 4em !important;
+      margin-right: 4em !important;
+    }
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  blockquote {
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.54);
+    font-style: italic;
+    margin: 0;
+  }
+
+
+}
+
+.coming-soon {
+  padding: 87px 0;
+  background-color: #fbfbfb;
+
+  span.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span.emoji {
+      font-size: 3em;
+      margin-left: -10px;
+    }
+    span.text {
+      font-size: 1.3em;
+      font-family: Georgia;
+      i {
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+.senate-table {
+  margin-top: $content-spacing;
+  margin-bottom: $content-spacing;
+
+  th {
+    border-bottom: solid 1px #949494 !important;
+    padding: 0.3em 0em 5px 0em !important;
+  }
+  td {
+    border-top: none !important;
+    padding: 0.3em 0em !important;
+  }
+  .sen-SenSanders {
+    .amplitude {
+      color: #00bb29;
+      font-weight: 900;
+      font-family: "Courier";
+      font-size: 1.1em;
+    }
+  }
+  .followers {
+    font-family: Courier;
+  }
+}
+
+.newbies {
+  .cards.ui {
+    justify-content: space-evenly;
+
+    .ribbon.label {
+      position: absolute;
+      top: 21px;
+      left: calc(100% + 1rem);
+    }
+  }
+}

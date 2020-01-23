@@ -23,6 +23,7 @@ const Home = () => {
 
       <Container>
         <Nav large />
+        <Link class="yearbook" to="/116th/yearbook">The Yearbook is Out</Link>
         <Grid stackable className="newspaper">
           <Grid.Row stretched>
             <Grid.Column mobile={16} tablet={5} computer={4}>
