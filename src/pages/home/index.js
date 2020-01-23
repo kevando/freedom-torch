@@ -12,7 +12,7 @@ import Popular from "./popular";
 const Meta = () => (
   <Helmet>
     <meta charSet="utf-8" />
-    <title>The Congress Connection</title>
+    <title>Theee Congress Connection</title>
   </Helmet>
 );
 
@@ -30,6 +30,7 @@ const Home = () => {
             </Grid.Column>
             <Grid.Column tablet={11} computer={12} only="tablet computer">
               <Popular />
+              <Link to="/states">states</Link>
             </Grid.Column>
           </Grid.Row>
           <Divider />
