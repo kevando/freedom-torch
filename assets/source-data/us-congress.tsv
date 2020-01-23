@@ -1,0 +1,535 @@
+docId	firstName	lastName	key	twitterHandle	stateCode	chamber	senateRank	houseDistrict	party	startTerm	endTerm	url	phone
+ralph-abraham	Ralph	Abraham	LA-rep-5	RepAbraham	LA	rep		5	Republican	1/3/2019	1/3/2021	https://abraham.house.gov	(202) 225-8490
+alma-adams	Alma	Adams	NC-rep-12	RepAdams	NC	rep		12	Democrat	1/3/2019	1/3/2021	https://adams.house.gov	(202) 225-1510
+robert-aderholt	Robert	Aderholt	AL-rep-4	Robert_Aderholt	AL	rep		4	Republican	1/3/2019	1/3/2021	https://aderholt.house.gov	(202) 225-4876
+pete-aguilar	Pete	Aguilar	CA-rep-31	RepPeteAguilar	CA	rep		31	Democrat	1/3/2019	1/3/2021	https://aguilar.house.gov	(202) 225-3201
+rick-allen	Rick	Allen	GA-rep-12	RepRickAllen	GA	rep		12	Republican	1/3/2019	1/3/2021	https://allen.house.gov	(202) 225-2823
+colin-allred	Colin	Allred	TX-rep-32	RepColinAllred	TX	rep		32	Democrat	1/3/2019	1/3/2021		(202) 225-2231
+justin-amash	Justin	Amash	MI-rep-3	justinamash	MI	rep		3	Republican	1/3/2019	1/3/2021	https://amash.house.gov	(202) 225-3831
+mark-amodei	Mark	Amodei	NV-rep-2	MarkAmodeiNV2	NV	rep		2	Republican	1/3/2019	1/3/2021	https://amodei.house.gov	(202) 225-6155
+kelly-armstrong	Kelly	Armstrong	ND-rep-0	RepArmstrongND	ND	rep		0	Republican	1/3/2019	1/3/2021		(202) 225-2611
+jodey-arrington	Jodey	Arrington	TX-rep-19	JodeyArrington	TX	rep		19	Republican	1/3/2019	1/3/2021	https://arrington.house.gov	(202) 225-4005
+cynthia-axne	Cynthia	Axne	IA-rep-3	RepCindyAxne	IA	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-5476
+brian-babin	Brian	Babin	TX-rep-36	RepBrianBabin	TX	rep		36	Republican	1/3/2019	1/3/2021	https://babin.house.gov	(202) 225-1555
+don-bacon	Don	Bacon	NE-rep-2	DonBacon2016	NE	rep		2	Republican	1/3/2019	1/3/2021	https://bacon.house.gov	(202) 225-4155
+james-baird	James	Baird	IN-rep-4	RepJimBaird	IN	rep		4	Republican	1/3/2019	1/3/2021		(202) 225-5037
+troy-balderson	Troy	Balderson	OH-rep-12	RepBalderson	OH	rep		12	Republican	1/3/2019	1/3/2021	https://balderson.house.gov/	(202) 225-5355
+jim-banks	Jim	Banks	IN-rep-3	Jim_Banks	IN	rep		3	Republican	1/3/2019	1/3/2021	https://banks.house.gov	(202) 225-4436
+garland-barr	Garland	Barr	KY-rep-6	RepAndyBarr	KY	rep		6	Republican	1/3/2019	1/3/2021	https://barr.house.gov	(202) 225-4706
+nanette-barragan	Nanette	Barrag'an	CA-rep-44	Nanette4CA	CA	rep		44	Democrat	1/3/2019	1/3/2021	https://barragan.house.gov	(202) 225-8220
+karen-bass	Karen	Bass	CA-rep-37	RepKarenBass	CA	rep		37	Democrat	1/3/2019	1/3/2021	https://bass.house.gov	(202) 225-7084
+joyce-beatty	Joyce	Beatty	OH-rep-3	RepBeatty	OH	rep		3	Democrat	1/3/2019	1/3/2021	https://beatty.house.gov	(202) 225-4324
+ami-bera	Ami	Bera	CA-rep-7	RepBera	CA	rep		7	Democrat	1/3/2019	1/3/2021	https://bera.house.gov	(202) 225-5716
+jack-bergman	Jack	Bergman	MI-rep-1	JackBergman_MI1	MI	rep		1	Republican	1/3/2019	1/3/2021	https://bergman.house.gov	(202) 225-4735
+donald-beyer	Donald	Beyer	VA-rep-8	RepDonBeyer	VA	rep		8	Democrat	1/3/2019	1/3/2021	https://beyer.house.gov	(202) 225-4376
+andy-biggs	Andy	Biggs	AZ-rep-5	AndyBiggs4AZ	AZ	rep		5	Republican	1/3/2019	1/3/2021	https://biggs.house.gov	(202) 225-2635
+gus-bilirakis	Gus	Bilirakis	FL-rep-12	RepGusBilirakis	FL	rep		12	Republican	1/3/2019	1/3/2021	https://bilirakis.house.gov	(202) 225-5755
+sanford-bishop	Sanford	Bishop	GA-rep-2	SanfordBishop	GA	rep		2	Democrat	1/3/2019	1/3/2021	https://bishop.house.gov	(202) 225-3631
+rob-bishop	Rob	Bishop	UT-rep-1	RepHalRogers	UT	rep		1	Republican	1/3/2019	1/3/2021	https://robbishop.house.gov	(202) 225-0453
+earl-blumenauer	Earl	Blumenauer	OR-rep-3	repblumenauer	OR	rep		3	Democrat	1/3/2019	1/3/2021	https://blumenauer.house.gov	(202) 225-4811
+lisa-blunt-rochester	Lisa	Blunt Rochester	DE-rep-0	LisaBRochester	DE	rep		0	Democrat	1/3/2019	1/3/2021	https://bluntrochester.house.gov	(202) 225-4165
+suzanne-bonamici	Suzanne	Bonamici	OR-rep-1	RepBonamici	OR	rep		1	Democrat	1/3/2019	1/3/2021	https://bonamici.house.gov	(202) 225-0855
+mike-bost	Mike	Bost	IL-rep-12	RepBost	IL	rep		12	Republican	1/3/2019	1/3/2021	https://bost.house.gov	(202) 225-5661
+brendan-boyle	Brendan	Boyle	PA-rep-2	CongBoyle	PA	rep		2	Democrat	1/3/2019	1/3/2021	https://boyle.house.gov	(202) 225-6111
+kevin-brady	Kevin	Brady	TX-rep-8	RepKevinBrady	TX	rep		8	Republican	1/3/2019	1/3/2021	https://kevinbrady.house.gov	(202) 225-4901
+anthony-brindisi	Anthony	Brindisi	NY-rep-22	RepBrindisi	NY	rep		22	Democrat	1/3/2019	1/3/2021		(202) 225-3665
+mo-brooks	Mo	Brooks	AL-rep-5	RepMoBrooks	AL	rep		5	Republican	1/3/2019	1/3/2021	https://brooks.house.gov	(202) 225-4801
+susan-brooks	Susan	Brooks	IN-rep-5	SusanWBrooks	IN	rep		5	Republican	1/3/2019	1/3/2021	https://susanwbrooks.house.gov	(202) 225-2276
+anthony-brown	Anthony	Brown	MD-rep-4	BrownforMD	MD	rep		4	Democrat	1/3/2019	1/3/2021	https://anthonybrown.house.gov	(202) 225-8699
+julia-brownley	Julia	Brownley	CA-rep-26	JuliaBrownley26	CA	rep		26	Democrat	1/3/2019	1/3/2021	https://juliabrownley.house.gov	(202) 225-5811
+vern-buchanan	Vern	Buchanan	FL-rep-16	VernBuchanan	FL	rep		16	Republican	1/3/2019	1/3/2021	https://buchanan.house.gov	(202) 225-5015
+ken-buck	Ken	Buck	CO-rep-4	RepKenBuck	CO	rep		4	Republican	1/3/2019	1/3/2021	https://buck.house.gov	(202) 225-4676
+larry-bucshon	Larry	Bucshon	IN-rep-8	RepLarryBucshon	IN	rep		8	Republican	1/3/2019	1/3/2021	https://bucshon.house.gov	(202) 225-4636
+ted-budd	Ted	Budd	NC-rep-13	BuddforCongress	NC	rep		13	Republican	1/3/2019	1/3/2021	https://budd.house.gov	(202) 225-4531
+tim-burchett	Tim	Burchett	TN-rep-2	RepTimBurchett	TN	rep		2	Republican	1/3/2019	1/3/2021		(202) 225-5435
+michael-burgess	Michael	Burgess	TX-rep-26	michaelcburgess	TX	rep		26	Republican	1/3/2019	1/3/2021	https://burgess.house.gov	(202) 225-7772
+cheri-bustos	Cheri	Bustos	IL-rep-17	RepCheri	IL	rep		17	Democrat	1/3/2019	1/3/2021	https://bustos.house.gov	(202) 225-5905
+george-butterfield	George	Butterfield	NC-rep-1	GKButterfield	NC	rep		1	Democrat	1/3/2019	1/3/2021	https://butterfield.house.gov	(202) 225-3101
+bradley-byrne	Bradley	Byrne	AL-rep-1	RepByrne	AL	rep		1	Republican	1/3/2019	1/3/2021	https://byrne.house.gov	(202) 225-4931
+tony-cardenas	Tony	C'ardenas	CA-rep-29	RepCardenas	CA	rep		29	Democrat	1/3/2019	1/3/2021	https://cardenas.house.gov	(202) 225-6131
+ken-calvert	Ken	Calvert	CA-rep-42	KenCalvert	CA	rep		42	Republican	1/3/2019	1/3/2021	https://calvert.house.gov	(202) 225-1986
+salud-carbajal	Salud	Carbajal	CA-rep-24	CarbajalSalud	CA	rep		24	Democrat	1/3/2019	1/3/2021	https://carbajal.house.gov	(202) 225-3601
+andre-carson	Andr'e	Carson	IN-rep-7	RepAndreCarson	IN	rep		7	Democrat	1/3/2019	1/3/2021	https://carson.house.gov	(202) 225-4011
+buddy-carter	Buddy	Carter	GA-rep-1	RepBuddyCarter	GA	rep		1	Republican	1/3/2019	1/3/2021	https://buddycarter.house.gov	(202) 225-5831
+john-carter	John	Carter	TX-rep-31	JudgeCarter	TX	rep		31	Republican	1/3/2019	1/3/2021	https://carter.house.gov	(202) 225-3864
+matthew-cartwright	Matthew	Cartwright	PA-rep-8	RepCartwright	PA	rep		8	Democrat	1/3/2019	1/3/2021	https://cartwright.house.gov	(202) 225-5546
+ed-case	Ed	Case	HI-rep-1	RepEdCase	HI	rep		1	Democrat	1/3/2019	1/3/2021	http://www.house.gov/case	(202) 225-2726
+sean-casten	Sean	Casten	IL-rep-6	RepCasten	IL	rep		6	Democrat	1/3/2019	1/3/2021		(202) 225-4561
+kathy-castor	Kathy	Castor	FL-rep-14	USRepKCastor	FL	rep		14	Democrat	1/3/2019	1/3/2021	https://castor.house.gov	(202) 225-3376
+joaquin-castro	Joaquin	Castro	TX-rep-20	JoaquinCastrotx	TX	rep		20	Democrat	1/3/2019	1/3/2021	https://castro.house.gov	(202) 225-3236
+steve-chabot	Steve	Chabot	OH-rep-1	RepSteveChabot	OH	rep		1	Republican	1/3/2019	1/3/2021	https://chabot.house.gov	(202) 225-2216
+liz-cheney	Liz	Cheney	WY-rep-0	Liz_Cheney	WY	rep		0	Republican	1/3/2019	1/3/2021	https://cheney.house.gov	(202) 225-2311
+judy-chu	Judy	Chu	CA-rep-27	RepJudyChu	CA	rep		27	Democrat	1/3/2019	1/3/2021	https://chu.house.gov	(202) 225-5464
+david-cicilline	David	Cicilline	RI-rep-1	RepCicilline	RI	rep		1	Democrat	1/3/2019	1/3/2021	https://cicilline.house.gov	(202) 225-4911
+gilbert-cisneros	Gilbert	Cisneros	CA-rep-39	RepGilCisneros	CA	rep		39	Democrat	1/3/2019	1/3/2021		(202) 225-4111
+katherine-clark	Katherine	Clark	MA-rep-5	RepKClark	MA	rep		5	Democrat	1/3/2019	1/3/2021	https://katherineclark.house.gov	(202) 225-2836
+yvette-clarke	Yvette	Clarke	NY-rep-9	YvetteClarke	NY	rep		9	Democrat	1/3/2019	1/3/2021	https://clarke.house.gov	(202) 225-6231
+wm-clay	Wm.	Clay	MO-rep-1	LacyClayMO1	MO	rep		1	Democrat	1/3/2019	1/3/2021	https://lacyclay.house.gov	(202) 225-2406
+emanuel-cleaver	Emanuel	Cleaver	MO-rep-5	repcleaver	MO	rep		5	Democrat	1/3/2019	1/3/2021	https://cleaver.house.gov	(202) 225-4535
+ben-cline	Ben	Cline	VA-rep-6	RepBenCline	VA	rep		6	Republican	1/3/2019	1/3/2021		(202) 225-5431
+michael-cloud	Michael	Cloud	TX-rep-27	RepCloudTX	TX	rep		27	Republican	1/3/2019	1/3/2021	https://cloud.house.gov/	(202) 225-7742
+james-clyburn	James	Clyburn	SC-rep-6	Clyburn	SC	rep		6	Democrat	1/3/2019	1/3/2021	https://clyburn.house.gov	(202) 225-3315
+steve-cohen	Steve	Cohen	TN-rep-9	RepCohen	TN	rep		9	Democrat	1/3/2019	1/3/2021	https://cohen.house.gov	(202) 225-3265
+tom-cole	Tom	Cole	OK-rep-4	TomColeOK04	OK	rep		4	Republican	1/3/2019	1/3/2021	https://cole.house.gov	(202) 225-6165
+doug-collins	Doug	Collins	GA-rep-9	RepChrisCollins	GA	rep		9	Republican	1/3/2019	1/3/2021	https://dougcollins.house.gov	(202) 225-9893
+chris-collins	Chris	Collins	NY-rep-27	RepDougCollins	NY	rep		27	Republican	1/3/2019	1/3/2021	https://chriscollins.house.gov	(202) 225-5265
+james-comer	James	Comer	KY-rep-1	KYComer	KY	rep		1	Republican	1/3/2019	1/3/2021	https://comer.house.gov	(202) 225-3115
+k-conaway	K.	Conaway	TX-rep-11	ConawayTX11	TX	rep		11	Republican	1/3/2019	1/3/2021	https://conaway.house.gov	(202) 225-3605
+gerald-connolly	Gerald	Connolly	VA-rep-11	GerryConnolly	VA	rep		11	Democrat	1/3/2019	1/3/2021	https://connolly.house.gov	(202) 225-1492
+paul-cook	Paul	Cook	CA-rep-8	RepPaulCook	CA	rep		8	Republican	1/3/2019	1/3/2021	https://cook.house.gov	(202) 225-5861
+jim-cooper	Jim	Cooper	TN-rep-5	repjimcooper	TN	rep		5	Democrat	1/3/2019	1/3/2021	https://cooper.house.gov	(202) 225-4311
+j-correa	J.	Correa	CA-rep-46	LouCorreaCA	CA	rep		46	Democrat	1/3/2019	1/3/2021	https://correa.house.gov	(202) 225-2965
+jim-costa	Jim	Costa	CA-rep-16	RepJimCosta	CA	rep		16	Democrat	1/3/2019	1/3/2021	https://costa.house.gov	(202) 225-3341
+joe-courtney	Joe	Courtney	CT-rep-2	RepJoeCourtney	CT	rep		2	Democrat	1/3/2019	1/3/2021	https://courtney.house.gov	(202) 225-2076
+tj-cox	TJ	Cox	CA-rep-21	RepTJCox	CA	rep		21	Democrat	1/3/2019	1/3/2021		(202) 225-4695
+angie-craig	Angie	Craig	MN-rep-2	RepAngieCraig	MN	rep		2	Democrat	1/3/2019	1/3/2021		(202) 225-2271
+eric-crawford	Eric	Crawford	AR-rep-1	RepRickCrawford	AR	rep		1	Republican	1/3/2019	1/3/2021	https://crawford.house.gov	(202) 225-4076
+dan-crenshaw	Dan	Crenshaw	TX-rep-2	RepDanCrenshaw	TX	rep		2	Republican	1/3/2019	1/3/2021		(202) 225-6565
+charlie-crist	Charlie	Crist	FL-rep-13	CharlieCrist	FL	rep		13	Democrat	1/3/2019	1/3/2021	https://crist.house.gov	(202) 225-5961
+jason-crow	Jason	Crow	CO-rep-6	RepJasonCrow	CO	rep		6	Democrat	1/3/2019	1/3/2021		(202) 225-7882
+henry-cuellar	Henry	Cuellar	TX-rep-28	RepCuellar	TX	rep		28	Democrat	1/3/2019	1/3/2021	https://cuellar.house.gov	(202) 225-1640
+elijah-cummings	Elijah	Cummings	MD-rep-7	RepCummings	MD	rep		7	Democrat	1/3/2019	1/3/2021	https://cummings.house.gov	(202) 225-4741
+joe-cunningham	Joe	Cunningham	SC-rep-1	RepCunningham	SC	rep		1	Democrat	1/3/2019	1/3/2021		(202) 225-3176
+john-curtis	John	Curtis	UT-rep-3	RepJohnCurtis	UT	rep		3	Republican	1/3/2019	1/3/2021	https://curtis.house.gov	(202) 225-7751
+sharice-davids	Sharice	Davids	KS-rep-3	RepDavids	KS	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-2865
+warren-davidson	Warren	Davidson	OH-rep-8	WarrenDavidson	OH	rep		8	Republican	1/3/2019	1/3/2021	https://davidson.house.gov	(202) 225-6205
+susan-davis	Susan	Davis	CA-rep-53	RepSusanDavis	CA	rep		53	Democrat	1/3/2019	1/3/2021	https://susandavis.house.gov	(202) 225-2040
+rodney-davis	Rodney	Davis	IL-rep-13	RodneyDavis	IL	rep		13	Republican	1/3/2019	1/3/2021	https://rodneydavis.house.gov	(202) 225-2371
+danny-davis	Danny	Davis	IL-rep-7	RepDannyDavis	IL	rep		7	Democrat	1/3/2019	1/3/2021	https://davis.house.gov	(202) 225-5006
+madeleine-dean	Madeleine	Dean	PA-rep-4	RepDean	PA	rep		4	Democrat	1/3/2019	1/3/2021		(202) 225-4731
+peter-defazio	Peter	DeFazio	OR-rep-4	RepPeterDeFazio	OR	rep		4	Democrat	1/3/2017	1/3/2019	https://defazio.house.gov	202-225-6416
+diana-degette	Diana	DeGette	CO-rep-1	RepDianaDeGette	CO	rep		1	Democrat	1/3/2019	1/3/2021	https://degette.house.gov	(202) 225-4431
+rosa-delauro	Rosa	DeLauro	CT-rep-3	rosadelauro	CT	rep		3	Democrat	1/3/2019	1/3/2021	https://delauro.house.gov	(202) 225-3661
+suzan-delbene	Suzan	DelBene	WA-rep-1	RepDelBene	WA	rep		1	Democrat	1/3/2019	1/3/2021	https://delbene.house.gov	(202) 225-6311
+antonio-delgado	Antonio	Delgado	NY-rep-19	RepDelgado	NY	rep		19	Democrat	1/3/2019	1/3/2021		(202) 225-5614
+val-demings	Val	Demings	FL-rep-10	Val_Demings	FL	rep		10	Democrat	1/3/2019	1/3/2021	https://demings.house.gov	(202) 225-2176
+mark-desaulnier	Mark	DeSaulnier	CA-rep-11	RepDeSaulnier	CA	rep		11	Democrat	1/3/2019	1/3/2021	https://desaulnier.house.gov	(202) 225-2095
+scott-desjarlais	Scott	DesJarlais	TN-rep-4	DesJarlaisTN04	TN	rep		4	Republican	1/3/2019	1/3/2021	https://desjarlais.house.gov	(202) 225-6831
+theodore-deutch	Theodore	Deutch	FL-rep-22	RepTedDeutch	FL	rep		22	Democrat	1/3/2019	1/3/2021	https://teddeutch.house.gov	(202) 225-3001
+mario-diaz-balart	Mario	Diaz-Balart	FL-rep-25	MarioDB	FL	rep		25	Republican	1/3/2019	1/3/2021	https://mariodiazbalart.house.gov	(202) 225-4211
+debbie-dingell	Debbie	Dingell	MI-rep-12	RepDebDingell	MI	rep		12	Democrat	1/3/2019	1/3/2021	https://debbiedingell.house.gov	(202) 225-4071
+lloyd-doggett	Lloyd	Doggett	TX-rep-35	RepLloydDoggett	TX	rep		35	Democrat	1/3/2019	1/3/2021	https://doggett.house.gov	(202) 225-4865
+michael-doyle	Michael	Doyle	PA-rep-18	USRepMikeDoyle	PA	rep		18	Democrat	1/3/2019	1/3/2021	https://doyle.house.gov	(202) 225-2135
+sean-duffy	Sean	Duffy	WI-rep-7	RepSeanDuffy	WI	rep		7	Republican	1/3/2019	1/3/2021	https://duffy.house.gov	(202) 225-3365
+jeff-duncan	Jeff	Duncan	SC-rep-3	RepJeffDuncan	SC	rep		3	Republican	1/3/2019	1/3/2021	https://jeffduncan.house.gov	(202) 225-5301
+neal-dunn	Neal	Dunn	FL-rep-2	DrNealDunn	FL	rep		2	Republican	1/3/2019	1/3/2021	https://dunn.house.gov	(202) 225-5235
+tom-emmer	Tom	Emmer	MN-rep-6	RepTomEmmer	MN	rep		6	Republican	1/3/2019	1/3/2021	https://emmer.house.gov	(202) 225-2331
+eliot-engel	Eliot	Engel	NY-rep-16	RepEliotEngel	NY	rep		16	Democrat	1/3/2019	1/3/2021	https://engel.house.gov	(202) 225-2464
+veronica-escobar	Veronica	Escobar	TX-rep-16	RepEscobar	TX	rep		16	Democrat	1/3/2019	1/3/2021		(202) 225-4831
+anna-eshoo	Anna	Eshoo	CA-rep-18	RepAnnaEshoo	CA	rep		18	Democrat	1/3/2019	1/3/2021	http://eshoo.house.gov	(202) 225-8104
+adriano-espaillat	Adriano	Espaillat	NY-rep-13	EspaillatNY	NY	rep		13	Democrat	1/3/2019	1/3/2021	https://espaillat.house.gov	(202) 225-4365
+ron-estes	Ron	Estes	KS-rep-4	RepRonEstes	KS	rep		4	Republican	1/3/2019	1/3/2021	https://estes.house.gov	(202) 225-6216
+dwight-evans	Dwight	Evans	PA-rep-3	RepDwightEvans	PA	rep		3	Democrat	1/3/2019	1/3/2021	https://evans.house.gov	(202) 225-4001
+a-ferguson	A.	Ferguson	GA-rep-3	DrewFergusonGA	GA	rep		3	Republican	1/3/2019	1/3/2021	https://ferguson.house.gov	(202) 225-5901
+abby-finkenauer	Abby	Finkenauer	IA-rep-1	RepFinkenauer	IA	rep		1	Democrat	1/3/2019	1/3/2021		(202) 225-2911
+brian-fitzpatrick	Brian	Fitzpatrick	PA-rep-1	RepBrianFitz	PA	rep		1	Republican	1/3/2019	1/3/2021	https://fitzpatrick.house.gov	(202) 225-4276
+charles-fleischmann	Charles	Fleischmann	TN-rep-3	RepChuck	TN	rep		3	Republican	1/3/2019	1/3/2021	https://fleischmann.house.gov	(202) 225-3271
+lizzie-fletcher	Lizzie	Fletcher	TX-rep-7	RepFletcher	TX	rep		7	Democrat	1/3/2019	1/3/2021		(202) 225-2571
+bill-flores	Bill	Flores	TX-rep-17	RepBillFlores	TX	rep		17	Republican	1/3/2019	1/3/2021	https://flores.house.gov	(202) 225-6105
+jeff-fortenberry	Jeff	Fortenberry	NE-rep-1	JeffFortenberry	NE	rep		1	Republican	1/3/2019	1/3/2021	https://fortenberry.house.gov	(202) 225-4806
+bill-foster	Bill	Foster	IL-rep-11	RepBillFoster	IL	rep		11	Democrat	1/3/2019	1/3/2021	https://foster.house.gov	(202) 225-3515
+virginia-foxx	Virginia	Foxx	NC-rep-5	virginiafoxx	NC	rep		5	Republican	1/3/2019	1/3/2021	https://foxx.house.gov	(202) 225-2071
+lois-frankel	Lois	Frankel	FL-rep-21	RepLoisFrankel	FL	rep		21	Democrat	1/3/2019	1/3/2021	https://frankel.house.gov	(202) 225-9890
+marcia-fudge	Marcia	Fudge	OH-rep-11	RepMarciaFudge	OH	rep		11	Democrat	1/3/2019	1/3/2021	https://fudge.house.gov	(202) 225-7032
+russ-fulcher	Russ	Fulcher	ID-rep-1	RepRussFulcher	ID	rep		1	Republican	1/3/2019	1/3/2021		(202) 225-6611
+tulsi-gabbard	Tulsi	Gabbard	HI-rep-2	TulsiPress	HI	rep		2	Democrat	1/3/2019	1/3/2021	https://gabbard.house.gov	(202) 225-4906
+matt-gaetz	Matt	Gaetz	FL-rep-1	MattGaetz	FL	rep		1	Republican	1/3/2019	1/3/2021	https://gaetz.house.gov	(202) 225-4136
+mike-gallagher	Mike	Gallagher	WI-rep-8	MikeforWI	WI	rep		8	Republican	1/3/2019	1/3/2021	https://gallagher.house.gov	(202) 225-5665
+ruben-gallego	Ruben	Gallego	AZ-rep-7	RepRubenGallego	AZ	rep		7	Democrat	1/3/2019	1/3/2021	https://rubengallego.house.gov	(202) 225-4065
+john-garamendi	John	Garamendi	CA-rep-3	RepGaramendi	CA	rep		3	Democrat	1/3/2019	1/3/2021	https://garamendi.house.gov	(202) 225-1880
+jesus-garcia	Jes'us	Garc'ia	IL-rep-4	RepChuyGarcia	IL	rep		4	Democrat	1/3/2019	1/3/2021		(202) 225-8203
+sylvia-garcia	Sylvia	Garcia	TX-rep-29	RepSylviaGarcia	TX	rep		29	Democrat	1/3/2019	1/3/2021		(202) 225-1688
+greg-gianforte	Greg	Gianforte	MT-rep-0	GregForMontana	MT	rep		0	Republican	1/3/2019	1/3/2021	https://gianforte.house.gov	(202) 225-3211
+bob-gibbs	Bob	Gibbs	OH-rep-7	RepBobGibbs	OH	rep		7	Republican	1/3/2019	1/3/2021	https://gibbs.house.gov	(202) 225-6265
+louie-gohmert	Louie	Gohmert	TX-rep-1	replouiegohmert	TX	rep		1	Republican	1/3/2019	1/3/2021	https://gohmert.house.gov	(202) 225-3035
+jared-golden	Jared	Golden	ME-rep-2	RepGolden	ME	rep		2	Democrat				
+jimmy-gomez	Jimmy	Gomez	CA-rep-34	RepJimmyGomez	CA	rep		34	Democrat	1/3/2019	1/3/2021	https://gomez.house.gov	(202) 225-6235
+anthony-gonzalez	Anthony	Gonzalez	OH-rep-16	RepAGonzalez	OH	rep		16	Republican	1/3/2019	1/3/2021		(202) 225-3876
+vicente-gonzalez	Vicente	Gonzalez	TX-rep-15	VoteVincente	TX	rep		15	Democrat	1/3/2019	1/3/2021	https://gonzalez.house.gov	(202) 225-2531
+lance-gooden	Lance	Gooden	TX-rep-5	RepLanceGooden	TX	rep		5	Republican	1/3/2019	1/3/2021		(202) 225-3484
+paul-gosar	Paul	Gosar	AZ-rep-4	RepGosar	AZ	rep		4	Republican	1/3/2019	1/3/2021	https://gosar.house.gov	(202) 225-2315
+josh-gottheimer	Josh	Gottheimer	NJ-rep-5	JoshGottheimer	NJ	rep		5	Democrat	1/3/2019	1/3/2021	https://gottheimer.house.gov	(202) 225-4465
+kay-granger	Kay	Granger	TX-rep-12	RepKayGranger	TX	rep		12	Republican	1/3/2019	1/3/2021	https://kaygranger.house.gov	(202) 225-5071
+tom-graves	Tom	Graves	GA-rep-14	RepGarretGraves	GA	rep		14	Republican	1/3/2019	1/3/2021	https://tomgraves.house.gov	(202) 225-5211
+garret-graves	Garret	Graves	LA-rep-6	RepSamGraves	LA	rep		6	Republican	1/3/2019	1/3/2021	https://garretgraves.house.gov	(202) 225-3901
+sam-graves	Sam	Graves	MO-rep-6	RepTomGraves	MO	rep		6	Republican	1/3/2019	1/3/2021	https://graves.house.gov	(202) 225-7041
+mark-green	Mark	Green	TN-rep-7	RepAlGreen	TN	rep		7	Republican	1/3/2019	1/3/2021		(202) 225-2811
+al-green	Al	Green	TX-rep-9	RepMarkGreen	TX	rep		9	Democrat	1/3/2019	1/3/2021	https://algreen.house.gov	(202) 225-7508
+h-griffith	H.	Griffith	VA-rep-9	RepMGriffith	VA	rep		9	Republican	1/3/2019	1/3/2021	https://morgangriffith.house.gov	(202) 225-3861
+raul-grijalva	Ra'ul	Grijalva	AZ-rep-3	RepRaulGrijalva	AZ	rep		3	Democrat	1/3/2019	1/3/2021	https://grijalva.house.gov	(202) 225-2435
+glenn-grothman	Glenn	Grothman	WI-rep-6	RepGrothman	WI	rep		6	Republican	1/3/2019	1/3/2021	https://grothman.house.gov	(202) 225-2476
+michael-guest	Michael	Guest	MS-rep-3	RepMichaelGuest	MS	rep		3	Republican	1/3/2019	1/3/2021		(202) 225-5031
+brett-guthrie	Brett	Guthrie	KY-rep-2	RepGuthrie	KY	rep		2	Republican	1/3/2019	1/3/2021	https://guthrie.house.gov	(202) 225-3501
+debra-haaland	Debra	Haaland	NM-rep-1	RepDebHaaland	NM	rep		1	Democrat	1/3/2019	1/3/2021		(202) 225-6316
+jim-hagedorn	Jim	Hagedorn	MN-rep-1	RepHagedorn	MN	rep		1	Republican	1/3/2019	1/3/2021		(202) 225-2472
+josh-harder	Josh	Harder	CA-rep-10	RepJoshHarder	CA	rep		10	Democrat	1/3/2019	1/3/2021		(202) 225-4540
+andy-harris	Andy	Harris	MD-rep-1	RepAndyHarrisMD	MD	rep		1	Republican	1/3/2019	1/3/2021	https://harris.house.gov	(202) 225-5311
+vicky-hartzler	Vicky	Hartzler	MO-rep-4	RepHartzler	MO	rep		4	Republican	1/3/2019	1/3/2021	https://hartzler.house.gov	(202) 225-2876
+alcee-hastings	Alcee	Hastings	FL-rep-20	RepHastingsFL	FL	rep		20	Democrat	1/3/2019	1/3/2021	https://alceehastings.house.gov	(202) 225-1313
+jahana-hayes	Jahana	Hayes	CT-rep-5	RepJahanaHayes	CT	rep		5	Democrat	1/3/2019	1/3/2021		(202) 225-4476
+denny-heck	Denny	Heck	WA-rep-10	RepDennyHeck	WA	rep		10	Democrat	1/3/2019	1/3/2021	https://dennyheck.house.gov	(202) 225-9740
+kevin-hern	Kevin	Hern	OK-rep-1	RepKevinHern	OK	rep		1	Republican	1/3/2019	1/3/2021	https://hern.house.gov	(202) 225-2211
+jaime-herrera-beutler	Jaime	Herrera Beutler	WA-rep-3	HerreraBeutler	WA	rep		3	Republican	1/3/2019	1/3/2021	https://herrerabeutler.house.gov	(202) 225-3536
+jody-hice	Jody	Hice	GA-rep-10	CongressmanHice	GA	rep		10	Republican	1/3/2019	1/3/2021	https://hice.house.gov	(202) 225-4101
+clay-higgins	Clay	Higgins	LA-rep-3	CaptClayHIggins	LA	rep		3	Republican	1/3/2019	1/3/2021	https://clayhiggins.house.gov	(202) 225-2031
+brian-higgins	Brian	Higgins	NY-rep-26	RepBrianHiggins	NY	rep		26	Democrat	1/3/2019	1/3/2021	https://higgins.house.gov	(202) 225-3306
+french-hill	French	Hill	AR-rep-2	RepFrenchHill	AR	rep		2	Republican	1/3/2019	1/3/2021	https://hill.house.gov	(202) 225-2506
+katie-hill	Katie	Hill	CA-rep-25	RepKatieHill	CA	rep		25	Democrat	1/3/2019	1/3/2021		(202) 225-1956
+james-himes	James	Himes	CT-rep-4	jahimes	CT	rep		4	Democrat	1/3/2019	1/3/2021	https://himes.house.gov	(202) 225-5541
+george-holding	George	Holding	NC-rep-2	GeorgeHolding	NC	rep		2	Republican	1/3/2019	1/3/2021	https://holding.house.gov	(202) 225-3032
+trey-hollingsworth	Trey	Hollingsworth	IN-rep-9	VoteForTrey	IN	rep		9	Republican	1/3/2019	1/3/2021	https://hollingsworth.house.gov	(202) 225-5315
+kendra-horn	Kendra	Horn	OK-rep-5	RepKendraHorn	OK	rep		5	Democrat	1/3/2019	1/3/2021		(202) 225-2132
+steven-horsford	Steven	Horsford	NV-rep-4	RepHorsford	NV	rep		4	Democrat	1/3/2019	1/3/2021	http://horsford.house.gov	(202) 225-9894
+chrissy-houlahan	Chrissy	Houlahan	PA-rep-6	RepHoulahan	PA	rep		6	Democrat	1/3/2019	1/3/2021		(202) 225-4315
+steny-hoyer	Steny	Hoyer	MD-rep-5	WhipHoyer	MD	rep		5	Democrat	1/5/2011	1/3/2013	http://hoyer.house.gov	202-225-4131
+richard-hudson	Richard	Hudson	NC-rep-8	RepRichHudson	NC	rep		8	Republican	1/3/2019	1/3/2021	https://hudson.house.gov	(202) 225-3715
+jared-huffman	Jared	Huffman	CA-rep-2	RepHuffman	CA	rep		2	Democrat	1/3/2019	1/3/2021	https://huffman.house.gov	(202) 225-5161
+bill-huizenga	Bill	Huizenga	MI-rep-2	RepHuizenga	MI	rep		2	Republican	1/3/2019	1/3/2021	https://huizenga.house.gov	(202) 225-4401
+duncan-hunter	Duncan	Hunter	CA-rep-50	Rep_Hunter	CA	rep		50	Republican	1/3/2019	1/3/2021	https://hunter.house.gov	(202) 225-5672
+will-hurd	Will	Hurd	TX-rep-23	HurdOnTheHill	TX	rep		23	Republican	1/3/2019	1/3/2021	https://hurd.house.gov	(202) 225-4511
+sheila-jackson-lee	Sheila	Jackson Lee	TX-rep-18	JacksonLeeTX18	TX	rep		18	Democrat	1/3/2019	1/3/2021	https://jacksonlee.house.gov	(202) 225-3816
+pramila-jayapal	Pramila	Jayapal	WA-rep-7	PramilaJayapal	WA	rep		7	Democrat	1/3/2019	1/3/2021	https://jayapal.house.gov	(202) 225-3106
+hakeem-jeffries	Hakeem	Jeffries	NY-rep-8	RepJeffries	NY	rep		8	Democrat	1/3/2019	1/3/2021	https://jeffries.house.gov	(202) 225-5936
+henry-johnson	Henry	Johnson	GA-rep-4	RepHankJohnson	GA	rep		4	Democrat	1/3/2019	1/3/2021	https://hankjohnson.house.gov	(202) 225-1605
+mike-johnson	Mike	Johnson	LA-rep-4	RepMikeJohnson	LA	rep		4	Republican	1/3/2019	1/3/2021	https://mikejohnson.house.gov	(202) 225-2777
+bill-johnson	Bill	Johnson	OH-rep-6	RepBillJohnson	OH	rep		6	Republican	1/3/2019	1/3/2021	https://billjohnson.house.gov	(202) 225-5705
+dusty-johnson	Dusty	Johnson	SD-rep-0	RepDustyJohnson	SD	rep		0	Republican	1/3/2019	1/3/2021		(202) 225-2801
+eddie-johnson	Eddie	Johnson	TX-rep-30	RepEBJ	TX	rep		30	Democrat	1/3/2019	1/3/2021	https://ebjohnson.house.gov	(202) 225-8885
+walter-jones	Walter	Jones	NC-rep-3	RepWalterJones	NC	rep		3	Republican	1/3/2019	1/3/2021	https://jones.house.gov	(202) 225-3415
+jim-jordan	Jim	Jordan	OH-rep-4	Jim_Jordan	OH	rep		4	Republican	1/3/2019	1/3/2021	https://jordan.house.gov	(202) 225-2676
+david-joyce	David	Joyce	OH-rep-14	RepDaveJoyce	OH	rep		14	Republican	1/3/2019	1/3/2021	https://joyce.house.gov	(202) 225-5731
+john-joyce	John	Joyce	PA-rep-13	RepJohnJoyce	PA	rep		13	Republican	1/3/2019	1/3/2021		(202) 225-2431
+marcy-kaptur	Marcy	Kaptur	OH-rep-9	RepMarcyKaptur	OH	rep		9	Democrat	1/3/2013	1/3/2015	http://www.kaptur.house.gov	202-225-4146
+john-katko	John	Katko	NY-rep-24	RepJohnKatko	NY	rep		24	Republican	1/3/2019	1/3/2021	https://katko.house.gov	(202) 225-3701
+william-keating	William	Keating	MA-rep-9	USRepKeating	MA	rep		9	Democrat	1/3/2019	1/3/2021	https://keating.house.gov	(202) 225-3111
+robin-kelly	Robin	Kelly	IL-rep-2	MikeKellyforPA	IL	rep		2	Democrat	1/3/2019	1/3/2021	https://robinkelly.house.gov	(202) 225-0773
+trent-kelly	Trent	Kelly	MS-rep-1	RepRobinKelly	MS	rep		1	Republican	1/3/2019	1/3/2021	https://trentkelly.house.gov	(202) 225-4306
+mike-kelly	Mike	Kelly	PA-rep-16	RepTrentKelly	PA	rep		16	Republican	1/3/2019	1/3/2021	https://kelly.house.gov	(202) 225-5406
+joseph-kennedy	Joseph	Kennedy	MA-rep-4	RepJoeKennedy	MA	rep		4	Democrat	1/3/2019	1/3/2021	https://kennedy.house.gov	(202) 225-5931
+ro-khanna	Ro	Khanna	CA-rep-17	RoKhannaUSA	CA	rep		17	Democrat	1/3/2019	1/3/2021	https://khanna.house.gov	(202) 225-2631
+daniel-kildee	Daniel	Kildee	MI-rep-5	RepDanKildee	MI	rep		5	Democrat	1/3/2019	1/3/2021	https://dankildee.house.gov	(202) 225-3611
+derek-kilmer	Derek	Kilmer	WA-rep-6	RepDerekKilmer	WA	rep		6	Democrat	1/3/2019	1/3/2021	https://kilmer.house.gov	(202) 225-5916
+andy-kim	Andy	Kim	NJ-rep-3	RepAndyKimNJ	NJ	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-4765
+ron-kind	Ron	Kind	WI-rep-3	RepRonKind	WI	rep		3	Democrat	1/3/2019	1/3/2021	https://kind.house.gov	(202) 225-5506
+steve-king	Steve	King	IA-rep-4	RepPeteKing	IA	rep		4	Republican	1/3/2019	1/3/2021	https://steveking.house.gov	(202) 225-4426
+peter-king	Peter	King	NY-rep-2	SteveKingIA	NY	rep		2	Republican	1/3/2019	1/3/2021	https://peteking.house.gov	(202) 225-7896
+adam-kinzinger	Adam	Kinzinger	IL-rep-16	RepKinzinger	IL	rep		16	Republican	1/3/2019	1/3/2021	https://kinzinger.house.gov	(202) 225-3635
+ann-kirkpatrick	Ann	Kirkpatrick	AZ-rep-2	RepKirkPatrick	AZ	rep		2	Democrat	1/3/2019	1/3/2021	http://kirkpatrick.house.gov	(202) 225-2542
+raja-krishnamoorthi	Raja	Krishnamoorthi	IL-rep-8	RajaForCongress	IL	rep		8	Democrat	1/3/2019	1/3/2021	https://krishnamoorthi.house.gov	(202) 225-3711
+ann-kuster	Ann	Kuster	NH-rep-2	RepAnnieKuster	NH	rep		2	Democrat	1/3/2019	1/3/2021	https://kuster.house.gov	(202) 225-5206
+david-kustoff	David	Kustoff	TN-rep-8	DavidKustoff	TN	rep		8	Republican	1/3/2019	1/3/2021	https://kustoff.house.gov	(202) 225-4714
+darin-lahood	Darin	LaHood	IL-rep-18	ElectLaHood	IL	rep		18	Republican	1/3/2019	1/3/2021	https://lahood.house.gov	(202) 225-6201
+doug-lamalfa	Doug	LaMalfa	CA-rep-1	RepLaMalfa	CA	rep		1	Republican	1/3/2019	1/3/2021	https://lamalfa.house.gov	(202) 225-3076
+conor-lamb	Conor	Lamb	PA-rep-17	RepConorLamb	PA	rep		17	Democrat	1/3/2019	1/3/2021	https://lamb.house.gov/	(202) 225-2301
+doug-lamborn	Doug	Lamborn	CO-rep-5	RepDLamborn	CO	rep		5	Republican	1/3/2019	1/3/2021	https://lamborn.house.gov	(202) 225-4422
+james-langevin	James	Langevin	RI-rep-2	jimlangevin	RI	rep		2	Democrat	1/3/2019	1/3/2021	https://langevin.house.gov	(202) 225-2735
+rick-larsen	Rick	Larsen	WA-rep-2	RepRickLarsen	WA	rep		2	Democrat	1/3/2019	1/3/2021	https://larsen.house.gov	(202) 225-2605
+john-larson	John	Larson	CT-rep-1	RepJohnLarson	CT	rep		1	Democrat	1/3/2019	1/3/2021	https://larson.house.gov	(202) 225-2265
+robert-latta	Robert	Latta	OH-rep-5	boblatta	OH	rep		5	Republican	1/3/2019	1/3/2021	https://latta.house.gov	(202) 225-6405
+brenda-lawrence	Brenda	Lawrence	MI-rep-14	RepLawrence	MI	rep		14	Democrat	1/3/2019	1/3/2021	https://lawrence.house.gov	(202) 225-5802
+al-lawson	Al	Lawson	FL-rep-5	AlLawsonJr	FL	rep		5	Democrat	1/3/2019	1/3/2021	https://lawson.house.gov	(202) 225-0123
+barbara-lee	Barbara	Lee	CA-rep-13	RepBarbaraLee	CA	rep		13	Democrat	1/3/2019	1/3/2021	https://lee.house.gov	(202) 225-2661
+susie-lee	Susie	Lee	NV-rep-3	RepSusieLee	NV	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-3252
+debbie-lesko	Debbie	Lesko	AZ-rep-8	RepDLesko	AZ	rep		8	Republican	1/3/2019	1/3/2021	https://lesko.house.gov/	(202) 225-4576
+mike-levin	Mike	Levin	CA-rep-49	RepMikeLevin	CA	rep		49	Democrat	1/3/2019	1/3/2021		(202) 225-3906
+andy-levin	Andy	Levin	MI-rep-9	repsandylevin	MI	rep		9	Democrat	1/3/2019	1/3/2021		(202) 225-4961
+john-lewis	John	Lewis	GA-rep-5	repjohnlewis	GA	rep		5	Democrat	1/3/2017	1/3/2019	https://johnlewis.house.gov	202-225-3801
+ted-lieu	Ted	Lieu	CA-rep-33	RepTedLieu	CA	rep		33	Democrat	1/3/2019	1/3/2021	https://lieu.house.gov	(202) 225-3976
+daniel-lipinski	Daniel	Lipinski	IL-rep-3	RepLipinski	IL	rep		3	Democrat	1/3/2019	1/3/2021	https://lipinski.house.gov	(202) 225-5701
+david-loebsack	David	Loebsack	IA-rep-2	daveloebsack	IA	rep		2	Democrat	1/3/2019	1/3/2021	https://loebsack.house.gov	(202) 225-6576
+zoe-lofgren	Zoe	Lofgren	CA-rep-19	RepZoeLofgren	CA	rep		19	Democrat	1/3/2019	1/3/2021	https://lofgren.house.gov	(202) 225-3072
+billy-long	Billy	Long	MO-rep-7	USRepLong	MO	rep		7	Republican	1/3/2019	1/3/2021	https://long.house.gov	(202) 225-6536
+barry-loudermilk	Barry	Loudermilk	GA-rep-11	RepLoudermilk	GA	rep		11	Republican	1/3/2019	1/3/2021	https://loudermilk.house.gov	(202) 225-2931
+alan-lowenthal	Alan	Lowenthal	CA-rep-47	RepLowenthal	CA	rep		47	Democrat	1/3/2019	1/3/2021	https://lowenthal.house.gov	(202) 225-7924
+nita-lowey	Nita	Lowey	NY-rep-17	NitaLowey	NY	rep		17	Democrat	1/3/2019	1/3/2021	https://lowey.house.gov	(202) 225-6506
+frank-lucas	Frank	Lucas	OK-rep-3	RepFrankLucas	OK	rep		3	Republican	1/3/2019	1/3/2021	https://lucas.house.gov	(202) 225-5565
+blaine-luetkemeyer	Blaine	Luetkemeyer	MO-rep-3	RepBlainePress	MO	rep		3	Republican	1/3/2019	1/3/2021	https://luetkemeyer.house.gov	(202) 225-2956
+ben-lujan	Ben	Luj'an	NM-rep-3	repbenraylujan	NM	rep		3	Democrat	1/3/2019	1/3/2021	https://lujan.house.gov	(202) 225-6190
+elaine-luria	Elaine	Luria	VA-rep-2	RepElaineLuria	VA	rep		2	Democrat	1/3/2019	1/3/2021		(202) 225-4215
+stephen-lynch	Stephen	Lynch	MA-rep-8	RepStephenLynch	MA	rep		8	Democrat	1/3/2019	1/3/2021	https://lynch.house.gov	(202) 225-8273
+tom-malinowski	Tom	Malinowski	NJ-rep-7	RepMalinowski	NJ	rep		7	Democrat	1/3/2019	1/3/2021		(202) 225-5361
+carolyn-maloney	Carolyn	Maloney	NY-rep-12	RepMaloney	NY	rep		12	Democrat	1/3/2019	1/3/2021	https://maloney.house.gov	(202) 225-7944
+sean-maloney	Sean	Maloney	NY-rep-18	RepSeanMaloney	NY	rep		18	Democrat	1/3/2019	1/3/2021	https://seanmaloney.house.gov	(202) 225-5441
+kenny-marchant	Kenny	Marchant	TX-rep-24	RepKenMarchant	TX	rep		24	Republican	1/3/2019	1/3/2021	https://marchant.house.gov	(202) 225-6605
+tom-marino	Tom	Marino	PA-rep-12		PA	rep		12	Republican	1/3/2019	1/3/2021	https://marino.house.gov	(202) 225-3731
+roger-marshall	Roger	Marshall	KS-rep-1	RogerMarshallMD	KS	rep		1	Republican	1/3/2019	1/3/2021	https://marshall.house.gov	(202) 225-2715
+thomas-massie	Thomas	Massie	KY-rep-4	RepThomasMassie	KY	rep		4	Republican	1/3/2019	1/3/2021	https://massie.house.gov	(202) 225-3465
+brian-mast	Brian	Mast	FL-rep-18	BrianMastFL	FL	rep		18	Republican	1/3/2019	1/3/2021	https://mast.house.gov	(202) 225-3026
+doris-matsui	Doris	Matsui	CA-rep-6	DorisMatsui	CA	rep		6	Democrat	1/3/2019	1/3/2021	http://matsui.house.gov	(202) 225-7163
+ben-mcadams	Ben	McAdams	UT-rep-4	RepBenMcAdams	UT	rep		4	Democrat	1/3/2019	1/3/2021		(202) 225-3011
+lucy-mcbath	Lucy	McBath	GA-rep-6	RepLucyMcBath	GA	rep		6	Democrat	1/3/2019	1/3/2021		(202) 225-4501
+kevin-mccarthy	Kevin	McCarthy	CA-rep-23	GOPLeader	CA	rep		23	Republican	1/3/2019	1/3/2021	https://kevinmccarthy.house.gov	(202) 225-2915
+michael-mccaul	Michael	McCaul	TX-rep-10	RepMcCaul	TX	rep		10	Republican	1/3/2019	1/3/2021	https://mccaul.house.gov	(202) 225-2401
+tom-mcclintock	Tom	McClintock	CA-rep-4	RepMcClintock	CA	rep		4	Republican	1/3/2019	1/3/2021	https://mcclintock.house.gov	(202) 225-2511
+betty-mccollum	Betty	McCollum	MN-rep-4	BettyMcCollum04	MN	rep		4	Democrat	1/3/2019	1/3/2021	https://mccollum.house.gov	(202) 225-6631
+a-mceachin	A.	McEachin	VA-rep-4	Donald_McEachin	VA	rep		4	Democrat	1/3/2019	1/3/2021	https://mceachin.house.gov	(202) 225-6365
+james-mcgovern	James	McGovern	MA-rep-2	RepMcGovern	MA	rep		2	Democrat	1/3/2019	1/3/2021	https://mcgovern.house.gov	(202) 225-6101
+patrick-mchenry	Patrick	McHenry	NC-rep-10	PatrickMcHenry	NC	rep		10	Republican	1/3/2019	1/3/2021	https://mchenry.house.gov	(202) 225-2576
+david-mckinley	David	McKinley	WV-rep-1	RepMcKinley	WV	rep		1	Republican	1/3/2019	1/3/2021	https://mckinley.house.gov	(202) 225-4172
+cathy-mcmorris-rodgers	Cathy	McMorris Rodgers	WA-rep-5	cathymcmorris	WA	rep		5	Republican	1/3/2019	1/3/2021	https://mcmorris.house.gov	(202) 225-2006
+jerry-mcnerney	Jerry	McNerney	CA-rep-9	RepMcNerney	CA	rep		9	Democrat	1/3/2019	1/3/2021	https://mcnerney.house.gov	(202) 225-1947
+mark-meadows	Mark	Meadows	NC-rep-11	RepMarkMeadows	NC	rep		11	Republican	1/3/2019	1/3/2021	https://meadows.house.gov	(202) 225-6401
+gregory-meeks	Gregory	Meeks	NY-rep-5	GregoryMeeks	NY	rep		5	Democrat	1/3/2019	1/3/2021	https://meeks.house.gov	(202) 225-3461
+grace-meng	Grace	Meng	NY-rep-6	RepGraceMeng	NY	rep		6	Democrat	1/3/2019	1/3/2021	https://meng.house.gov	(202) 225-2601
+daniel-meuser	Daniel	Meuser	PA-rep-9	RepMeuser	PA	rep		9	Republican	1/3/2019	1/3/2021		(202) 225-6511
+carol-miller	Carol	Miller	WV-rep-3	RepCarolMiller	WV	rep		3	Republican	1/3/2019	1/3/2021		(202) 225-3452
+paul-mitchell	Paul	Mitchell	MI-rep-10	PaulMitchell4us	MI	rep		10	Republican	1/3/2019	1/3/2021	https://mitchell.house.gov	(202) 225-2106
+john-moolenaar	John	Moolenaar	MI-rep-4	RepMoolenaar	MI	rep		4	Republican	1/3/2019	1/3/2021	https://moolenaar.house.gov	(202) 225-3561
+alex-mooney	Alex	Mooney	WV-rep-2	RepAlexMooney	WV	rep		2	Republican	1/3/2019	1/3/2021	https://mooney.house.gov	(202) 225-2711
+gwen-moore	Gwen	Moore	WI-rep-4	RepGwenMoore	WI	rep		4	Democrat	1/3/2019	1/3/2021	https://gwenmoore.house.gov	(202) 225-4572
+joseph-morelle	Joseph	Morelle	NY-rep-25	RepJoeMorelle	NY	rep		25	Democrat	1/3/2019	1/3/2021	https://morelle.house.gov	(202) 225-3615
+seth-moulton	Seth	Moulton	MA-rep-6	teammoulton	MA	rep		6	Democrat	1/3/2019	1/3/2021	https://moulton.house.gov	(202) 225-8020
+debbie-mucarsel-powell	Debbie	Mucarsel-Powell	FL-rep-26	RepDMP	FL	rep		26	Democrat	1/3/2019	1/3/2021		(202) 225-2778
+markwayne-mullin	Markwayne	Mullin	OK-rep-2	RepMullin	OK	rep		2	Republican	1/3/2019	1/3/2021	https://mullin.house.gov	(202) 225-2701
+stephanie-murphy	Stephanie	Murphy	FL-rep-7	SMurphyCongress	FL	rep		7	Democrat	1/3/2019	1/3/2021	https://stephaniemurphy.house.gov	(202) 225-4035
+jerrold-nadler	Jerrold	Nadler	NY-rep-10	RepJerryNadler	NY	rep		10	Democrat	1/3/2019	1/3/2021	https://nadler.house.gov	(202) 225-5635
+grace-napolitano	Grace	Napolitano	CA-rep-32	gracenapolitano	CA	rep		32	Democrat	1/3/2019	1/3/2021	https://napolitano.house.gov	(202) 225-5256
+richard-neal	Richard	Neal	MA-rep-1	RepRichardNeal	MA	rep		1	Democrat	1/3/2019	1/3/2021	https://neal.house.gov	(202) 225-5601
+joe-neguse	Joe	Neguse	CO-rep-2	RepJoeNeguse	CO	rep		2	Democrat	1/3/2019	1/3/2021		(202) 225-2161
+dan-newhouse	Dan	Newhouse	WA-rep-4	RepNewhouse	WA	rep		4	Republican	1/3/2019	1/3/2021	https://newhouse.house.gov	(202) 225-5816
+donald-norcross	Donald	Norcross	NJ-rep-1	DonNorcross4NJ	NJ	rep		1	Democrat	1/3/2019	1/3/2021	https://norcross.house.gov	(202) 225-6501
+ralph-norman	Ralph	Norman	SC-rep-5	RepRalphNorman	SC	rep		5	Republican	1/3/2019	1/3/2021	https://norman.house.gov	(202) 225-5501
+devin-nunes	Devin	Nunes	CA-rep-22	Rep_DevinNunes	CA	rep		22	Republican	1/3/2019	1/3/2021	https://nunes.house.gov	(202) 225-2523
+tom-ohalleran	Tom	O'Halleran	AZ-rep-1	TomOHalleran	AZ	rep		1	Democrat	1/3/2019	1/3/2021	https://ohalleran.house.gov	(202) 225-3361
+alexandria-ocasio-cortez	Alexandria	Ocasio-Cortez	NY-rep-14	RepAOC	NY	rep		14	Democrat	1/3/2019	1/3/2021		(202) 225-3965
+pete-olson	Pete	Olson	TX-rep-22	PeteOlson	TX	rep		22	Republican	1/3/2019	1/3/2021	https://olson.house.gov	(202) 225-5951
+ilhan-omar	Ilhan	Omar	MN-rep-5	Ilhan	MN	rep		5	Democrat	1/3/2019	1/3/2021		(202) 225-4755
+steven-palazzo	Steven	Palazzo	MS-rep-4	CongPalazzo	MS	rep		4	Republican	1/3/2019	1/3/2021	https://palazzo.house.gov	(202) 225-5772
+frank-pallone	Frank	Pallone	NJ-rep-6	FrankPallone	NJ	rep		6	Democrat	1/3/2017	1/3/2019	https://pallone.house.gov	202-225-4671
+gary-palmer	Gary	Palmer	AL-rep-6	USRepGaryPalmer	AL	rep		6	Republican	1/3/2019	1/3/2021	https://palmer.house.gov	(202) 225-4921
+jimmy-panetta	Jimmy	Panetta	CA-rep-20	JimmyPanetta	CA	rep		20	Democrat	1/3/2019	1/3/2021	https://panetta.house.gov	(202) 225-2861
+chris-pappas	Chris	Pappas	NH-rep-1	RepChrisPappas	NH	rep		1	Democrat	1/3/2019	1/3/2021		(202) 225-5456
+bill-pascrell	Bill	Pascrell	NJ-rep-9	BillPascrell	NJ	rep		9	Democrat	1/3/2019	1/3/2021	https://pascrell.house.gov	(202) 225-5751
+donald-payne	Donald	Payne	NJ-rep-10	RepDonaldPayne	NJ	rep		10	Democrat	1/3/2019	1/3/2021	https://payne.house.gov	(202) 225-3436
+nancy-pelosi	Nancy	Pelosi	CA-rep-12	NancyPelosi	CA	rep		12	Democrat	1/3/2017	1/3/2019	https://pelosi.house.gov	202-225-4965
+greg-pence	Greg	Pence	IN-rep-6	RepGregPence	IN	rep		6	Republican	1/3/2019	1/3/2021		(202) 225-3021
+ed-perlmutter	Ed	Perlmutter	CO-rep-7	RepPerlmutter	CO	rep		7	Democrat	1/3/2019	1/3/2021	https://perlmutter.house.gov	(202) 225-2645
+scott-perry	Scott	Perry	PA-rep-10	RepScottPerry	PA	rep		10	Republican	1/3/2019	1/3/2021	https://perry.house.gov	(202) 225-5836
+scott-peters	Scott	Peters	CA-rep-52	RepScottPeters	CA	rep		52	Democrat	1/3/2019	1/3/2021	https://scottpeters.house.gov	(202) 225-0508
+collin-peterson	Collin	Peterson	MN-rep-7	collinpeterson	MN	rep		7	Democrat	1/3/2019	1/3/2021	https://collinpeterson.house.gov	(202) 225-2165
+dean-phillips	Dean	Phillips	MN-rep-3	RepDeanPhillips	MN	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-2871
+chellie-pingree	Chellie	Pingree	ME-rep-1	chelliepingree	ME	rep		1	Democrat	1/3/2019	1/3/2021	https://pingree.house.gov	(202) 225-6116
+mark-pocan	Mark	Pocan	WI-rep-2	repmarkpocan	WI	rep		2	Democrat	1/3/2019	1/3/2021	https://pocan.house.gov	(202) 225-2906
+katie-porter	Katie	Porter	CA-rep-45	RepKatiePorter	CA	rep		45	Democrat	1/3/2019	1/3/2021		(202) 225-5611
+bill-posey	Bill	Posey	FL-rep-8	congbillposey	FL	rep		8	Republican	1/3/2019	1/3/2021	https://posey.house.gov	(202) 225-3671
+ayanna-pressley	Ayanna	Pressley	MA-rep-7	RepPressley	MA	rep		7	Democrat	1/3/2019	1/3/2021		(202) 225-5111
+david-price	David	Price	NC-rep-4	RepDavidEPrice	NC	rep		4	Democrat	1/3/2019	1/3/2021	https://price.house.gov	(202) 225-1784
+mike-quigley	Mike	Quigley	IL-rep-5	RepMikeQuigley	IL	rep		5	Democrat	1/3/2019	1/3/2021	https://quigley.house.gov	(202) 225-4061
+jamie-raskin	Jamie	Raskin	MD-rep-8	Jamie_Raskin	MD	rep		8	Democrat	1/3/2019	1/3/2021	https://raskin.house.gov	(202) 225-5341
+john-ratcliffe	John	Ratcliffe	TX-rep-4	RepRatcliffe	TX	rep		4	Republican	1/3/2019	1/3/2021	https://ratcliffe.house.gov	(202) 225-6673
+tom-reed	Tom	Reed	NY-rep-23	RepTomReed	NY	rep		23	Republican	1/3/2019	1/3/2021	https://reed.house.gov	(202) 225-3161
+guy-reschenthaler	Guy	Reschenthaler	PA-rep-14	GReschenthaler	PA	rep		14	Republican	1/3/2019	1/3/2021		(202) 225-2065
+kathleen-rice	Kathleen	Rice	NY-rep-4	RepKathleenRice	NY	rep		4	Democrat	1/3/2019	1/3/2021	https://kathleenrice.house.gov	(202) 225-5516
+tom-rice	Tom	Rice	SC-rep-7	RepTomRice	SC	rep		7	Republican	1/3/2019	1/3/2021	https://rice.house.gov	(202) 225-9895
+cedric-richmond	Cedric	Richmond	LA-rep-2	RepRichmond	LA	rep		2	Democrat	1/3/2019	1/3/2021	https://richmond.house.gov	(202) 225-6636
+denver-riggleman	Denver	Riggleman	VA-rep-5	RepRiggleman	VA	rep		5	Republican	1/3/2019	1/3/2021		(202) 225-4711
+martha-roby	Martha	Roby	AL-rep-2	RepMarthaRoby	AL	rep		2	Republican	1/3/2019	1/3/2021	https://roby.house.gov	(202) 225-2901
+david-roe	David	Roe	TN-rep-1	DrPhilRoe	TN	rep		1	Republican	1/3/2019	1/3/2021	https://roe.house.gov	(202) 225-6356
+mike-rogers	Mike	Rogers	AL-rep-3	RepMikeRogersAL	AL	rep		3	Republican	1/3/2019	1/3/2021	https://mikerogers.house.gov	(202) 225-3261
+harold-rogers	Harold	Rogers	KY-rep-5	RepHalRogers	KY	rep		5	Republican	1/5/2011	1/3/2013	http://halrogers.house.gov	202-225-4601
+francis-rooney	Francis	Rooney	FL-rep-19	FrancisRooney	FL	rep		19	Republican	1/3/2019	1/3/2021	https://francisrooney.house.gov	(202) 225-2536
+max-rose	Max	Rose	NY-rep-11	RepMaxRose	NY	rep		11	Democrat	1/3/2019	1/3/2021		(202) 225-3371
+john-rose	John	Rose	TN-rep-6	RepJohnRose	TN	rep		6	Republican	1/3/2019	1/3/2021		(202) 225-4231
+harley-rouda	Harley	Rouda	CA-rep-48	RepHarley	CA	rep		48	Democrat	1/3/2019	1/3/2021		(202) 225-2415
+david-rouzer	David	Rouzer	NC-rep-7	RepDavidRouzer	NC	rep		7	Republican	1/3/2019	1/3/2021	https://rouzer.house.gov	(202) 225-2731
+chip-roy	Chip	Roy	TX-rep-21	RepChipRoy	TX	rep		21	Republican	1/3/2019	1/3/2021		(202) 225-4236
+lucille-roybal-allard	Lucille	Roybal-Allard	CA-rep-40	RepRoybalAllard	CA	rep		40	Democrat	1/3/2019	1/3/2021	https://roybal-allard.house.gov	(202) 225-1766
+raul-ruiz	Raul	Ruiz	CA-rep-36	CongressmanRuiz	CA	rep		36	Democrat	1/3/2019	1/3/2021	https://ruiz.house.gov	(202) 225-5330
+c-ruppersberger	C.	Ruppersberger	MD-rep-2	Call_Me_Dutch	MD	rep		2	Democrat	1/3/2019	1/3/2021	https://ruppersberger.house.gov	(202) 225-3061
+bobby-rush	Bobby	Rush	IL-rep-1	RepBobbyRush	IL	rep		1	Democrat	1/3/2019	1/3/2021	https://rush.house.gov	(202) 225-4372
+john-rutherford	John	Rutherford	FL-rep-4	JRutherfordFL	FL	rep		4	Republican	1/3/2019	1/3/2021	https://rutherford.house.gov	(202) 225-2501
+tim-ryan	Tim	Ryan	OH-rep-13	RepTimRyan	OH	rep		13	Democrat	1/3/2019	1/3/2021	https://timryan.house.gov	(202) 225-5261
+linda-sanchez	Linda	S'anchez	CA-rep-38	RepLindaSanchez	CA	rep		38	Democrat	1/3/2019	1/3/2021	https://lindasanchez.house.gov	(202) 225-6676
+john-sarbanes	John	Sarbanes	MD-rep-3	RepSarbanes	MD	rep		3	Democrat	1/3/2019	1/3/2021	https://sarbanes.house.gov	(202) 225-4016
+steve-scalise	Steve	Scalise	LA-rep-1	SteveScalise	LA	rep		1	Republican	1/3/2019	1/3/2021	https://scalise.house.gov	(202) 225-3015
+mary-scanlon	Mary	Scanlon	PA-rep-5	RepMGS	PA	rep		5	Democrat	1/3/2019	1/3/2021	https://scanlon.house.gov	(202) 225-2011
+janice-schakowsky	Janice	Schakowsky	IL-rep-9	janschakowsky	IL	rep		9	Democrat	1/3/2019	1/3/2021	https://schakowsky.house.gov	(202) 225-2111
+adam-schiff	Adam	Schiff	CA-rep-28	RepAdamSchiff	CA	rep		28	Democrat	1/3/2019	1/3/2021	https://schiff.house.gov	(202) 225-4176
+bradley-schneider	Bradley	Schneider	IL-rep-10	RepSchneider	IL	rep		10	Democrat	1/3/2019	1/3/2021	https://schneider.house.gov	(202) 225-4835
+kurt-schrader	Kurt	Schrader	OR-rep-5	RepSchrader	OR	rep		5	Democrat	1/3/2019	1/3/2021	https://schrader.house.gov	(202) 225-5711
+kim-schrier	Kim	Schrier	WA-rep-8	RepKimSchrier	WA	rep		8	Democrat	1/3/2019	1/3/2021		(202) 225-7761
+david-schweikert	David	Schweikert	AZ-rep-6	RepDavid	AZ	rep		6	Republican	1/3/2019	1/3/2021	https://schweikert.house.gov	(202) 225-2190
+david-scott	David	Scott	GA-rep-13	AustinScottGA08	GA	rep		13	Democrat	1/3/2019	1/3/2021	https://davidscott.house.gov	(202) 225-2939
+austin-scott	Austin	Scott	GA-rep-8	repdavidscott	GA	rep		8	Republican	1/3/2019	1/3/2021	https://austinscott.house.gov	(202) 225-6531
+robert-scott	Robert	Scott	VA-rep-3	repbobbyscott	VA	rep		3	Democrat	1/3/2019	1/3/2021	https://bobbyscott.house.gov	(202) 225-8351
+f-sensenbrenner	F.	Sensenbrenner	WI-rep-5	JimPressOffice	WI	rep		5	Republican	1/6/2009	1/3/2011	http://www.house.gov/sensenbrenner	
+jose-serrano	Jos'e	Serrano	NY-rep-15	RepJoseSerrano	NY	rep		15	Democrat	1/3/2019	1/3/2021	https://serrano.house.gov	(202) 225-4361
+terri-sewell	Terri	Sewell	AL-rep-7	RepTerriSewell	AL	rep		7	Democrat	1/3/2019	1/3/2021	https://sewell.house.gov	(202) 225-2665
+donna-shalala	Donna	Shalala	FL-rep-27	RepShalala	FL	rep		27	Democrat	1/3/2019	1/3/2021		(202) 225-3931
+brad-sherman	Brad	Sherman	CA-rep-30	BradSherman	CA	rep		30	Democrat	1/3/2019	1/3/2021	https://sherman.house.gov	(202) 225-5911
+mikie-sherrill	Mikie	Sherrill	NJ-rep-11	RepSherrill	NJ	rep		11	Democrat	1/3/2019	1/3/2021		(202) 225-5034
+john-shimkus	John	Shimkus	IL-rep-15	RepShimkus	IL	rep		15	Republican	1/3/2019	1/3/2021	https://shimkus.house.gov	(202) 225-5271
+michael-simpson	Michael	Simpson	ID-rep-2	CongMikeSimpson	ID	rep		2	Republican	1/3/2019	1/3/2021	https://simpson.house.gov	(202) 225-5531
+albio-sires	Albio	Sires	NJ-rep-8	RepSires	NJ	rep		8	Democrat	1/3/2019	1/3/2021	https://sires.house.gov	(202) 225-7919
+elissa-slotkin	Elissa	Slotkin	MI-rep-8	HouseDemocrats	MI	rep		8	Democrat	1/3/2019	1/3/2021		(202) 225-4872
+jason-smith	Jason	Smith	MO-rep-8	RepJasonSmith	MO	rep		8	Republican	1/3/2019	1/3/2021	https://jasonsmith.house.gov	(202) 225-4404
+adrian-smith	Adrian	Smith	NE-rep-3	RepAdrianSmith	NE	rep		3	Republican	1/3/2019	1/3/2021	https://adriansmith.house.gov	(202) 225-6435
+christopher-smith	Christopher	Smith	NJ-rep-4	RepChrisSmith	NJ	rep		4	Republican	1/5/2011	1/3/2013	http://www.house.gov/chrissmith	202-225-3765
+adam-smith	Adam	Smith	WA-rep-9	RepAdamSmith	WA	rep		9	Democrat	1/3/2019	1/3/2021	https://adamsmith.house.gov	(202) 225-8901
+lloyd-smucker	Lloyd	Smucker	PA-rep-11	RepLloyd	PA	rep		11	Republican	1/3/2019	1/3/2021	https://smucker.house.gov	(202) 225-2411
+darren-soto	Darren	Soto	FL-rep-9	USRepDarrenSoto	FL	rep		9	Democrat	1/3/2019	1/3/2021	https://soto.house.gov	(202) 225-9889
+abigail-spanberger	Abigail	Spanberger	VA-rep-7	RepSpanberger	VA	rep		7	Democrat	1/3/2019	1/3/2021		(202) 225-2815
+ross-spano	Ross	Spano	FL-rep-15	RepRossSpano	FL	rep		15	Republican	1/3/2019	1/3/2021		(202) 225-1252
+jackie-speier	Jackie	Speier	CA-rep-14	RepSpeier	CA	rep		14	Democrat	1/3/2019	1/3/2021	https://speier.house.gov	(202) 225-3531
+greg-stanton	Greg	Stanton	AZ-rep-9	RepGregStanton	AZ	rep		9	Democrat	1/3/2019	1/3/2021		(202) 225-9888
+pete-stauber	Pete	Stauber	MN-rep-8	RepPeteStauber	MN	rep		8	Republican	1/3/2019	1/3/2021		(202) 225-6211
+elise-stefanik	Elise	Stefanik	NY-rep-21	RepStefanik	NY	rep		21	Republican	1/3/2019	1/3/2021	https://stefanik.house.gov	(202) 225-4611
+bryan-steil	Bryan	Steil	WI-rep-1	RepBryanSteil	WI	rep		1	Republican	1/3/2019	1/3/2021		(202) 225-3031
+w-steube	W.	Steube	FL-rep-17	RepGregSteube	FL	rep		17	Republican	1/3/2019	1/3/2021		(202) 225-5792
+haley-stevens	Haley	Stevens	MI-rep-11	RepHaleyStevens	MI	rep		11	Democrat	1/3/2019	1/3/2021		(202) 225-8171
+chris-stewart	Chris	Stewart	UT-rep-2	RepChrisStewart	UT	rep		2	Republican	1/3/2019	1/3/2021	https://stewart.house.gov	(202) 225-9730
+steve-stivers	Steve	Stivers	OH-rep-15	RepSteveStivers	OH	rep		15	Republican	1/3/2019	1/3/2021	https://stivers.house.gov	(202) 225-2015
+thomas-suozzi	Thomas	Suozzi	NY-rep-3	Tom_Suozzi	NY	rep		3	Democrat	1/3/2019	1/3/2021	https://suozzi.house.gov	(202) 225-3335
+eric-swalwell	Eric	Swalwell	CA-rep-15	RepSwalwell	CA	rep		15	Democrat	1/3/2019	1/3/2021	https://swalwell.house.gov	(202) 225-5065
+mark-takano	Mark	Takano	CA-rep-41	RepMarkTakano	CA	rep		41	Democrat	1/3/2019	1/3/2021	https://takano.house.gov	(202) 225-2305
+van-taylor	Van	Taylor	TX-rep-3	RepVanTaylor	TX	rep		3	Republican	1/3/2019	1/3/2021		(202) 225-4201
+mike-thompson	Mike	Thompson	CA-rep-5	RepThompson	CA	rep		5	Democrat	1/3/2019	1/3/2021	https://mikethompson.house.gov	(202) 225-3311
+bennie-thompson	Bennie	Thompson	MS-rep-2	CongressmanGT	MS	rep		2	Democrat	1/3/2019	1/3/2021	https://benniethompson.house.gov	(202) 225-5876
+glenn-thompson	Glenn	Thompson	PA-rep-15	BennieGThompson	PA	rep		15	Republican	1/3/2019	1/3/2021	https://thompson.house.gov	(202) 225-5121
+mac-thornberry	Mac	Thornberry	TX-rep-13	MacTXPress	TX	rep		13	Republican	1/3/2019	1/3/2021	https://thornberry.house.gov	(202) 225-3706
+william-timmons	William	Timmons	SC-rep-4	RepTimmons	SC	rep		4	Republican	1/3/2019	1/3/2021		(202) 225-6030
+scott-tipton	Scott	Tipton	CO-rep-3	RepTipton	CO	rep		3	Republican	1/3/2019	1/3/2021	https://tipton.house.gov	(202) 225-4761
+dina-titus	Dina	Titus	NV-rep-1	repdinatitus	NV	rep		1	Democrat	1/3/2019	1/3/2021	https://titus.house.gov	(202) 225-5965
+rashida-tlaib	Rashida	Tlaib	MI-rep-13	RepRashida	MI	rep		13	Democrat	1/3/2019	1/3/2021		(202) 225-5126
+paul-tonko	Paul	Tonko	NY-rep-20	RepPaulTonko	NY	rep		20	Democrat	1/3/2019	1/3/2021	https://tonko.house.gov	(202) 225-5076
+norma-torres	Norma	Torres	CA-rep-35	NormaJTorres	CA	rep		35	Democrat	1/3/2019	1/3/2021	https://torres.house.gov	(202) 225-6161
+xochitl-torres-small	Xochitl	Torres Small	NM-rep-2	RepTorresSmall	NM	rep		2	Democrat	1/3/2019	1/3/2021		(202) 225-2365
+lori-trahan	Lori	Trahan	MA-rep-3	RepLoriTrahan	MA	rep		3	Democrat	1/3/2019	1/3/2021		(202) 225-3411
+david-trone	David	Trone	MD-rep-6	RepDavidTrone	MD	rep		6	Democrat	1/3/2019	1/3/2021		(202) 225-2721
+michael-turner	Michael	Turner	OH-rep-10	RepMikeTurner	OH	rep		10	Republican	1/3/2019	1/3/2021	https://turner.house.gov	(202) 225-6465
+lauren-underwood	Lauren	Underwood	IL-rep-14	RepUnderwood	IL	rep		14	Democrat	1/3/2019	1/3/2021		(202) 225-2976
+fred-upton	Fred	Upton	MI-rep-6	RepFredUpton	MI	rep		6	Republican	1/3/2017	1/3/2019	https://upton.house.gov	202-225-3761
+jefferson-van-drew	Jefferson	Van Drew	NJ-rep-2	JeffVanDrew	NJ	rep		2	Democrat	1/3/2019	1/3/2021		(202) 225-6572
+juan-vargas	Juan	Vargas	CA-rep-51	RepJuanVargas	CA	rep		51	Democrat	1/3/2019	1/3/2021	https://vargas.house.gov	(202) 225-8045
+marc-veasey	Marc	Veasey	TX-rep-33	RepVeasey	TX	rep		33	Democrat	1/3/2019	1/3/2021	https://veasey.house.gov	(202) 225-9897
+nydia-velazquez	Nydia	Vel'azquez	NY-rep-7	NydiaVelazquez	NY	rep		7	Democrat	1/3/2019	1/3/2021	https://velazquez.house.gov	(202) 225-2361
+filemon-vela	Filemon	Vela	TX-rep-34	RepFilemonVela	TX	rep		34	Democrat	1/3/2019	1/3/2021	https://vela.house.gov	(202) 225-9901
+peter-visclosky	Peter	Visclosky	IN-rep-1	RepVisclosky	IN	rep		1	Democrat	1/6/2015	1/3/2017	http://visclosky.house.gov	202-225-2461
+ann-wagner	Ann	Wagner	MO-rep-2	RepAnnWagner	MO	rep		2	Republican	1/3/2019	1/3/2021	https://wagner.house.gov	(202) 225-1621
+tim-walberg	Tim	Walberg	MI-rep-7	RepWalberg	MI	rep		7	Republican	1/3/2019	1/3/2021	https://walberg.house.gov	(202) 225-6276
+greg-walden	Greg	Walden	OR-rep-2	repgregwalden	OR	rep		2	Republican	1/3/2019	1/3/2021	https://walden.house.gov	(202) 225-6730
+mark-walker	Mark	Walker	NC-rep-6	RepMarkWalker	NC	rep		6	Republican	1/3/2019	1/3/2021	https://walker.house.gov	(202) 225-3065
+jackie-walorski	Jackie	Walorski	IN-rep-2	RepWalorski	IN	rep		2	Republican	1/3/2019	1/3/2021	https://walorski.house.gov	(202) 225-3915
+michael-waltz	Michael	Waltz	FL-rep-6	RepMichaelWaltz	FL	rep		6	Republican	1/3/2019	1/3/2021		(202) 225-2706
+debbie-wasserman-schultz	Debbie	Wasserman Schultz	FL-rep-23	RepDWStweets	FL	rep		23	Democrat	1/3/2019	1/3/2021	https://wassermanschultz.house.gov	(202) 225-7931
+maxine-waters	Maxine	Waters	CA-rep-43	MaxineWaters	CA	rep		43	Democrat	1/3/2019	1/3/2021	https://waters.house.gov	(202) 225-2201
+steven-watkins	Steven	Watkins	KS-rep-2	Rep_Watkins	KS	rep		2	Republican	1/3/2019	1/3/2021		(202) 225-6601
+bonnie-watson-coleman	Bonnie	Watson Coleman	NJ-rep-12	RepBWColeman	NJ	rep		12	Democrat	1/3/2019	1/3/2021	https://watsoncoleman.house.gov	(202) 225-5801
+randy-weber	Randy	Weber	TX-rep-14	TXRandy14	TX	rep		14	Republican	1/3/2019	1/3/2021	https://weber.house.gov	(202) 225-2831
+daniel-webster	Daniel	Webster	FL-rep-11	RepWebster	FL	rep		11	Republican	1/3/2019	1/3/2021	https://webster.house.gov	(202) 225-1002
+peter-welch	Peter	Welch	VT-rep-0	PeterWelch	VT	rep		0	Democrat	1/3/2019	1/3/2021	https://welch.house.gov	(202) 225-4115
+brad-wenstrup	Brad	Wenstrup	OH-rep-2	RepBradWenstrup	OH	rep		2	Republican	1/3/2019	1/3/2021	https://wenstrup.house.gov	(202) 225-3164
+bruce-westerman	Bruce	Westerman	AR-rep-4	RepWesterman	AR	rep		4	Republican	1/3/2019	1/3/2021	https://westerman.house.gov	(202) 225-3772
+jennifer-wexton	Jennifer	Wexton	VA-rep-10	RepWexton	VA	rep		10	Democrat	1/3/2019	1/3/2021		(202) 225-5136
+susan-wild	Susan	Wild	PA-rep-7	RepSusanWild	PA	rep		7	Democrat	1/3/2019	1/3/2021	https://wild.house.gov	(202) 225-6411
+roger-williams	Roger	Williams	TX-rep-25	RepRWilliams	TX	rep		25	Republican	1/3/2019	1/3/2021	https://williams.house.gov	(202) 225-9896
+frederica-wilson	Frederica	Wilson	FL-rep-24	RepWilson	FL	rep		24	Democrat	1/3/2019	1/3/2021	https://wilson.house.gov	(202) 225-4506
+joe-wilson	Joe	Wilson	SC-rep-2	RepJoeWilson	SC	rep		2	Republican	1/3/2019	1/3/2021	https://joewilson.house.gov	(202) 225-2452
+robert-wittman	Robert	Wittman	VA-rep-1	RobWittman	VA	rep		1	Republican	1/3/2019	1/3/2021	https://wittman.house.gov	(202) 225-4261
+steve-womack	Steve	Womack	AR-rep-3	rep_stevewomack	AR	rep		3	Republican	1/3/2019	1/3/2021	https://womack.house.gov	(202) 225-4301
+rob-woodall	Rob	Woodall	GA-rep-7	RepRobWoodall	GA	rep		7	Republican	1/3/2019	1/3/2021	https://woodall.house.gov	(202) 225-4272
+ron-wright	Ron	Wright	TX-rep-6	RepRonWright	TX	rep		6	Republican	1/3/2019	1/3/2021		(202) 225-2002
+john-yarmuth	John	Yarmuth	KY-rep-3	RepJohnYarmuth	KY	rep		3	Democrat	1/3/2019	1/3/2021	https://yarmuth.house.gov	(202) 225-5401
+ted-yoho	Ted	Yoho	FL-rep-3	RepTedYoho	FL	rep		3	Republican	1/3/2019	1/3/2021	https://yoho.house.gov	(202) 225-5744
+don-young	Don	Young	AK-rep-0	repdonyoung	AK	rep		0	Republican	1/3/2019	1/3/2021	https://donyoung.house.gov	(202) 225-5765
+lee-zeldin	Lee	Zeldin	NY-rep-1	RepLeeZeldin	NY	rep		1	Republican	1/3/2019	1/3/2021	https://zeldin.house.gov	(202) 225-3826
+lamar-alexander	Lamar	Alexander	TN-sen-senior	SenAlexander	TN	sen	senior		Republican	1/6/2015	1/3/2021	https://www.alexander.senate.gov/public	202-224-4944
+tammy-baldwin	Tammy	Baldwin	WI-sen-junior	SenatorBaldwin	WI	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.baldwin.senate.gov	
+john-barrasso	John	Barrasso	WY-sen-junior	SenJohnBarrasso	WY	sen	junior		Republican	1/3/2019	1/3/2025	https://www.barrasso.senate.gov	
+michael-bennet	Michael	Bennet	CO-sen-senior		CO	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.bennet.senate.gov/public	202-224-5852
+marsha-blackburn	Marsha	Blackburn	TN-sen-junior	MarshaBlackburn	TN	sen	junior		Republican	1/3/2019	1/3/2025		
+richard-blumenthal	Richard	Blumenthal	CT-sen-senior		CT	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.blumenthal.senate.gov	202-224-2823
+roy-blunt	Roy	Blunt	MO-sen-senior	RoyBlunt	MO	sen	senior		Republican	1/3/2017	1/3/2023	https://www.blunt.senate.gov	202-224-5721
+cory-booker	Cory	Booker	NJ-sen-junior	SenBooker	NJ	sen	junior		Democrat	1/6/2015	1/3/2021	https://www.booker.senate.gov	202-224-3224
+john-boozman	John	Boozman	AR-sen-senior		AR	sen	senior		Republican	1/3/2017	1/3/2023	https://www.boozman.senate.gov/public	202-224-4843
+mike-braun	Mike	Braun	IN-sen-junior	SenatorBraun	IN	sen	junior		Republican	1/3/2019	1/3/2025		
+sherrod-brown	Sherrod	Brown	OH-sen-senior	SenSherrodBrown	OH	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.brown.senate.gov	
+richard-burr	Richard	Burr	NC-sen-senior	SenatorBurr	NC	sen	senior		Republican	1/3/2017	1/3/2023	https://www.burr.senate.gov	202-224-3154
+maria-cantwell	Maria	Cantwell	WA-sen-junior	SenatorCantwell	WA	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.cantwell.senate.gov	
+shelley-capito	Shelley	Capito	WV-sen-junior	SenCapito	WV	sen	junior		Republican	1/6/2015	1/3/2021	https://www.capito.senate.gov	202-224-6472
+benjamin-cardin	Benjamin	Cardin	MD-sen-senior	SenatorCardin	MD	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.cardin.senate.gov	
+thomas-carper	Thomas	Carper	DE-sen-senior	SenatorCarper	DE	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.carper.senate.gov/public	
+robert-casey	Robert	Casey	PA-sen-senior	SenBobCasey	PA	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.casey.senate.gov	
+bill-cassidy	Bill	Cassidy	LA-sen-senior	SenBillCassidy	LA	sen	senior		Republican	1/6/2015	1/3/2021	https://www.cassidy.senate.gov	202-224-5824
+susan-collins	Susan	Collins	ME-sen-senior	SenatorCollins	ME	sen	senior		Republican	1/6/2015	1/3/2021	https://www.collins.senate.gov	202-224-2523
+chris-coons	Chris	Coons	DE-sen-junior	ChrisCoons	DE	sen	junior		Democrat	1/6/2015	1/3/2021	https://www.coons.senate.gov	202-224-5042
+john-cornyn	John	Cornyn	TX-sen-senior	JohnCornyn	TX	sen	senior		Republican	1/6/2015	1/3/2021	https://www.cornyn.senate.gov	202-224-2934
+catherine-cortez-masto	Catherine	Cortez Masto	NV-sen-senior	SenCortezMasto	NV	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.cortezmasto.senate.gov	202-224-3542
+tom-cotton	Tom	Cotton	AR-sen-junior		AR	sen	junior		Republican	1/6/2015	1/3/2021	https://www.cotton.senate.gov	202-224-2353
+kevin-cramer	Kevin	Cramer	ND-sen-junior	SenKevinCramer	ND	sen	junior		Republican	1/3/2019	1/3/2025		
+michael-crapo	Michael	Crapo	ID-sen-senior	MikeCrapo	ID	sen	senior		Republican	1/3/2017	1/3/2023	https://www.crapo.senate.gov	202-224-6142
+ted-cruz	Ted	Cruz	TX-sen-junior	SenTedCruz	TX	sen	junior		Republican	1/3/2019	1/3/2025	https://www.cruz.senate.gov	
+steve-daines	Steve	Daines	MT-sen-junior	SteveDaines	MT	sen	junior		Republican	1/6/2015	1/3/2021	https://www.daines.senate.gov	202-224-2651
+tammy-duckworth	Tammy	Duckworth	IL-sen-junior	SenDuckworth	IL	sen	junior		Democrat	1/3/2017	1/3/2023	https://www.duckworth.senate.gov	202-224-2854
+richard-durbin	Richard	Durbin	IL-sen-senior	SenatorDurbin	IL	sen	senior		Democrat	1/6/2015	1/3/2021	https://www.durbin.senate.gov	202-224-2152
+michael-enzi	Michael	Enzi	WY-sen-senior	SenatorEnzi	WY	sen	senior		Republican	1/6/2015	1/3/2021	https://www.enzi.senate.gov	202-224-3424
+joni-ernst	Joni	Ernst	IA-sen-junior	SenJoniErnst	IA	sen	junior		Republican	1/6/2015	1/3/2021	https://www.ernst.senate.gov/public	202-224-3254
+dianne-feinstein	Dianne	Feinstein	CA-sen-senior		CA	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.feinstein.senate.gov	
+deb-fischer	Deb	Fischer	NE-sen-senior	SenatorFischer	NE	sen	senior		Republican	1/3/2019	1/3/2025	https://www.fischer.senate.gov	
+cory-gardner	Cory	Gardner	CO-sen-junior		CO	sen	junior		Republican	1/6/2015	1/3/2021	https://www.gardner.senate.gov	202-224-5941
+kirsten-gillibrand	Kirsten	Gillibrand	NY-sen-junior	gillibrandny	NY	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.gillibrand.senate.gov	
+lindsey-graham	Lindsey	Graham	SC-sen-senior	LindseyGrahamSC	SC	sen	senior		Republican	1/6/2015	1/3/2021	https://www.lgraham.senate.gov/public	202-224-5972
+charles-grassley	Charles	Grassley	IA-sen-senior	ChuckGrassley	IA	sen	senior		Republican	1/3/2017	1/3/2023	https://www.grassley.senate.gov	202-224-3744
+kamala-harris	Kamala	Harris	CA-sen-junior		CA	sen	junior		Democrat	1/3/2017	1/3/2023	https://www.harris.senate.gov	202-224-3553
+margaret-hassan	Margaret	Hassan	NH-sen-junior	SenatorHassan	NH	sen	junior		Democrat	1/3/2017	1/3/2023	https://www.hassan.senate.gov	202-224-3324
+joshua-hawley	Joshua	Hawley	MO-sen-junior	SenHawleyPress	MO	sen	junior		Republican	1/3/2019	1/3/2025		
+martin-heinrich	Martin	Heinrich	NM-sen-junior	MartinHeinrich	NM	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.heinrich.senate.gov	
+mazie-hirono	Mazie	Hirono	HI-sen-junior		HI	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.hirono.senate.gov	
+john-hoeven	John	Hoeven	ND-sen-senior	SenJohnHoeven	ND	sen	senior		Republican	1/3/2017	1/3/2023	https://www.hoeven.senate.gov	202-224-2551
+cindy-hyde-smith	Cindy	Hyde-Smith	MS-sen-junior	SenHydeSmith	MS	sen	junior		Republican	11/28/2018	1/3/2021	https://www.hydesmith.senate.gov	202-224-5054
+james-inhofe	James	Inhofe	OK-sen-senior	JimInhofe	OK	sen	senior		Republican	1/6/2015	1/3/2021	https://www.inhofe.senate.gov	202-224-4721
+john-isakson	John	Isakson	GA-sen-senior		GA	sen	senior		Republican	1/3/2017	1/3/2023	https://www.isakson.senate.gov	202-224-3643
+ron-johnson	Ron	Johnson	WI-sen-senior	SenRonJohnson	WI	sen	senior		Republican	1/3/2017	1/3/2023	https://www.ronjohnson.senate.gov	202-224-5323
+doug-jones	Doug	Jones	AL-sen-junior		AL	sen	junior		Democrat	1/3/2018	1/3/2021	https://www.jones.senate.gov	202-224-4124
+timothy-kaine	Timothy	Kaine	VA-sen-junior	timkaine	VA	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.kaine.senate.gov	
+john-kennedy	John	Kennedy	LA-sen-junior	SenJohnKennedy	LA	sen	junior		Republican	1/3/2017	1/3/2023	https://www.kennedy.senate.gov/public	202-224-4623
+angus-king	Angus	King	ME-sen-junior	SenAngusKing	ME	sen	junior		Independent	1/3/2019	1/3/2025	https://www.king.senate.gov	
+amy-klobuchar	Amy	Klobuchar	MN-sen-senior	SenAmyKlobuchar	MN	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.klobuchar.senate.gov	
+james-lankford	James	Lankford	OK-sen-junior	SenatorLankford	OK	sen	junior		Republican	1/3/2017	1/3/2023	https://www.lankford.senate.gov	202-224-5754
+patrick-leahy	Patrick	Leahy	VT-sen-senior	SenatorLeahy	VT	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.leahy.senate.gov	202-224-4242
+mike-lee	Mike	Lee	UT-sen-senior	SenMikeLee	UT	sen	senior		Republican	1/3/2017	1/3/2023	https://www.lee.senate.gov/public	202-224-5444
+joe-manchin	Joe	Manchin	WV-sen-senior	Sen_JoeManchin	WV	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.manchin.senate.gov	
+edward-markey	Edward	Markey	MA-sen-junior	SenMarkey	MA	sen	junior		Democrat	2015-01-06	1/3/2021	https://www.markey.senate.gov	202-224-2742
+mitch-mcconnell	Mitch	McConnell	KY-sen-senior	senatemajldr	KY	sen	senior		Republican	1/6/2015	1/3/2021	https://www.mcconnell.senate.gov	202-224-2541
+martha-mcsally	Martha	McSally	AZ-sen-junior		AZ	sen	junior		Republican	1/3/2019	1/3/2021		
+robert-menendez	Robert	Men'endez	NJ-sen-senior	SenatorMenendez	NJ	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.menendez.senate.gov	
+jeff-merkley	Jeff	Merkley	OR-sen-junior	SenJeffMerkley	OR	sen	junior		Democrat	1/6/2015	1/3/2021	https://www.merkley.senate.gov	202-224-3753
+jerry-moran	Jerry	Moran	KS-sen-junior	JerryMoran	KS	sen	junior		Republican	1/3/2017	1/3/2023	https://www.moran.senate.gov	202-224-6521
+lisa-murkowski	Lisa	Murkowski	AK-sen-senior		AK	sen	senior		Republican	1/3/2017	1/3/2023	https://www.murkowski.senate.gov	202-224-6665
+christopher-murphy	Christopher	Murphy	CT-sen-junior		CT	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.murphy.senate.gov	
+patty-murray	Patty	Murray	WA-sen-senior	PattyMurray	WA	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.murray.senate.gov/public	202-224-2621
+rand-paul	Rand	Paul	KY-sen-junior	RandPaul	KY	sen	junior		Republican	1/3/2017	1/3/2023	https://www.paul.senate.gov	202-224-4343
+david-perdue	David	Perdue	GA-sen-junior		GA	sen	junior		Republican	1/6/2015	1/3/2021	https://www.perdue.senate.gov	202-224-3521
+gary-peters	Gary	Peters	MI-sen-junior	SenGaryPeters	MI	sen	junior		Democrat	1/6/2015	1/3/2021	https://www.peters.senate.gov	202-224-6221
+robert-portman	Robert	Portman	OH-sen-junior	senrobportman	OH	sen	junior		Republican	1/3/2017	1/3/2023	https://www.portman.senate.gov	202-224-3353
+john-reed	John	Reed	RI-sen-senior	SenJackReed	RI	sen	senior		Democrat	1/6/2015	1/3/2021	https://www.reed.senate.gov	202-224-4642
+james-risch	James	Risch	ID-sen-junior	SenatorRisch	ID	sen	junior		Republican	1/6/2015	1/3/2021	https://www.risch.senate.gov	202-224-2752
+pat-roberts	Pat	Roberts	KS-sen-senior	SenPatRoberts	KS	sen	senior		Republican	1/6/2015	1/3/2021	https://www.roberts.senate.gov	202-224-4774
+mitt-romney	Mitt	Romney	UT-sen-junior	SenatorRomney	UT	sen	junior		Republican	1/3/2019	1/3/2025		
+jacky-rosen	Jacky	Rosen	NV-sen-junior	SenJackyRosen	NV	sen	junior		Democrat	1/3/2019	1/3/2025		
+mike-rounds	Mike	Rounds	SD-sen-junior	SenatorRounds	SD	sen	junior		Republican	1/6/2015	1/3/2021	https://www.rounds.senate.gov	202-224-5842
+marco-rubio	Marco	Rubio	FL-sen-senior	SenRubioPress	FL	sen	senior		Republican	1/3/2017	1/3/2023	https://www.rubio.senate.gov	202-224-3041
+bernard-sanders	Bernard	Sanders	VT-sen-junior	SenSanders	VT	sen	junior		Independent	1/3/2019	1/3/2025	https://www.sanders.senate.gov	
+benjamin-sasse	Benjamin	Sasse	NE-sen-junior	SenSasse	NE	sen	junior		Republican	1/6/2015	1/3/2021	https://www.sasse.senate.gov/public	202-224-4224
+brian-schatz	Brian	Schatz	HI-sen-senior		HI	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.schatz.senate.gov	202-224-3934
+charles-schumer	Charles	Schumer	NY-sen-senior	SenSchumer	NY	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.schumer.senate.gov	202-224-6542
+rick-scott	Rick	Scott	FL-sen-junior	SenRickScott	FL	sen	junior		Republican	1/3/2019	1/3/2025		
+tim-scott	Tim	Scott	SC-sen-junior	SenatorTimScott	SC	sen	junior		Republican	1/3/2017	1/3/2023	https://www.scott.senate.gov	202-224-6121
+jeanne-shaheen	Jeanne	Shaheen	NH-sen-senior	SenatorShaheen	NH	sen	senior		Democrat	1/6/2015	1/3/2021	https://www.shaheen.senate.gov	202-224-2841
+richard-shelby	Richard	Shelby	AL-sen-senior		AL	sen	senior		Republican	1/3/2017	1/3/2023	https://www.shelby.senate.gov	202-224-5744
+kyrsten-sinema	Kyrsten	Sinema	AZ-sen-senior		AZ	sen	senior		Democrat	1/3/2019	1/3/2025		
+tina-smith	Tina	Smith	MN-sen-junior	SenTinaSmith	MN	sen	junior		Democrat	11/7/2018	1/3/2021	https://www.smith.senate.gov	202-224-5641
+debbie-stabenow	Debbie	Stabenow	MI-sen-senior	SenStabenow	MI	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.stabenow.senate.gov	
+dan-sullivan	Dan	Sullivan	AK-sen-junior		AK	sen	junior		Republican	1/6/2015	1/3/2021	https://www.sullivan.senate.gov	202-224-3004
+jon-tester	Jon	Tester	MT-sen-senior	SenatorTester	MT	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.tester.senate.gov	
+john-thune	John	Thune	SD-sen-senior	SenJohnThune	SD	sen	senior		Republican	1/3/2017	1/3/2023	https://www.thune.senate.gov	202-224-2321
+thom-tillis	Thom	Tillis	NC-sen-junior	SenThomTillis	NC	sen	junior		Republican	1/6/2015	1/3/2021	https://www.tillis.senate.gov/public	202-224-6342
+patrick-toomey	Patrick	Toomey	PA-sen-junior	SenToomey	PA	sen	junior		Republican	1/3/2017	1/3/2023	https://www.toomey.senate.gov	202-224-4254
+tom-udall	Tom	Udall	NM-sen-senior	SenatorTomUdall	NM	sen	senior		Democrat	1/6/2015	1/3/2021	https://www.tomudall.senate.gov	202-224-6621
+chris-van-hollen	Chris	Van Hollen	MD-sen-junior	ChrisVanHollen	MD	sen	junior		Democrat	1/3/2017	1/3/2023	https://www.vanhollen.senate.gov	202-224-4654
+mark-warner	Mark	Warner	VA-sen-senior	MarkWarner	VA	sen	senior		Democrat	1/6/2015	1/3/2021	https://www.warner.senate.gov	202-224-2023
+elizabeth-warren	Elizabeth	Warren	MA-sen-senior	SenWarren	MA	sen	senior		Democrat	1/3/2019	1/3/2025	https://www.warren.senate.gov	
+sheldon-whitehouse	Sheldon	Whitehouse	RI-sen-junior	SenWhitehouse	RI	sen	junior		Democrat	1/3/2019	1/3/2025	https://www.whitehouse.senate.gov	
+roger-wicker	Roger	Wicker	MS-sen-senior	SenatorWicker	MS	sen	senior		Republican	1/3/2019	1/3/2025	https://www.wicker.senate.gov	
+ron-wyden	Ron	Wyden	OR-sen-senior	RonWyden	OR	sen	senior		Democrat	1/3/2017	1/3/2023	https://www.wyden.senate.gov	202-224-5244
+todd-young	Todd	Young	IN-sen-senior	SenToddYoung	IN	sen	senior		Republican	1/3/2017	1/3/2023	https://www.young.senate.gov	202-224-5623
