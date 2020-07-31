@@ -3,7 +3,6 @@ permalink: /
 title: It's free to give a shit
 description: New York City, 1929. Thirty debutantes marched down Fifth Avenue during the Easter parade. They light up cigarettes to combat prejudice against women smokers. The press calls them 'torches of freedom' and spreads the message. This is propoganda.
 layout: home
-image: /freedom-torch/assets/images/banner1.jpg
 ---
 
 <!-- https://raw.githubusercontent.com/kevando/freedom-torch/master/assets/images/Liberty.jpg -->

@@ -18,7 +18,7 @@ defaults:
       type: pages
     values:
       layout: "surf"
-      image: https://raw.githubusercontent.com/kevando/freedom-torch/master/assets/images/Liberty.jpg
+      image: https://kevando.github.io/freedom-torch/assets/images/banner1.jpg
       title: Freedom Torch
       description: It's Free to Give a Shit
 
