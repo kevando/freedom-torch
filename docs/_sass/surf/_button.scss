@@ -1,0 +1,53 @@
+$grey1: #e4e4e4;
+
+
+@mixin inset-border($bw: 2px, $color: beige) {
+  // display: block;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: $bw;
+  border-color: $color;
+}
+@mixin outset-border($bw: 2px, $color: beige) {
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: outset;
+  border-width: $bw;
+  border-color: $color;
+}
+
+
+.btn {
+  text-decoration: wavy;
+  color: black;
+  background-color: $grey1;
+  padding: 6px 14px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+
+  @include outset-border(3px);
+
+  &:active {
+    @include inset-border(3px);
+  }
+
+  &:focus {
+    color: red
+  }
+  &:focus-within {
+    color: orange
+  }
+  &:hover {
+    color: yellow
+  }
+  &:visited {
+    // @include inset-border(3px);
+    border-style:dashed;
+    color: blue;
+    background-color: #c7c7c7;
+  }
+
+  
+}

@@ -1,9 +1,16 @@
 title: Freedom Torch
-email: kevin.h@roybiv.net
 description: It's free to give a shit.
 baseurl: "/freedom-torch" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kevando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Personal Info
 twitter_username: kevando_
+email: kevin.h@roybiv.net
+
+# Media
+icon64: /freedom-torch/assets/images/favicon.jpg
+favicon: /freedom-torch/assets/images/favicon.jpg
+banner: /freedom-torch/assets/images/banner1.jpg
 
 defaults:
   - scope:
@@ -11,6 +18,9 @@ defaults:
       type: pages
     values:
       layout: "surf"
+      image: https://raw.githubusercontent.com/kevando/freedom-torch/master/assets/images/Liberty.jpg
+      title: Freedom Torch
+      description: It's Free to Give a Shit
 
 # Build settings
 theme: minima
