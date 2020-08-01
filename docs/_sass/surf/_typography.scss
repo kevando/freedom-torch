@@ -1,17 +1,37 @@
-
-
- /**
+/**
   * Set `margin-bottom` to maintain vertical rhythm
   */
-  h1, h2, h3, h4, h5, h6,
-  p, blockquote, pre,
-  ul, ol, dl, figure, hr
-  %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-  }
-  
-  
-  
-  h1 {
-  line-height: 0.8em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+hr %vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
 }
+
+h1 {
+  // line-height: 0.8em;
+}
+
+/**
+  * Code formatting
+  */
+code {
+  @include relative-font-size(0.9375);
+  border: none;
+  background-color: #a9a9a97a;
+  font-family: Courier;
+  color: red;
+  font-weight: normal;
+  padding: 1px 5px;
+}
+
