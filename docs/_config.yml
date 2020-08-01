@@ -12,7 +12,7 @@ google_analytics: UA-16078011-4
 
 # Media
 icon64: /freedom-torch/assets/images/favicon.jpg
-favicon: /freedom-torch/assets/images/fav4.png
+favicon: https://kevando.github.io/freedom-torch/assets/images/senate_banner.jpg
 banner: /freedom-torch/assets/images/banner1.jpg
 
 defaults:

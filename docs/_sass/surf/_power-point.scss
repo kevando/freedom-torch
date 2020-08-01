@@ -1,31 +1,41 @@
-$blue: #1D1C60;
-$yellow: #EAE20F;
+$blue: #1d1c60;
+$yellow: #eae20f;
 
 body.power-point {
- background-color: $blue;
+  background-color: $blue;
   font-family: sans-serif;
   margin: 0 auto;
   padding: 1% 10%;
+  @include media-query($on-palm) {
+    padding: 1% 1%;
+  }
 
   h2 {
     color: $yellow;
     text-align: center;
     font-size: 3em;
-   }
-   P {
+
+    @include media-query($on-palm) {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+  }
+  P {
     color: white;
     font-size: 1.3em;
-     margin-left: 2em;
-   }
-   ul {
+    margin-left: 2em;
+  }
+  ul {
     margin-left: 2em;
     margin-top: 0;
     margin-bottom: 40px;
-   }
-   li {
+  }
+  li {
     color: white;
     font-size: 2em;
     line-height: 1.5em;
-   }
-
+    @include media-query($on-palm) {
+      font-size: 1.1em;
+    }
+  }
 }
