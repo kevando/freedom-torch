@@ -1,0 +1,12 @@
+---
+permalink: /
+title: Articles
+description: Links from around the web
+layout: page
+---
+
+<ul>
+  {%- for article in site.data.articles -%}
+  <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+  {%- endfor -%}
+</ul>

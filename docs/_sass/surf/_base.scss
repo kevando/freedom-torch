@@ -67,74 +67,6 @@ figcaption {
   font-size: $small-font-size;
 }
 
-/**
-  * Lists
-  */
-ul,
-ol {
-  margin-left: $spacing-unit;
-}
-
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
-/**
-  * Headings
-  */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: $base-font-weight;
-}
-
-/**
-  * Links
-  */
-a {
-  //  color: $brand-color;
-  //  text-decoration: none;
-
-  &:visited {
-    //  color: darken($brand-color, 15%);
-  }
-
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
-}
-
-/**
-  * Blockquotes
-  */
-blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
 
 /**
   * Wrapper
@@ -213,6 +145,11 @@ table {
   }
 }
 
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /**
   * Devices
@@ -228,3 +165,4 @@ table {
     display: none;
   }
 }
+

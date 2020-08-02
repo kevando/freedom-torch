@@ -1,17 +1,26 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>{{ site.title }} - {{ page.title }}</title>
 
-  
-  {%- include head/twitter.html -%}
-  {%- include head/facebook.html -%}
-  {%- include head/favicon.html -%}
-  {%- include head/google-analytics.html -%}
-  {%- feed_meta -%}
+  <!-- Facebook Tags -->
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:site_name" content="Freedom Torch" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:image" content="{{ page.image }}" />
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:image" content="{{ page.image }}" />
+
+  <!-- Fav Icons -->
+  <link rel="icon" type="image/png" sizes="64x64" href="{{ site.favicon }}" />
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> 
+  
+  {%- include google-analytics.html -%} {%- feed_meta -%}
 </head>

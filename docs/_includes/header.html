@@ -16,15 +16,15 @@
           </span>
         </label>
 
+        <!-- Navigation Links -->
         <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
+          {%- for nav_link in site.data.nav_links -%}
+            <a class="page-link" href="{{ nav_link.url }}">{{ nav_link.label }}</a>
           {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}
   </div>
 </header>
+
+
