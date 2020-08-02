@@ -5,7 +5,6 @@ url: "https://kevando.github.io" # the base hostname & protocol for your site, e
 
 # Personal Info
 twitter_username: kevando_
-email: kevin.h@roybiv.net
 
 # Tracking
 google_analytics: UA-16078011-4
@@ -15,16 +14,6 @@ icon64: /freedom-torch/assets/images/favicon.jpg
 favicon: /freedom-torch/assets/images/fav4.png
 banner: /freedom-torch/assets/images/banner1.jpg
 base_url_images: https://raw.githubusercontent.com/kevando/freedom-torch/master/images
-
-defaults:
-  - scope:
-      path: "" # all files
-      type: pages
-    values:
-      layout: "surf"
-      image: https://kevando.github.io/freedom-torch/assets/images/banner1.jpg
-      title: Freedom Torch
-      description: It's Free to Give a Shit
 
 # Build settings
 theme: minima
