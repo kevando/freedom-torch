@@ -19,7 +19,7 @@
         <!-- Navigation Links -->
         <div class="trigger">
           {%- for nav_link in site.data.nav_links -%}
-            <a class="page-link" href="{{ nav_link.url }}">{{ nav_link.label }}</a>
+            <a class="page-link" href="{{ site.baseurl }}{{ nav_link.permalink }}">{{ nav_link.label }}</a>
           {%- endfor -%}
         </div>
       </nav>
