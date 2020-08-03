@@ -9,9 +9,8 @@ url: "https://freedomtorch.net"
 twitter_username: kevando_
 google_analytics: UA-16078011-4
 
-# Media Links
-icon64: /freedom-torch/assets/images/favicon.jpg
-favicon: /freedom-torch/assets/images/fav4.png
+# Media
+favicon: /assets/images/favicon.png
 
 defaults:
   -

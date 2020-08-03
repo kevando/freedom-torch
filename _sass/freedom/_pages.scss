@@ -1,12 +1,42 @@
 body.home {
+  @extend .flex-center;
   background-color: black;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  
+
   .site-title {
+    @include fluid-type(120px, 300px);
+    font-family: $title-font-family;
+    color: $text-color;
+    text-decoration: none;
+    
+    @include media-query($small-time) {
+      letter-spacing: -2px;
+    }
+  
+    &:nth-child(2) {
+      @include fluid-type(150px, 400px);
+    }
     line-height: 1em;
-    color: white;
+
+    a {
+      text-decoration: none;
+
+      padding: 0 60px;
+      &:link {
+        color: rgb(12, 12, 12);
+      }
+      &:visited {
+        color: white;
+      }
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+  }
+  @include media-query($small-time) {
+    justify-content: flex-start;
+    .site-title a {
+      color: rgb(24, 24, 24);
+    }
   }
 }

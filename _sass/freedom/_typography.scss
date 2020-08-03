@@ -61,10 +61,25 @@ p {
  * Titles
  */
 .site-title {
-  @include fluid-type(120px, 300px);
+  @include fluid-type(60px, 30px);
   font-family: $title-font-family;
   color: $text-color;
   text-decoration: none;
+  
+  @include media-query($small-time) {
+    letter-spacing: -2px;
+  }
+
+  &:nth-child(2) {
+    @include fluid-type(150px, 400px);
+  }
+}
+.nav-title {
+  @include fluid-type(60px, 30px);
+  font-family: $title-font-family;
+  color: $text-color;
+  text-decoration: none;
+  line-height: 2.0em;
   
   @include media-query($small-time) {
     letter-spacing: -2px;
@@ -147,4 +162,16 @@ a {
 code {
   background-color: $yellow-color-light;
   font-size: 0.9em;
+}
+
+/**
+  * Emoji
+  */
+
+.emoji {
+  line-height: 1em;
+
+  &.fire {
+    line-height: 0.5em;
+  }
 }

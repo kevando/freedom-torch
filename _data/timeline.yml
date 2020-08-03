@@ -10,19 +10,10 @@
   source_name: NY Post
   tags: china
 
-
-
-
-
-
-
 - date: 2020-08-01
   source_title: CA buys $1 billion worth of masks from China
   source_url:  https://www.newsbreak.com/california/sacramento/news/1550432653753/newsoms-secretive-1-billion-mask-deal-with-chinese-company-sparks-bipartisan-concerns
   tags: china, money, covid
-
-
-
 
 - date: 2020-07-14
   source_title: The Tik Tok War
@@ -30,49 +21,38 @@
   source_name: Stratechery
   tags: china, tik tok, spy
 
-
-
 - date: 2020-07-21
   source_title: DOJ Indicts Chinese Military Member Posing as Stanford Researcher
   source_url: https://thenationalpulse.com/politics/exposed-doj-indicts-chinese-military-member-posing-as-stanford-researcher/
   source_name: thenationalpulse.com
   tags: china, military, spy
 
-
-
 # - date: 2020-
 #   source_title: Treasury Secretary gives Microsoft 45 days to buy Tik Tok or it gets blocked
 #   source_url: https://www.scmp.com/news/world/united-states-canada/article/3095725/tiktok-must-be-sold-or-blocked-us-says-treasury
 #   source_name: 
 
-
-
-- date: 1971
+- date: 1971-05-05
   source_title: Nixon Shock
   source_url: https://en.wikipedia.org/wiki/Nixon_shock
   tags: money
 
+- date: 2017-10-18
+  description: Xi Jiping gives 3 hour speech at start of 19th Congress 
 
+- date: 2018-05-18
+  description: China ends term limits for president
+  source_title: Ending Term Limits for China’s Xi Is a Big Deal. Here’s Why.
+  source_url: https://www.nytimes.com/2018/03/10/world/asia/china-xi-jinping-term-limit-explainer.html
+  source_name: NY Times
+  tags: china
 
-# - date: 2020-
-#   source_title: 
-#   source_url: 
-#   source_name: 
-
-
-
-
-# - date: 2020-
-#   source_title: 
-#   source_url: 
-#   source_name: 
-
-
-
-# - date: 2020-
-#   source_title: 
-#   source_url: 
-#   source_name: 
+- date: 2019-10-02
+  description: South Park fires shots at America and China
+  source_title: South Park - Banned in China Airs
+  source_url: https://southpark.cc.com/full-episodes/s23e02-band-in-china
+  source_name: South Park
+  tags: china
 
 
 

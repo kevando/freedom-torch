@@ -31,7 +31,7 @@ $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark:  darken($grey-color, 35%) !default;
 
 $purple-color: purple;
 $blue-color: #0025ff;
@@ -43,6 +43,7 @@ $spacing-unit:     25px !default;
 $table-text-align: left !default;
 $content-width:    1800px !default;
 $mobile-header-height: 60px;
+$header-height: 40px;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;

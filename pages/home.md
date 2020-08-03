@@ -5,13 +5,13 @@ description: The 1929 "Torches of Freedom" public relations campaign equated smo
 layout: default
 body_class: home
 meta:
-  title: Freedom Torch
+  title: 🔥 Freedom Torch
   image: /assets/images/senate_banner2.jpg
 ---
 
-# Freedom
+# [Freedom](/china)
 {: .site-title .center}
 
-# Torch
+# [Torch](/propaganda)
 {: .site-title .center}
 

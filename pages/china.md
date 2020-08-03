@@ -1,29 +1,13 @@
 ---
 permalink: /china
-title: China
+title: China Timeline
 description: Links from around the web
-layout: surf
+layout: page
 ---
 
-<p>It looks like China is becoming more aggressive lately. Here are some facts</p>
+{% include timeline.html tag="china" %}
 
-<table style="width:100%">
-  <tr>
-    <th>Date</th>
-    <th>Description</th>
-    <th>Source</th>
-  </tr>
-  {% for post in site.posts -%}
-  {% if post.category=="china" %}
-  <tr>
-    <td>{{ post.date | date: "%Y-%m-%d" }}</td>
-    <td>{{ post.description}}</td>
-    <td><a href="{{ post.source_url}}">{{ post.source }}</a></td>
-  </tr>
-{% endif %}
-{%- endfor -%}
-
-</table>
+<br />
 
 ### Other stats
 

@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{{ site.title }} | {{ page.title }}</title>
+  <title>{{ page.meta.title | default: page.title }}</title>
 
   <!-- Facebook Tags -->
   <meta property="og:title" content="{{ page.meta.title | default: page.title }}" />
