@@ -1,0 +1,150 @@
+.center {
+  text-align: center;
+}
+
+/**
+  * Basic styling
+  */
+body {
+  font-weight: $base-font-weight;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  color: $text-color;
+}
+/**
+  * Headings
+  */
+h1 {
+  @include fluid-type(40px, 60px);
+  font-weight: 600;
+  line-height: 0.75;
+  letter-spacing: -1px;
+}
+h2 {
+  @include fluid-type(30px, 40px);
+  font-weight: 600;
+  line-height: 0.75;
+  letter-spacing: -1px;
+}
+h3 {
+  @include fluid-type(30px, 40px);
+  font-weight: 400;
+  line-height: 0.75;
+  letter-spacing: -1px;
+}
+h4 {
+  @include fluid-type(25px, 35px);
+  font-weight: 100;
+  line-height: 0.75;
+  letter-spacing: -1px;
+}
+/**
+  * Paragraphs
+  */
+p {
+  @include fluid-type();
+}
+/**
+  * Code formatting
+  */
+// code {
+//   @include relative-font-size(0.9375);
+//   border: none;
+//   background-color: #a9a9a97a;
+//   font-family: Courier;
+//   color: red;
+//   font-weight: normal;
+//   padding: 1px 5px;
+// }
+
+/**
+ * Titles
+ */
+.site-title {
+  @include fluid-type(120px, 300px);
+  font-family: $title-font-family;
+  color: $text-color;
+  text-decoration: none;
+  
+  @include media-query($small-time) {
+    letter-spacing: -2px;
+  }
+
+  &:nth-child(2) {
+    @include fluid-type(150px, 400px);
+  }
+}
+
+.page-title {
+  @include fluid-type(50px, 100px);
+  font-weight: 600;
+  line-height: 0.75;
+  letter-spacing: -1px;
+  margin: $spacing-unit 0;
+}
+
+/**
+  * Lists
+  */
+
+li {
+  @include fluid-type();
+}
+
+//   /**
+//     * Headings
+//     */
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5,
+//   h6 {
+//     font-weight: $base-font-weight;
+//   }
+
+/**
+    * Links
+    */
+a {
+  color: $blue-color;
+  //  text-decoration: none;
+
+  &:visited {
+    color: $grey-color;
+  }
+
+  &:hover {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+}
+
+//   /**
+//     * Blockquotes
+//     */
+//   blockquote {
+//     color: $grey-color;
+//     border-left: 4px solid $grey-color-light;
+//     padding-left: $spacing-unit / 2;
+//     @include relative-font-size(1.125);
+//     letter-spacing: -1px;
+//     font-style: italic;
+
+//     > :last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+
+//   h1 {
+
+//     + .tagline {
+//       // color: red;
+//       margin-top: -20px;
+//     }
+//   }
+
+code {
+  background-color: $yellow-color-light;
+  font-size: 0.9em;
+}

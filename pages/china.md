@@ -2,8 +2,10 @@
 permalink: /china
 title: China
 description: Links from around the web
-layout: page
+layout: surf
 ---
+
+<p>It looks like China is becoming more aggressive lately. Here are some facts</p>
 
 <table style="width:100%">
   <tr>

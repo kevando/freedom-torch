@@ -1,0 +1,7 @@
+<ul>
+  {% for video in site.data.videos %}
+    {% if video.tags contains include.tag %}
+     <li><a href="{{ video.url }}">{{ video.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

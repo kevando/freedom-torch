@@ -1,4 +1,4 @@
-var DATA_PATH = "/freedom-torch/assets/data/senate.json";
+var DATA_PATH = "/assets/data/senate.json";
 
 var browserHeight = window.innerHeight;
 var browserWidth = window.innerWidth;

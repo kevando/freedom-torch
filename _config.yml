@@ -12,8 +12,13 @@ google_analytics: UA-16078011-4
 # Media Links
 icon64: /freedom-torch/assets/images/favicon.jpg
 favicon: /freedom-torch/assets/images/fav4.png
-banner: /freedom-torch/assets/images/banner1.jpg
-base_url_images: https://raw.githubusercontent.com/kevando/freedom-torch/master/images
+
+defaults:
+  -
+    values:
+      title: Freedom Torch
+      meta:
+        image: /assets/images/senate_banner2.jpg
 
 # Build settings
 theme: minima

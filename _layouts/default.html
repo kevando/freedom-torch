@@ -3,18 +3,12 @@
 
   {%- include head.html -%}
 
-  <body>
+<body class="{{ page.body_class }}">
 
-    {%- include header.html -%}
+  {{ content }}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+</body>
 
-    <!-- {%- include footer.html -%} -->
-
-  </body>
+  {%- include after_body.html -%}
 
 </html>

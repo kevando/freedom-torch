@@ -1,12 +1,17 @@
 ---
 permalink: /
-title: Freedom Torch
+title: Exploring how we got here
 description: The 1929 "Torches of Freedom" public relations campaign equated smoking in public with female emancipation. Some women had been smoking decades earlier, but usually in private; this 1890s satirical cartoon from Germany illustrates the notion that smoking was considered unfeminine by some in that period.
-layout: surf
-image: comic1.jpg
+layout: default
+body_class: home
+meta:
+  title: Freedom Torch
+  image: /assets/images/senate_banner2.jpg
 ---
 
-![Torches of Freedom Comic]({{ site.base_url_images}}/{{ page.image }})
+# Freedom
+{: .site-title .center}
 
-### {{ page.description }} This is [propoganda](/freedom-torch/propoganda).
+# Torch
+{: .site-title .center}
 

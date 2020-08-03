@@ -1,22 +1,32 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
+// -------- Fonts --------
 
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+$fonts-path: "../../assets/fonts/";
+
+@font-face {
+  font-family: 'Didot';
+  src: url($fonts-path + "Didot Regular.ttf") format("truetype");
+}
 
 // -------- Typography --------
 
-$base-font-family: "Times New Roman";
+$base-font-family: "Neuton";
 $base-font-size:   20px !default;
-$base-font-weight: 400 !default;
+$base-font-size-min:   23px !default;
+$base-font-size-max:  30px !default;
+$base-font-weight: 300 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-line-height: 1.4 !default;
 
-
+$title-font-family: "Didot";
 
 // -------- Colors --------
 
-$text-color:       #111 !default;
-$background-color: #C0C0C0 !default;
+$text-color:       #000 !default;
+$background-color: #fff !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
@@ -24,16 +34,23 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $purple-color: purple;
+$blue-color: #0025ff;
+$yellow-color-light: rgba(255,229,100,0.3);
 
 // -------- Content Area --------
 
-$spacing-unit:     30px !default;
+$spacing-unit:     25px !default;
 $table-text-align: left !default;
-
 $content-width:    1800px !default;
+$mobile-header-height: 60px;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
+// -------- Break Points --------
+
+$big-time: 1400px;
+$small-time: 500px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -53,5 +70,7 @@ $on-laptop:        800px !default;
 }
 
 
-@import "surf/base", "surf/typography", "surf/layout";
-@import "surf/button", "surf/power-point";
+@import "reset", "mixins";
+
+@import "freedom/base", "freedom/typography", "freedom/layout";
+@import "freedom/pages";

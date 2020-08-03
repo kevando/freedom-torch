@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-  {%- include head.html -%}
+<header class="post-header">
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+</header>
 
-  <body class="{{ page.layout }}">
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    <!-- {%- include footer.html -%} -->
-    
-  </body>
-
-  {%- include after_body.html -%}
-
-</html>
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</main>
