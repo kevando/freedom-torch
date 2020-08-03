@@ -1,0 +1,8 @@
+{
+  "license": "To chill",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all"
+  }
+}
