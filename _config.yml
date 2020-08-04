@@ -17,7 +17,7 @@ defaults:
     values:
       title: Freedom Torch
       meta:
-        image: /assets/images/senate_banner2.jpg
+        image: /assets/images/banner1.jpg
 
 # Build settings
 theme: minima

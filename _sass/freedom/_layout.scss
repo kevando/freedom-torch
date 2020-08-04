@@ -221,3 +221,14 @@ ol {
 //   bottom: 5px;
 //   right: 5px;
 // }
+
+
+footer {
+  height: 180px;
+  overflow: hidden;
+  .lib {
+    font-size: 200px;
+    text-align: center;
+    margin-left: 30px;
+  }
+}

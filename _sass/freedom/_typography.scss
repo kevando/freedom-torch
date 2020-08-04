@@ -138,26 +138,24 @@ a {
 //   /**
 //     * Blockquotes
 //     */
-//   blockquote {
-//     color: $grey-color;
-//     border-left: 4px solid $grey-color-light;
-//     padding-left: $spacing-unit / 2;
-//     @include relative-font-size(1.125);
-//     letter-spacing: -1px;
-//     font-style: italic;
+  blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    // @include relative-font-size(0.4);
+    letter-spacing: -1px;
+    // font-style: italic;
+    font-family: sans-serif;
+    p {
+      @include fluid-type(20px,40px);
+      line-height: 1.3em;
+    }
 
-//     > :last-child {
-//       margin-bottom: 0;
-//     }
-//   }
+    > :last-child {
+      margin-bottom: $spacing-unit;
+    }
+  }
 
-//   h1 {
-
-//     + .tagline {
-//       // color: red;
-//       margin-top: -20px;
-//     }
-//   }
 
 code {
   background-color: $yellow-color-light;
