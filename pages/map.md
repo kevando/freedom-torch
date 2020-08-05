@@ -1,8 +1,8 @@
 ---
-permalink: /china
+permalink: /map
 title: China
 description: Links from around the web
-layout: china
+layout: map
 ---
 
 FBI opens a new case on China every 10 hours

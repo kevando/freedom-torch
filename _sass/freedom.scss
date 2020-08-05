@@ -73,5 +73,10 @@ $small-time: 500px;
 
 @import "reset", "mixins";
 
-@import "freedom/base", "freedom/typography", "freedom/layout";
-@import "freedom/pages";
+@import "helpers";
+
+
+@import "freedom/base", "freedom/typography";
+@import "freedom/page";
+
+@import "freedom/layout";

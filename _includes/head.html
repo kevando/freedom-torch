@@ -6,15 +6,15 @@
   <title>{{ page.meta.title | default: page.title }}</title>
 
   <!-- Facebook Tags -->
-  <meta property="og:title" content="{{ page.meta.title | default: page.title }}" />
-  <meta property="og:description" content="{{ page.meta.description | default: page.description }}" />
+  <meta property="og:title" content="{{ page.facebook.title }}" />
+  <meta property="og:description" content="{{ page.facebook.description }}" />
   <meta property="og:image" content="{{ site.url }}{{ page.meta.image }}" />
   <meta property="og:site_name" content="Freedom Torch" />
 
   <!-- Twitter Tags -->
 
-  <meta name="twitter:title" content="{{ page.meta.title | default: page.title }}" />
-  <meta name="twitter:description" content="{{ page.meta.description | default: page.description }}" />
+  <meta name="twitter:title" content="{{ page.twitter.title }}" />
+  <meta name="twitter:description" content="{{ page.twitter.description }}" />
   <meta name="twitter:image" content="{{ site.url }}{{ page.meta.image }}" />
   <meta name="twitter:card" content="summary_large_image" />
 

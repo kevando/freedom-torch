@@ -1,36 +1,36 @@
-var surfsUp = true;
-var SURFS_DOWN = "/freedom-torch/surfs-down";
+// -------------------------------------------------
+// Microsoft killed Netscape and proceeded to 
+// stop all browser innovation. The breakthrough
+// innovation that helped Firefox gain market 
+// share was tabs. Internet Explorer was so bad
+// that simply adding tags let Firefox gain 
+// popularity. Fuck Internet Explorer
+// -------------------------------------------------
 
-// --------------------------------------------------------------------------
+// This script detects Internet Explorer and immediately 
+// redirects the user to get the fuck out.
 
-function isWorstBrowser() {
 
-  // Check #1
+try {
 
   if (window.document.documentMode) {
-    return true;
+    throw new Error("IE detected in documentMode")
   }
-
-  // Check #2
 
   var ua = window.navigator.userAgent;
   var msie = ua.indexOf("MSIE ");
 
-  if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
-  {
-    console.info("IE Version: " + parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
-    return true;
-  }
-  else  // If another browser, return 0
-  {
-    console.info('Normal Browser');
+  // If Internet Explorer, return version number
+  if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+    throw new Error("IE Version: " + parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
   }
 
-  return false;
+} catch (error) {
+  // No Internet Explorers Allowed. GTFO
+  
+  window.location = "/surfs-down";
+
+  // window.location = "/sorry-no-internet-explorers"; // Your site
+  // window.location = "https://www.youtube.com/watch?v=gRelVFm7iJE"; // Bill Gates Deposition
+  // window.location = "https://www.mozilla.org/en-US/firefox/new"; // Download a better browser
 }
-
-// ======================================================================== 
-
-if (isWorstBrowser()) surfsUp = false;
-
-if (!surfsUp) window.location = SURFS_DOWN; // <---- No Internet Explorers Allowed

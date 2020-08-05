@@ -12,13 +12,6 @@ google_analytics: UA-16078011-4
 # Media
 favicon: /assets/images/favicon.png
 
-defaults:
-  -
-    values:
-      title: Freedom Torch
-      meta:
-        image: /assets/images/banner1.jpg
-
 # Build settings
 theme: minima
 plugins:
