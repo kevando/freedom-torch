@@ -1,55 +1,52 @@
+@import "mixins/media-queries.scss";
+
 //  ----------------------
 //   Generic Page
 //  ----------------------
 .page-wrapper {
   $spacing-unit: 3vw;
   padding: 0 $spacing-unit;
+  img {
+    border: solid 1px #777;
+    box-shadow: rgba(104, 104, 104, 0.15) 0px 0px 10px 2px;
+  }
   .footer {
-    // background-color: red;
+    padding-bottom: 10px;
     ul {
       margin: 0;
       padding: 0;
-
       li {
         display: inline-block;
-        margin: 0 2px;
+        margin: 0 9px;
       }
-    }
-    .liberty-shadow {
-      margin: 0px 0 0px 0 !important;
-      box-shadow: $background-color 0px 40px 60px 50px,$background-color 0px 160px 120px 90px;
-      z-index: 1;
-      position: relative;
-
-    }
-    .liberty-wrapper {
-      position: relative;
-      z-index: -1;
     }
   }
 }
 h1.page-title {
   font-size: 55px;
-  // margin-top: 0;
 }
 
 //  ----------------------
 //   Home Page
 //  ----------------------
 
-.home-wrapper {
+.home {
   $spacing: 11vw;
-
-  .links {
+  ul.links {
+    z-index: 100;
     position: absolute;
     bottom: $spacing;
     left: $spacing;
-    p {
+
+    li {
       font-size: 4vh;
       line-height: 1em;
       margin: 3vh 0 0 0;
-      // font-family: Georgia;
-      // font-weight: 100;
+      list-style: none;
+    }
+    @include phone() {
+      margin-left: -60px;
+      margin-bottom: -10px;
     }
   }
 }
@@ -59,8 +56,6 @@ h1.page-title {
 //  ----------------------
 
 .timeline {
-  // border: solid 1px red;
-
   > p {
     font-family: Courier;
     text-overflow: ellipsis;

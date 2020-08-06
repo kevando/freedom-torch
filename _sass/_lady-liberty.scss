@@ -1,64 +1,38 @@
-@function makeLibertyShadow($color) {
-  $val: rgba(0, 0, 0, 0) 0px 0px 3px, rgba(0, 0, 0, 0.4) 20vw 5vh 3px;
 
-  // Blue flame
-  // @for $i from 1 through 5 {
-  //   $color2: blue;//lighten($color, $i * 0);
-  //   $y: #{$i}px;
-  //   $x: #{$i+1}px;
 
-  //   $blur: #{$i*0}px;
+@mixin indent() {
 
-  //   $val: #{$val}, #{$color2} $x $y $blur;
-  // }
+  background-color: #868686;
+  color: transparent;
+  text-shadow: 2px 2px 0px rgba(239, 239, 239, 0.78);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+ }
 
-  // @for $i from 1 through 2 {
-  //   $color2: red;//lighten($color, $i * 0);
-  //   $y: -#{$i}px;
-  //   $x: -#{$i+2}px;
+ // ----------------------------------------------------
 
-  //   $blur: 0px;//#{$i*0}px;
-
-  //   $val: #{$val}, #{$color2} $x $y $blur;
-  // }
-
-  @return $val;
-}
-
-@mixin liberty-shadow($color) {
-  text-shadow: makeLibertyShadow($color);
-}
-
-$w: 250px;
-$h: $w * 1.2;
+ .huge {
+   font-size: max(300px, 60vw);
+ }
 
 .lady-liberty {
-  // border: solid 1px yellow;
-  font-size: $w;
-  width: $w;
-  height: $h;
-
-  &:before {
-    content: "🗽";
-    // border: solid 1px red;
-    position: relative;
-    top: 17px;
-    color: transparent;
-    text-shadow: makeLibertyShadow(red);
-  }
+  border-bottom: solid 1px rgb(235, 235, 235);
+  overflow: hidden;
+  text-align: right;
+  .emoji{
+    @include indent();
+   margin-bottom: -20vw;
+  } 
 }
 
-.home-wrapper {
-
-  $size: min(80vw,80vh);
-
+.home {
   .lady-liberty {
-    font-size: $size;
-    width: $size;
-    height: $size;
-    position: absolute;
-    bottom: 40px;
-    right:5vw;
-    // font-size: 50vw;
+    @extend .huge;
+    position: fixed;
+    bottom: 0px;
+    right: -10vw;
+    width: 100%;
+
   }
 }

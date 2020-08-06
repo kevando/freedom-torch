@@ -9,9 +9,6 @@ url: "https://freedomtorch.net"
 twitter_username: kevando_
 google_analytics: UA-16078011-4
 
-# Media
-favicon: /assets/images/favicon.png
-
 permalink: /:year-:month-:day-:slug
 
 

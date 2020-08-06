@@ -20,6 +20,10 @@ p {
   @extend .serif-text;
   font-size: 30px;
 }
+li {
+  @extend .serif-text;
+  font-size: 30px;
+}
 
 blockquote p {
   @extend .serif-text;

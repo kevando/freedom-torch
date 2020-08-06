@@ -7,12 +7,16 @@ image: /assets/images/dollar_fall.jpg
 
 ---
 
-Are we printing too much money? **Yes.**
+Are we printing too much? 
+
+![Money Printer](/assets/images/money_printed.png)
+
+[Yes.](https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm)
 
 ## Is money the same thing as wealth?
 No. This is a common misconception. Wealth is the ability to generate money. Jeff Bezos does not have $100 billion dollars. Claims that he can solve pworld hunger are false.
 
-What is capitalism? Really? How do markets work?
+<!-- What is capitalism? Really? How do markets work? -->
 
 How much money do we print?
 
@@ -28,6 +32,5 @@ With inflation on the rise and a gold run looming, President Richard Nixon's tea
 
 # Videos
 
-{% include list-videos.html tag="money" %}
+<!-- {% include list-videos.html tag="money" %} -->
 
-https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm
