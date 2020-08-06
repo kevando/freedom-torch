@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="page-wrapper hidden-footer">
+<main class="page-wrapper">
 
   <header>
     <h1 class="page-title">{{ page.title | escape }}</h1>
@@ -13,12 +13,18 @@ layout: default
   </div>
 
 
-  <hr />
-  <a href="/directory">Directory</a>
-  
-  <div class="footer">
-    {% include lady-liberty.html %}
 
-    
+
+  <div class="footer">
+    <div class="liberty-shadow">
+
+      <hr />
+
+      {% include page-links.html %}
+    </div>
+    <div class="liberty-wrapper">
+
+      {% include lady-liberty.html %}
+    </div>
   </div>
 </main>
