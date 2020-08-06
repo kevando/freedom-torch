@@ -2,7 +2,7 @@
   "license": "To chill",
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
-    "deploy": "git add . && git commit -m",
+    "git": "git add . && git commit -m",
     "postgit": "git push --all",
     "pretgit": "git pull --all"
   }
