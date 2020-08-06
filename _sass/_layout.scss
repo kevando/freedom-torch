@@ -10,17 +10,6 @@
     border: solid 1px #777;
     box-shadow: rgba(104, 104, 104, 0.15) 0px 0px 10px 2px;
   }
-  .footer {
-    padding-bottom: 10px;
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin: 0 9px;
-      }
-    }
-  }
 }
 h1.page-title {
   font-size: 55px;
@@ -85,6 +74,23 @@ h1.page-title {
         font-size: 0.9em;
         color: #444;
       }
+    }
+  }
+}
+
+//  ----------------------
+//   Footer
+//  ----------------------
+.footer {
+  padding-bottom: 10px;
+  ul {
+    // margin: 0;
+    // padding: 0;
+    li {
+      list-style: none;
+      font-size: 3vh;
+      line-height: 1em;
+      margin: 2vh 0 0 0;
     }
   }
 }

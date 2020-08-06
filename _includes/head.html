@@ -18,10 +18,9 @@
   <meta name="twitter:image" content="{{ site.url }}{{ page.meta.image }}" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Fav Icon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/fav6.png" />
-
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
-  {%- include google-analytics.html -%} {%- feed_meta -%}
+  {%- include head/favicon.html -%}
+  {%- include head/google-analytics.html -%} 
+  {%- feed_meta -%}
 </head>
