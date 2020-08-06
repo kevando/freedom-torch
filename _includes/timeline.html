@@ -1,8 +1,9 @@
-
 {% assign sorted_timeline = site.data.timeline | sort: "date" %}
 
-{% for event in sorted_timeline -%}
-{% if event.tags contains include.tag -%}
-<p>{{ event.date | date: "%Y-%m-%d" }} ------ {{ event.description | default: event.source_title }}</p>
-{% endif %}
-{%- endfor -%}
+<div class="timeline">
+  {% for event in sorted_timeline -%}
+  {% if event.tags contains include.tag -%}
+  <p><b>{{ event.date | date: "%Y-%m-%d" }} </b>&nbsp; {{ event.description | default: event.source_title }}</p>
+  {% endif %}
+  {%- endfor -%}
+</div>

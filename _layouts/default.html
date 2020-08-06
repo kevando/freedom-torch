@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-<body class="{{ page.body_class }}">
+<body>
 
   {{ content }}
 
 </body>
 
-  {%- include after_body.html -%}
+{%- include after_body.html -%}
 
 </html>

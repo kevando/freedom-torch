@@ -1,0 +1,11 @@
+$big-time: 1400px;
+$small-time: 500px;
+
+@mixin fluid-type($min, $max) {
+
+  // $size: clamp(100%, $min, $max);
+
+  // ------------------
+  // font-size: $size;
+  font-size: min(max(0, 5vw), #{$max});
+}

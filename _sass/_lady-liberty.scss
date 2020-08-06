@@ -1,0 +1,64 @@
+@function makeLibertyShadow($color) {
+  $val: rgba(0, 0, 0, 0) 0px 0px 3px, rgba(0, 0, 0, 0.4) 20vw 5vh 3px;
+
+  // Blue flame
+  // @for $i from 1 through 5 {
+  //   $color2: blue;//lighten($color, $i * 0);
+  //   $y: #{$i}px;
+  //   $x: #{$i+1}px;
+
+  //   $blur: #{$i*0}px;
+
+  //   $val: #{$val}, #{$color2} $x $y $blur;
+  // }
+
+  // @for $i from 1 through 2 {
+  //   $color2: red;//lighten($color, $i * 0);
+  //   $y: -#{$i}px;
+  //   $x: -#{$i+2}px;
+
+  //   $blur: 0px;//#{$i*0}px;
+
+  //   $val: #{$val}, #{$color2} $x $y $blur;
+  // }
+
+  @return $val;
+}
+
+@mixin liberty-shadow($color) {
+  text-shadow: makeLibertyShadow($color);
+}
+
+$w: 250px;
+$h: $w * 1.2;
+
+.lady-liberty {
+  // border: solid 1px yellow;
+  font-size: $w;
+  width: $w;
+  height: $h;
+
+  &:before {
+    content: "🗽";
+    // border: solid 1px red;
+    position: relative;
+    top: 17px;
+    color: transparent;
+    text-shadow: makeLibertyShadow(red);
+  }
+}
+
+.home-wrapper {
+
+  $size: min(80vw,80vh);
+
+  .lady-liberty {
+    font-size: $size;
+    width: $size;
+    height: $size;
+    position: absolute;
+    bottom: 40px;
+    right:5vw;
+    // font-size: 50vw;
+  }
+}

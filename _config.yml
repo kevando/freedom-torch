@@ -12,6 +12,9 @@ google_analytics: UA-16078011-4
 # Media
 favicon: /assets/images/favicon.png
 
+permalink: /:year-:month-:day-:slug
+
+
 # Build settings
 theme: minima
 plugins:

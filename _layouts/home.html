@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
 <body>
 
-  <!-- <div class="test-divider"></div> -->
-
-  {{ content }}
-
-  <!-- <h1><span>Freedom</span><span>Torch</span></h1> -->
-
-  <!-- <span class="quote">Influence the leaders and you automatically influence the group. Propaganda will never die out.</span> -->
-
-  <div class="links">
-    
-    <!-- <h3><a href="#">Money</a></h3> -->
-    <!-- <h3><a href="/china">China</a></h3> -->
-    <!-- <h3><a href="#">Capitalism</a></h3> -->
-    <!-- <h3><a href="#">Propaganda</a></h3> -->
-    
-  </div>
-
-    <span class="emoji statue-of-liberty">🗽</span>
-    <!-- <span class="emoji flame">🔥</span> -->
 
 
+  <main class="home-wrapper">
+
+    <div class="home-content">
+      {{ content }}
+    </div>
+
+    <!-- {% include page-links.html %} -->
+
+
+
+    {% include lady-liberty.html %}
+
+
+  </main>
 
 </body>
 
-  {%- include after_body.html -%}
+{%- include after_body.html -%}
 
 </html>

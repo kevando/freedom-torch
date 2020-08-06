@@ -1,0 +1,70 @@
+//  ----------------------
+//   Generic Page
+//  ----------------------
+.page-wrapper {
+  $spacing-unit: 3vw;
+  padding: 0 $spacing-unit;
+  // background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0.7) 100%);
+  // // background-color: red;;
+  // // height: 100vh;
+}
+h1.page-title {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+//  ----------------------
+//   Home Page
+//  ----------------------
+
+.home-wrapper {
+  $spacing: 11vw;
+
+  .links {
+    position: absolute;
+    bottom: $spacing;
+    left: $spacing;
+    p {
+      font-size: 4vh;
+      line-height: 1em;
+      margin: 3vh 0 0 0;
+      // font-family: Georgia;
+      // font-weight: 100;
+    }
+  }
+}
+
+//  ----------------------
+//   Timeline
+//  ----------------------
+
+.timeline {
+  // border: solid 1px red;
+
+  > p {
+    font-family: Courier;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 3vw;
+  }
+}
+
+//  ----------------------
+//   Hidden Footer
+//  ----------------------
+.hidden-footer {
+  background-image: linear-gradient(rgba(204, 204, 204, 1), rgba(204, 204, 204, 1) 70%, rgba(255, 255, 255, 0.3) 100%);
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 40vh;
+  .footer {
+    position: fixed;
+    bottom: 0;
+    right: 20vw;
+    z-index: -1;
+    a {
+     z-index: 200; 
+    }
+  }
+}
