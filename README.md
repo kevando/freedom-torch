@@ -2,7 +2,20 @@
 
 
 #### Develop [Jekyll](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) Website Locally
+
+
+### Local Development
+
 ```
-bundle exec jekyll serve --livereload
+yarn dev
+
+```
+
+
+
+### Deploy Production
+
+```
+yarn git -- "Pushing"
 
 ```
