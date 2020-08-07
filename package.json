@@ -4,6 +4,6 @@
     "dev": "bundle exec jekyll serve --livereload",
     "git": "git add . && git commit -m",
     "postgit": "git push --all",
-    "pretgit": "git pull --all"
+    "pregit": "git pull --all"
   }
 }
