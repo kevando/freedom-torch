@@ -5,7 +5,7 @@ meta:
   title: China's Threat to Freedom
 ---
 
-Tensions are growing between America and China. Conflict looks inevitable. Because We do not teach anything about China in our schools, most Americans know very little to start. Here's some information.
+Tensions are growing between America and China. Conflict looks inevitable. We do not teach anything about China in America and that's a problem. The absolute #1 most important thing Americans need to know about China is the Chinese people are wondeful people and it's the CCP that we need to be concerned about.
 
 CCP = Chinese Communist Party
 
@@ -15,11 +15,18 @@ CCP = Chinese Communist Party
 # Major Events
 
 
-{% assign cchina_posts = site.posts | where_exp:"post", "post.tags contains 'major'"  %}
+{% assign china_posts = site.posts | where_exp:"post", "post.tags contains 'major'"  %}
 
-
-{% for post in cchina_posts -%}
-  <h3><a href="{{ post.source_url | default: post.url }}">{{ post.description  }}</a></h3>
+{% for post in china_posts -%}
+<div class="major-timeline">
+<p class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}</p>
+  
+  <!-- <h3 class="title">{{ post.description  }}</h3> -->
+  <h3 class="title"><a href="{{ post.url }}">{{ post.description  }}</a></h3>
+  <!-- <h3 class="summary">{{ post.summary  }}</h3> -->
+  <!-- <p class="read-more"><a href="{{ post.source_url | default: post.url }}">Read More</a></p> -->
+  </div>
+  
 {%- endfor -%}
 
 ---
@@ -69,3 +76,4 @@ CCP = Chinese Communist Party
 
 - [U.S. Relations With China Fact Sheet](https://www.state.gov/u-s-relations-with-china/)
 - [Exclusion Act](https://history.state.gov/milestones/1866-1898/chinese-immigration)
+- [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/) palladiummag.com

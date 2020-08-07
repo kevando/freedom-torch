@@ -1,13 +1,13 @@
-// @import "mixins/media-queries.scss";
-
+// Styles that apply to this website only
 
 .content {
   padding-left: $content-padding;
   padding-right: $content-padding;
-
 }
 
-html, body, .wrapper {
+html,
+body,
+.wrapper {
   height: 100%;
 }
 body {
@@ -23,9 +23,26 @@ body {
 }
 
 // Home
-
-.home {
+.home.logo {
+  margin-top: 20px;
+}
+ul.home {
+  margin-left: 27px;
   li {
-    // list-style-image: url(../assets/icons/icon-32-torch-0.png);
+    color: white;
+    margin-top: 20px;
+  }
+}
+
+blockquote {
+
+  border-left: 5px solid black;
+  margin: 0;
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
   }
 }

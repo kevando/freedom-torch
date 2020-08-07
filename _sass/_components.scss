@@ -1,4 +1,9 @@
+// Styles that could be used elsewhere
+
+
 @import "mixins/fire-text.scss";
+
+
 
 $row-spacing: 10px;
 
@@ -39,6 +44,28 @@ table.timeline {
   }
 }
 
+.major-timeline {
+  margin-bottom: 25px;
+  > * {
+    margin: 0;
+  }
+  .date {
+    margin-bottom: -5px;
+    font-family: $sans-serif;
+    font-weight: bold;
+    font-size: min(max(0.5rem, 3vw), 20px);
+  }
+  .title {
+    font-weight: 300;
+    font-size: min(max(1rem, 6vw), 32px);
+  }
+  .summary {
+    font-size: min(max(1rem, 4vw), 26px);
+  }
+  .read-more {
+    font-size: min(max(1rem, 5vw), 26px);
+  }
+}
 
 
 
@@ -56,75 +83,8 @@ table.timeline {
   text-align: right;
 }
 
-//  ----------------------
-//   Home Page
-//  ----------------------
-.home {
-  .lady-liberty {
-    font-size: max(200px, 50vw);
-    @include fire();
-    position: fixed;
-    bottom: 0px;
-    right: -10vw;
-    width: 100%;
-    .emoji {
-      margin-bottom: -20vw;
-    }
-  }
+
+// Logo
+img.white-torch {
+  width: 100px;
 }
-//  ----------------------
-//   Footer
-//  ----------------------
-
-.footer {
-  position: relative;
-  .lady-liberty {
-    font-size: 140px;
-    position: absolute;
-    bottom: -40px;
-    right: 0;
-    .emoji {
-      @include indent();
-    }
-  }
-}
-
-
-// table.timeline-v1 {
-//   width: 100%;
-//   // margin-left: -10px;
-
-//   td {
-//     margin: 0;
-//     padding: 0;
-//     // border: solid 1px black;
-
-//     &.date {
-//       text-align: right;
-//       line-height: 1em;
-//       font-family: Courier;
-//       font-weight: bold;
-//       font-size: 1em;
-//     }
-//     &.description {
-//       @extend .serif-text;
-//       // padding-left: 5px;
-//       letter-spacing: 0.02em;
-//       line-height: 1.5em;
-//       font-weight: 400;
-//       color: #444;
-//       font-size: 1.2em;
-//     }
-//     &.emoji {
-//       font-size: 1.5em;
-//       text-align: center;
-//       width: 40px;
-//     }
-//   }
-
-//   tr.spacer {
-//     height: $row-spacing;
-//   }
-// }
-
-

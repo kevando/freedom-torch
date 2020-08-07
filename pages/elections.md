@@ -18,7 +18,8 @@ Stay safe. Stay healthy.
 
 Hours: {{hoursSince}}
 Days: {{daysSince}} -->
-
+- quote: be cautious about putting too much faith or fear in elected individuals.
+  person: Edward Snowden
 
 
 https://idlewords.com/2019/05/what_i_learned_trying_to_secure_congressional_campaigns.htm
@@ -28,3 +29,7 @@ https://mayday.us/
 
 
 [Dark Money](https://www.darkmoneyfilm.com/)
+
+Focus this page on ipad 
+
+are most incumbants not running for re-electiopn?

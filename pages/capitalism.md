@@ -3,20 +3,40 @@ title:  Capitalism
 permalink: /capitalism
 ---
 
-Our capitalism is out of balance. The CCP will challenge capitalism in the near future in a variety of ways. It's already happening. How the US reacts will decide the next decade. Or as Eric Weinstein puts it:
 
-> *Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance.*
+U.S. capitalism is out of balance and the CCP will try to topple us. We need a high quality conversation that occurs in the public forum. How the US reacts will decide the next decade. Buckle up.
 
-- [Anthropic Capitalism And The New Gimmick Economy](https://www.edge.org/response-detail/26756)
-- [Capitalism 2.0 Will Include a Healthy Dose of Socialism](https://youtu.be/xzTmBnaiMdE) 
-- [Why capitalism won’t survive without socialism](https://www.vox.com/policy-and-politics/2017/7/25/15998002/eric-weinstein-capitalism-socialism-revolution)
+## Socialism
+
+Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance.  **-- Eric Weinstein**
+
+
+
+- [Anthropic Capitalism](https://www.edge.org/response-detail/26756)
+- [Capitalism 2.0](https://youtu.be/xzTmBnaiMdE) 
+- [Capitalism won’t survive without socialism](https://www.vox.com/policy-and-politics/2017/7/25/15998002/eric-weinstein-capitalism-socialism-revolution)
+
+
 
 
 ---
 
 # Money
 
-### Universal Basic Income
+There is a big move coming. The question everyone should be asking is "What happens if the dollar loses its place as the world reserve currency?"
+
+Lets review the most recent big changes
+
+### August 1971
+
+With inflation on the rise and a gold run looming, President Richard Nixon's team enacted a plan that ended dollar convertibility to gold and implemented wage and price controls, which soon brought an end to the Bretton Woods System.
+[Source](https://www.federalreservehistory.org/essays/gold_convertibility_ends)
+
+### 1945 Brentonwood
+
+US Dollar becomes the world reserve currency. 
+
+### Universal Basic Income?
 
 - Read [Andrew Yang](https://www.yang2020.com/blog/the-new-capitalism)
 - Watch [Humans Need Not Apply](https://www.youtube.com/watch?v=7Pq-S557XQU)
@@ -30,14 +50,7 @@ We are printing too many.
 
 ![Dollar Fall](/assets/images/dollar_fall.jpg)
 
-### August 1971
-
-With inflation on the rise and a gold run looming, President Richard Nixon's team enacted a plan that ended dollar convertibility to gold and implemented wage and price controls, which soon brought an end to the Bretton Woods System.
-[Source](https://www.federalreservehistory.org/essays/gold_convertibility_ends)
-
-
 - Watch [Dollar Crash Prediction](https://www.youtube.com/watch?v=KYb9EyBd80o)
-
 
 # Wealth
 
@@ -54,3 +67,4 @@ The Youtube channel Economics Explained is fantastic. In this video we learn som
 
 - Watch [vid](https://youtu.be/iNlBizfi-jM)
 - Laugh [r/LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism)
+
