@@ -16,3 +16,15 @@ permalink: /:year-:month-:day-:slug
 theme: minima
 plugins:
   - jekyll-feed
+
+# Reference paths
+icons_dir: /assets/icons
+
+
+# Default Settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

@@ -8,3 +8,5 @@ _site
 vendor
 
 dump
+
+.DS_store

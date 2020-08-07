@@ -1,5 +1,14 @@
-@import "base/reset", "base/colors";
-@import "typography";
-@import "layout", "links";
-@import "device";
-@import "lady-liberty";
+$blue: blue;
+$purple: purple;
+$yellow: yellow;
+$red: red;
+$orange: orange;
+$green: green;
+$grey: #e0e0e0;
+
+$background-color: $grey;
+
+$content-padding: 1em;
+
+
+@import "base", "typography", "layout", "components";

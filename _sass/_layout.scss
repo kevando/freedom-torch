@@ -1,96 +1,23 @@
-@import "mixins/media-queries.scss";
+// @import "mixins/media-queries.scss";
 
-//  ----------------------
-//   Generic Page
-//  ----------------------
-.page-wrapper {
-  $spacing-unit: 3vw;
-  padding: 0 $spacing-unit;
-  img {
-    border: solid 1px #777;
-    box-shadow: rgba(104, 104, 104, 0.15) 0px 0px 10px 2px;
-  }
-}
-h1.page-title {
-  font-size: 55px;
+
+.content {
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+
 }
 
-//  ----------------------
-//   Home Page
-//  ----------------------
-
-.home {
-  $spacing: 11vw;
-  ul.links {
-    z-index: 100;
-    position: absolute;
-    bottom: $spacing;
-    left: $spacing;
-
-    li {
-      font-size: 4vh;
-      line-height: 1em;
-      margin: 3vh 0 0 0;
-      list-style: none;
-    }
-    @include phone() {
-      margin-left: -60px;
-      margin-bottom: -10px;
-    }
-  }
+html, body, .wrapper {
+  height: 100%;
 }
-
-//  ----------------------
-//   Timeline
-//  ----------------------
-
-.timeline {
-  > p {
-    font-family: Courier;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 3vw;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
-
-//  ----------------------
-//   Post List
-//  ----------------------
-.posts {
-  .post {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 1vh;
-    p {
-      font-family: Courier;
-      margin: 2px 0;
-      font-size: 0.9em;
-      &.date {
-        min-width: 110px;
-        font-weight: bold;
-      }
-      &.description {
-        font-size: 0.9em;
-        color: #444;
-      }
-    }
-  }
+.content {
+  flex: 1 0 auto;
 }
-
-//  ----------------------
-//   Footer
-//  ----------------------
 .footer {
-  padding-bottom: 10px;
-  ul {
-    // margin: 0;
-    // padding: 0;
-    li {
-      list-style: none;
-      font-size: 3vh;
-      line-height: 1em;
-      margin: 2vh 0 0 0;
-    }
-  }
+  flex-shrink: 0;
 }

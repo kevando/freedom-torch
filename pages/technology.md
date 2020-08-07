@@ -1,14 +1,9 @@
 ---
-layout: page
-title:  Technology
-description: A system of trust that can bridge almost any culture gap.
 permalink: /technology
-image: /assets/images/dollar_fall.jpg
-
+title: Technology
 ---
 
-Humans need not apply
 
-Deep fakes
+cyber security
 
-{% include list-videos.html tag="technology" %}
+[Announcing the Expansion of the Clean Network to Safeguard America’s Assets]: https://www.state.gov/announcing-the-expansion-of-the-clean-network-to-safeguard-americas-assets/

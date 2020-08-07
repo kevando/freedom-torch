@@ -1,0 +1,130 @@
+@import "mixins/fire-text.scss";
+
+$row-spacing: 10px;
+
+table.timeline {
+  width: 100%;
+  // margin-left: -10px;
+
+  td {
+    margin: 0;
+    padding: 0;
+    // border: solid 1px black;
+
+    &.date {
+      // text-align: right;
+      // line-height: 1em;
+      font-family: Courier;
+      // font-weight: bold;
+      // font-size: 20px;
+      min-width: 100px;
+    }
+    &.description {
+      // @extend .serif-text;
+      // padding-left: 5px;
+
+      // line-height: 1.5em;
+      // font-weight: 400;
+      // color: #444;
+    }
+    &.emoji {
+      // font-size: 1.5em;
+      // text-align: center;
+      // width: 40px;
+    }
+  }
+
+  tr.spacer {
+    height: $row-spacing;
+  }
+}
+
+
+
+
+@mixin indent() {
+  background-color: #868686;
+  color: transparent;
+  text-shadow: 2px 2px 0px rgba(239, 239, 239, 0.78);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.lady-liberty {
+  overflow: hidden;
+  text-align: right;
+}
+
+//  ----------------------
+//   Home Page
+//  ----------------------
+.home {
+  .lady-liberty {
+    font-size: max(200px, 50vw);
+    @include fire();
+    position: fixed;
+    bottom: 0px;
+    right: -10vw;
+    width: 100%;
+    .emoji {
+      margin-bottom: -20vw;
+    }
+  }
+}
+//  ----------------------
+//   Footer
+//  ----------------------
+
+.footer {
+  position: relative;
+  .lady-liberty {
+    font-size: 140px;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    .emoji {
+      @include indent();
+    }
+  }
+}
+
+
+// table.timeline-v1 {
+//   width: 100%;
+//   // margin-left: -10px;
+
+//   td {
+//     margin: 0;
+//     padding: 0;
+//     // border: solid 1px black;
+
+//     &.date {
+//       text-align: right;
+//       line-height: 1em;
+//       font-family: Courier;
+//       font-weight: bold;
+//       font-size: 1em;
+//     }
+//     &.description {
+//       @extend .serif-text;
+//       // padding-left: 5px;
+//       letter-spacing: 0.02em;
+//       line-height: 1.5em;
+//       font-weight: 400;
+//       color: #444;
+//       font-size: 1.2em;
+//     }
+//     &.emoji {
+//       font-size: 1.5em;
+//       text-align: center;
+//       width: 40px;
+//     }
+//   }
+
+//   tr.spacer {
+//     height: $row-spacing;
+//   }
+// }
+
+

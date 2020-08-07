@@ -18,3 +18,13 @@ Stay safe. Stay healthy.
 
 Hours: {{hoursSince}}
 Days: {{daysSince}} -->
+
+
+
+https://idlewords.com/2019/05/what_i_learned_trying_to_secure_congressional_campaigns.htm
+https://mayday.us/
+
+[Senators who voted for Kavanaugh: Tech industry PAC donations in 2017/18](https://docs.google.com/spreadsheets/d/1j-3eA9DpezjeGwljpTP6W1eSe1XwPn0eY28l9-GpuQk/edit?fbclid=IwAR1y2LIk9LdQzyaFS6K7NM4M-pnPfYZ4pFify08p3Fqw-5ckYHgq16S6JmA#gid=0)
+
+
+[Dark Money](https://www.darkmoneyfilm.com/)
