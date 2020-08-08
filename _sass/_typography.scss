@@ -56,24 +56,12 @@ blockquote {
   padding: 0 5px;
 }
 
-.site-title {
-  font-family: "Didot";
-  font-size: 13vw;
-  white-space: nowrap;
-  margin: 0;
-  text-align: center;
-  line-height: 0.8em;
-  padding-top: 20px;
-  width: 100%;
-  font-weight: 100;
-}
-.page-title {
-  $min: 8vw;
-  $max: 60px;
-  font-size: min(max(1rem, #{$min}), #{$max});
-  font-family: $sans-serif;
-  letter-spacing: 1px;
-  font-weight: 800;
+// -------- Layout Text ---------
+
+.site-links {
+  p {
+    font-size: min(max(1rem, 12vw), 35px);
+  }
 }
 
 // -------------------

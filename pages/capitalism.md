@@ -5,6 +5,7 @@ permalink: /capitalism
 
 U.S. capitalism is out of balance and the CCP will try to topple us. We need a high quality conversation that occurs in the public forum. How the US reacts will decide the next decade. Buckle up.
 
+
 ## Socialism
 
 Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance.  **-- Eric Weinstein**

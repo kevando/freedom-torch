@@ -52,6 +52,7 @@ CCP = Chinese Communist Party
 
 - FBI opens a new case on China every 10 hours
 - 100,000 Chinese students come to America every year.
+- Applw has 2m employees in china. 4x walmart has in the us
 
 
 **White Monkey:** White people hired by China to say good things about China 

@@ -9,6 +9,61 @@ body {
   padding-right: $content-padding;
 }
 
+.site-title {
+  font-family: "Didot";
+  font-size: 13vw;
+  white-space: nowrap;
+  margin: 0;
+  text-align: center;
+  line-height: 0.8em;
+  padding-top: 20px;
+  width: 100%;
+  font-weight: 100;
+}
+.page-title {
+  $min: 8vw;
+  $max: 60px;
+  font-size: min(max(1rem, #{$min}), #{$max});
+  font-family: $sans-serif;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.logo-wrapper {
+  text-align: center;
+  padding-top: 20px;
+
+  // Logo
+  img.white-torch {
+    width: 150px;
+  }
+}
+
+// .home-content {
+//   display: flex;
+// }
+.site-links {
+  text-align: center;
+  p {
+    margin: 0;
+    line-height: 5rem;
+    a {
+      padding: 1rem 0;
+    }
+  }
+}
+
+blockquote {
+  border-left: 5px solid black;
+  margin: 0;
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+// Footer
+
 html,
 body,
 .wrapper {
@@ -24,25 +79,4 @@ body {
 }
 .footer {
   flex-shrink: 0;
-}
-
-// Home
-.home.logo {
-  margin-top: 20px;
-}
-ul.home {
-  margin-left: 27px;
-  li {
-    color: white;
-    margin-top: 20px;
-  }
-}
-
-blockquote {
-  border-left: 5px solid black;
-  margin: 0;
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
 }

@@ -49,10 +49,16 @@ a {
   }
 }
 
-// Footer
+// ------- Layout -------
+
+.site-links {
+  a:visited {
+    color: white;
+  }
+}
 
 .site-title {
-  margin: 40px 0;
+  margin: 80px 0;
 
   a {
     display: inline-block;
@@ -61,7 +67,7 @@ a {
       color: black;
     }
     &:visited {
-      color: #999;
+      color: white;
     }
     &:hover {
       color: black;
