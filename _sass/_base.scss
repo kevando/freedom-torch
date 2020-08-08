@@ -1,22 +1,9 @@
 // Styles that would apply to most any site
 
-body {
-  background-color: $background-color;
-}
-
-
-a {
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-
 //  ----------------------
 //   Reset some things
 //  ----------------------
-body{
+body {
   margin: 0;
   padding: 0;
 }

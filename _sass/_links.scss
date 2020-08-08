@@ -17,6 +17,13 @@
 // --------------------------------
 
 a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a {
   &:link {
     //  @include outline(yellow);
     //  @include border(blue);

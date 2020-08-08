@@ -1,5 +1,9 @@
 // Styles that apply to this website only
 
+body {
+  background-color: $background-color;
+}
+
 .content {
   padding-left: $content-padding;
   padding-right: $content-padding;
@@ -35,14 +39,10 @@ ul.home {
 }
 
 blockquote {
-
   border-left: 5px solid black;
   margin: 0;
   p {
     margin-left: 20px;
     margin-right: 20px;
-
-
-
   }
 }
