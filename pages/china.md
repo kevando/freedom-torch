@@ -9,7 +9,6 @@ Tensions are growing between America and China. Conflict looks inevitable. We do
 
 CCP = Chinese Communist Party
 
-
 ---
 
 # Major Events
@@ -47,7 +46,6 @@ CCP = Chinese Communist Party
   {%- endfor -%}
 </table>
 
-
 ---
 
 - FBI opens a new case on China every 10 hours
@@ -59,7 +57,7 @@ CCP = Chinese Communist Party
 
 ---
 
-### Great Youtube Channels
+### Quality Youtube Channels
 
 - [laowhy86](https://www.youtube.com/c/laowhy86)
 - [China Uncensored](https://www.youtube.com/user/NTDChinaUncensored)
@@ -70,11 +68,8 @@ CCP = Chinese Communist Party
 - [China Daily](http://global.chinadaily.com.cn)
 - [Global Times](https://twitter.com/globaltimesnews)
 
-
-
-
 ### Other Resources
 
 - [U.S. Relations With China Fact Sheet](https://www.state.gov/u-s-relations-with-china/)
 - [Exclusion Act](https://history.state.gov/milestones/1866-1898/chinese-immigration)
-- [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/) palladiummag.com
+- [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/)
