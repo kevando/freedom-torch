@@ -33,9 +33,16 @@ Social media can be used to spread propaganda. The most powerful propaganda tool
 
 Anticipating the way a group will react is the heart of propaganda. Trolls on the internet go 1 step beyond and anticipate the reaction to the reaction. South Park explains this very well with something they call Trevor's Axiom.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/194900488?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+---
+{% assign china_posts = site.posts | where_exp:"post", "post.tags contains 'major'"  %}
 
+##### Videos
+
+- [Torches of Freedom Micro Documentary](https://vimeo.com/417402457)
+- [Trevor's Axiom](https://vimeo.com/194900488)
+
+---
 
 WW1
 

@@ -10,6 +10,10 @@ U.S. capitalism is out of balance and the CCP will try to topple us. We need a h
 
 Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance.  **-- Eric Weinstein**
 
+---
+
+##### Videos
+
 - [Anthropic Capitalism](https://www.edge.org/response-detail/26756)
 - [Capitalism 2.0](https://youtu.be/xzTmBnaiMdE) 
 - [Capitalism won’t survive without socialism](https://www.vox.com/policy-and-politics/2017/7/25/15998002/eric-weinstein-capitalism-socialism-revolution)
