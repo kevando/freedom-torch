@@ -44,9 +44,3 @@ Anticipating the way a group will react is the heart of propaganda. Trolls on th
 
 ---
 
-WW1
-
-
-## Mask Propaganda
-how did this go down?
-first told us we had short supply

@@ -3,20 +3,26 @@ permalink: /america
 title: America
 ---
 
-Life as we know is ending. 
-
-Masks are not there to protect us from germs, it's a way to shock the system. Wake everyone up so they're alert.
-
-<!-- “Everything great is just as difficult to realize, as it is rare to find.”
-You may of course ask, whether we really need to refer to ‘saints.’ Wouldn’t it suffice just to refer to ‘decent people?’ It is true they form a minority. More than that, they always will remain a minority.
-And yet, I see therein the very challenge to join the minority.
-For the world is in a bad state, but everything will become still worse unless each of us does his best.
-So let us be alert. Alert in a two fold sense.
-Since Auschwitz, we know what man is capable of. And since Hiroshima, we know what is at stake. -->
-
-https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0671023373
+> Let us be alert in a two fold sense. Since Auschwitz, we know what man is capable of. And since Hiroshima, we know what is at stake.  [**Viktor Frankl**](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0671023373)
 
 
 
-why beliebe in others
-https://www.ted.com/talks/viktor_frankl_why_believe_in_others
+
+---
+
+Life as we know it is ending. 
+
+The transition will be painful until enough Americans wake up to the reality that we've been off course for a while. One way to look at the mask debacle is a seatbelt for the bumpy road ahead. It's a shock to the old system that says "wake up!"
+
+Wake up and see the propaganda.
+
+
+### Education
+
+Public schools never adapted to the internet and that failure is a catastrophe. Here are some COVID resources.
+
+- [schoolclosures.org](https://schoolclosures.org/)
+
+<!-- https://www.usaspending.gov/#/ -->
+
+china challenging america is a good thing. we have become complacent. 

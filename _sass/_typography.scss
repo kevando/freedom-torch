@@ -10,22 +10,39 @@
 $serif: "Neuton";
 $sans-serif: Verdana;
 
+$thin: 200;
+$normal: 400;
+$bold: 700;
+
+// ---------------------------------------------------------
+// .title {
+
+// }
+// .sub-title {
+
+// }
+.content-header {
+
+}
+
 // ---------------------------------------------------------
 
 h1 {
   font-family: $serif;
+  font-weight: $normal;
   font-size: min(max(1rem, 8vw), 50px);
-  font-weight: 400;
   letter-spacing: 1px;
 }
 h2 {
   font-family: $serif;
+  font-weight: $normal;
   font-size: min(max(1rem, 9vw), 40px);
 }
 h3 {
+  @extend .content-header;
   font-family: $serif;
-  font-weight: 300;
-  font-size: min(max(1rem, 7vw), 33px);
+  font-weight: $bold;
+  font-size: min(max(1rem, 7vw), 38px);
 }
 h4 {
   font-family: $sans-serif;
@@ -68,7 +85,7 @@ blockquote {
   $spacing-unit: 1.5rem;
   $header-spacing: 0.5rem;
 
-  h2 {
+  h2, h3 {
     margin: 0;
     line-height: 1;
     + p {
@@ -84,8 +101,8 @@ blockquote {
   }
 
   ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    // margin-top: 0;
+    // margin-bottom: 0;
   }
   hr {
     margin: $spacing-unit 0;
