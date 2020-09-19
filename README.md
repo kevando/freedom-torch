@@ -1,3 +1,10 @@
-### It's time to reclaim propaganda as a tool for good. If we are to do this, the challenge is not small. It does require going against the dictionary.
+![debutants](debutants.jpg)
 
-> The conscious and intelligent manipulation of the organised habits and opinions of the masses is an important element in democratic society. Those who manipulate this unseen mechanism of society constitute an invisible government which is the true ruling power of our country. We must realize that propaganda is the modern instrument by which we can fight for productive ends and help to bring order out of chaos.
+In 1929 Bernays decided to pay women to smoke their “torches of freedom” as they walked in the Easter Sunday Parade in New York. This was a shock because until that time, women were only permitted to smoke in certain places such as in the privacy of their own homes. He was very careful when picking women to march because “while they should be good looking, they should not look too model-y” and he hired his own photographers to make sure that good pictures were taken and then published around the world. 
+
+> “Women! Light another torch of freedom! Fight another sex taboo!” 
+
+Once the footage was released, the campaign was being talked about everywhere, the women's walk was seen as a protest for equality and sparked discussion throughout the nation and is still known today. 
+
+The targeting of women in tobacco advertising led to higher rates of smoking among women. In 1923 women only purchased 5% of cigarettes sold, in 1929 that percentage increased to 12%, in 1935 to 18.1%, peaking in 1965 at 33.3%, and remaining at this level until 1977.
+
