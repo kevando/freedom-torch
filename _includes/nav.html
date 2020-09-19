@@ -1,10 +1,18 @@
+
 <nav class="site">
 
-
-
   <ul>
-    <!-- <li><a href="{{ site.url }}">Freedom Torch</a> </li> -->
-    <li><a href="{{ site.url }}/china">China</a></li>
-    <li><a href="{{ site.url }}/capitalism">Capitalism</a></li>
+
+  {% for link in site.data.nav_links %}
+
+    {% unless page.permalink == link.permalink %}
+    <li><a href="{{ site.url }}/{{ link.permalink }}">{{ link.label }}</a></li>
+    {% endunless %}
+
+  {% endfor %}
+
+  
+
+    
   </ul>
 </nav>

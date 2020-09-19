@@ -9,12 +9,14 @@ $grey: #e0e0e0;
 $background-color: $grey;
 $content-padding: 1em;
 
+@import "shared";
 
 @import "base";
 @import "typography";
 @import "layout";
 @import "components";
-@import "links";
 
 @import "nav";
 @import "footer";
+
+@import "congress-connections";

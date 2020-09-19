@@ -61,55 +61,6 @@ blockquote {
     font-size: min(max(1rem, 4vw), 26px);
   }
 }
-// * > code {
-//   font-size: 0.8em;
-//   background-color: rgb(255, 255, 233);
-//   padding: 0 5px;
-// }
-
-// ---------------------------------------------------------
-
-.content {
-  
-  $spacing-unit: 1.5rem;
-  $header-spacing: 0.5rem;
-
-  h2, h3 {
-    margin: 0;
-    line-height: 1;
-    + p {
-      margin-top: $header-spacing;
-    }
-  }
-  h5 {
-    margin: 0;
-    line-height: 1;
-    + ul {
-      margin-top: $header-spacing;
-    }
-  }
-
-  ul {
-    // margin-top: 0;
-    // margin-bottom: 0;
-  }
-  hr {
-    margin: $spacing-unit 0;
-    // + * {
-    //   // margin-top: 0rem;
-    // }
-  }
-}
-
-// ---------------------------------------------------------
-
-// -------- Layout Text ---------
-
-.site-links {
-  p {
-    font-size: min(max(1rem, 12vw), 35px);
-  }
-}
 
 // ------- Mobile ----------
 

@@ -16,12 +16,59 @@
   font-weight: 800;
 }
 
-
 blockquote {
   border-left: 5px solid black;
   margin: 0;
   p {
     margin-left: 20px;
     margin-right: 20px;
+  }
+}
+
+
+.content {
+  $spacing-unit: 1.5rem;
+  $header-spacing: 0.5rem;
+
+  h2, h3 {
+    margin: 0;
+    line-height: 1;
+    + p {
+      margin-top: $header-spacing;
+    }
+  }
+  h5 {
+    margin: 0;
+    line-height: 1;
+    + ul {
+      margin-top: $header-spacing;
+    }
+  }
+  hr {
+    margin: $spacing-unit 0;
+  }
+}
+
+
+.home-content {
+  padding-top: 10vh;
+  p {
+    font-size: min(max(1rem, 12vw), 35px);
+    margin-top: 0;
+  }
+  img {
+    width: 100px;
+  }
+  a {
+    color: $blue;
+    border-bottom: solid 4px white;
+    &:visited {
+      color: white;
+      border-bottom: solid 4px $red;
+    }
+    &:hover {
+      border-bottom: solid 3px white;
+      color: white;
+    }
   }
 }

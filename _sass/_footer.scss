@@ -19,6 +19,24 @@ body {
   padding: 40px 0;
 
   .site-title {
+    margin: 80px 0;
+
+    a {
+      display: inline-block;
+      text-decoration: underline;
+      &:link {
+        color: black;
+      }
+      &:visited {
+        color: white;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .site-title {
     font-family: "Didot";
     font-size: 6vw;
     line-height: 1em;
@@ -31,6 +49,10 @@ body {
     a {
       text-decoration: none;
       border-bottom: solid 5px $red;
+      &:hover {
+        color: white;
+        border-bottom-color: white;
+      }
     }
   }
 }

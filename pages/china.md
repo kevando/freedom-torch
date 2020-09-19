@@ -1,36 +1,23 @@
 ---
 permalink: /china
 title: China
-meta:
-  title: China's Threat to Freedom
+
 ---
 
-Tensions are growing between America and China. Conflict looks inevitable. We do not teach anything about China in America and that's a problem. The absolute #1 most important thing Americans need to know about China is the Chinese people are wondeful people and it's the CCP that we need to be concerned about.
+Tensions between America and China are growing. 
+
+Conflict appears inevitable and that means a bumpy road for the whole world. Since we do not teach anything about China in America, let's learn about China and take a look at recent events that brought us here. 
+
+The first and absolute most important thing Americans need to know about China is that the Chinese people are wondeful not an enemy. It's the CCP that we need to be concerned about.
 
 CCP = Chinese Communist Party
 
 ---
 
-# Major Events
+# Recent Events
 
 
-{% assign china_posts = site.posts | where_exp:"post", "post.tags contains 'major'"  %}
 
-{% for post in china_posts -%}
-<div class="major-timeline">
-<p class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}</p>
-  
-  <!-- <h3 class="title">{{ post.description  }}</h3> -->
-  <h3 class="title"><a href="{{ post.url }}">{{ post.description  }}</a></h3>
-  <!-- <h3 class="summary">{{ post.summary  }}</h3> -->
-  <!-- <p class="read-more"><a href="{{ post.source_url | default: post.url }}">Read More</a></p> -->
-  </div>
-  
-{%- endfor -%}
-
----
-
-## Full Timeline
 
 {% assign china_posts = site.posts | where_exp:"post", "post.category contains 'china'"  %}
 
@@ -45,6 +32,8 @@ CCP = Chinese Communist Party
   <tr class="spacer"></tr>
   {%- endfor -%}
 </table>
+
+
 
 ---
 
@@ -74,17 +63,19 @@ CCP = Chinese Communist Party
 - [U.S. Relations With China Fact Sheet](https://www.state.gov/u-s-relations-with-china/)
 - [Exclusion Act](https://history.state.gov/milestones/1866-1898/chinese-immigration)
 - [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/)
+- [China’s Massive Belt and Road Initiative](https://www.cfr.org/backgrounder/chinas-massive-belt-and-road-initiative)
 
 belt and road
 xi lifetime
 
-3x users than USA
+### Population Stats
 
-50x mobile payments
+- **3x** smart phone users than USA
+- **50x** mobile payments
+- **10x** food delivery (data)
+- **300x** shared bike ride
 
-10x food delivery (data)
 
-300x shared bike ride
 
 - tiktok ban
     - saga: microsoft, oracle

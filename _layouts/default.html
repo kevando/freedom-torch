@@ -1,13 +1,12 @@
 ---
 layout: empty
 ---
-<div class="site-wrapper">
-    {% include nav.html %}
 
-    <div class="content">
-        {% include header.html %}
-        {{ content }}
-    </div>
+{% include nav.html %}
 
-    {% include footer.html %}
+<div class="content">
+    {% include header.html %}
+    {{ content }}
 </div>
+
+{% include footer.html %}

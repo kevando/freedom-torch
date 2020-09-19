@@ -33,7 +33,7 @@ defaults:
       twitter_description: ""
       twitter_image: ""
       twitter_image_alt: ""
-      twitter_card_type: ""
+      twitter_card_type: summary
       
 
 twitter_handle: 1freedomtorch

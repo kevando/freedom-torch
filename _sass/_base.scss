@@ -1,15 +1,11 @@
-// Styles that would apply to most any site
 
-//  ----------------------
-//   Reset some things
-//  ----------------------
 body {
   margin: 0;
   padding: 0;
   background-color: $blue;
 }
 
-.site-wrapper {
+.content {
   background-color: $background-color;
 }
 
@@ -31,4 +27,13 @@ body {
 }
 img {
   max-width: 100%;
+}
+
+
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }

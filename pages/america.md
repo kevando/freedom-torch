@@ -2,8 +2,9 @@
 permalink: /america
 title: America
 twitter_title: "🇺🇸 America"
-twitter_description: "Our way of life is ending and we must prepare for the new future."
-twitter_card_type: summary
+twitter_description: "Our way of life is ending."
+twitter_image: /assets/images/icon-64-lady-smoke.jpg
+twitter_image_alt: "The statue of liberty smoking a cigarette"
 ---
 
 Life as we know it is ending.
