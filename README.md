@@ -1,21 +1,8 @@
-# Freedom Torch
 
 
-#### Develop [Jekyll](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) Website Locally
+### Develop [Jekyll] Website Locally `yarn dev`
+
+### Deploy Production `yarn git -- "Pushing"`
 
 
-### Local Development
-
-```
-yarn dev
-
-```
-
-
-
-### Deploy Production
-
-```
-yarn git -- "Pushing"
-
-```
+[Jekyll]: (https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
