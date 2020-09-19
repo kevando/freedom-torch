@@ -7,10 +7,14 @@ $green: green;
 $grey: #e0e0e0;
 
 $background-color: $grey;
-
 $content-padding: 1em;
 
-@import "base", "typography", "layout", "components";
+
+@import "base";
+@import "typography";
+@import "layout";
+@import "components";
 @import "links";
 
-// @import "debug";
+@import "nav";
+@import "footer";

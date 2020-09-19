@@ -51,6 +51,7 @@ CCP = Chinese Communist Party
 - FBI opens a new case on China every 10 hours
 - 100,000 Chinese students come to America every year.
 - Applw has 2m employees in china. 4x walmart has in the us
+- China has only one time zone
 
 
 **White Monkey:** White people hired by China to say good things about China 
@@ -73,3 +74,18 @@ CCP = Chinese Communist Party
 - [U.S. Relations With China Fact Sheet](https://www.state.gov/u-s-relations-with-china/)
 - [Exclusion Act](https://history.state.gov/milestones/1866-1898/chinese-immigration)
 - [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/)
+
+belt and road
+xi lifetime
+
+3x users than USA
+
+50x mobile payments
+
+10x food delivery (data)
+
+300x shared bike ride
+
+- tiktok ban
+    - saga: microsoft, oracle
+- history of taiwan

@@ -9,23 +9,13 @@
 
 $serif: "Neuton";
 $sans-serif: Verdana;
+$logo-font: "Didot";
 
 $thin: 200;
 $normal: 400;
 $bold: 700;
 
-// ---------------------------------------------------------
-// .title {
-
-// }
-// .sub-title {
-
-// }
-.content-header {
-
-}
-
-// ---------------------------------------------------------
+// --------------------------------------
 
 h1 {
   font-family: $serif;
@@ -39,7 +29,6 @@ h2 {
   font-size: min(max(1rem, 9vw), 40px);
 }
 h3 {
-  @extend .content-header;
   font-family: $serif;
   font-weight: $bold;
   font-size: min(max(1rem, 7vw), 38px);

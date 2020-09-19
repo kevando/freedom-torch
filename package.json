@@ -1,5 +1,5 @@
 {
-  "license": "To chill",
+  "name": "freedom-torch",
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
     "git": "git add . && git commit -m",

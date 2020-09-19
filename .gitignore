@@ -9,6 +9,8 @@ vendor
 
 dump
 
-# .DS_store
+.DS_store
 Gemfile
 Gemfile.lock
+
+assets/images/_drafts

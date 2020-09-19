@@ -1,28 +1,36 @@
 ---
 permalink: /america
 title: America
+twitter_title: "🇺🇸 America"
+twitter_description: "Our way of life is ending and we must prepare for the new future."
+twitter_card_type: summary
 ---
 
-> Let us be alert in a two fold sense. Since Auschwitz, we know what man is capable of. And since Hiroshima, we know what is at stake.  [**Viktor Frankl**](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0671023373)
+Life as we know it is ending.
 
+For the past 50 years, America's dominated position went unchecked. Our military and economic superiority gave us influence everywhere. American citizens could travel where ever they wanted. Nations sold their oil in our currency. People loved our movies. Football, that never caught on. 
 
+But that all changes with the rise of China and it's time for America to buckle up.
 
+Luckily, it seems we've been given seat belts. 
 
 ---
-
-Life as we know it is ending. 
-
-The transition will be painful until enough Americans wake up to the reality that we've been off course for a while. One way to look at the mask debacle is a seatbelt for the bumpy road ahead. It's a shock to the old system that says "wake up!"
-
-Wake up and see the propaganda.
-
 
 ### Education
 
-Public schools never adapted to the internet and that failure is a catastrophe. Here are some COVID resources.
+The Corona virus forced many schools to close and go online. From kindergarten to college, many students now sit in front of a computer instead of a teacher. We can't hide the fact that our schools suck any longer. It's so bad the only we either give up on America, or we take risks and fix it.
+
+### Government
+
+The dirtbags we elected to run things are not helping. Even Federal Reserve Chairman Janet Yellen agrees. 
+
+---
 
 - [schoolclosures.org](https://schoolclosures.org/)
+- [The Senate Is on Vacation While Americans Starve](https://www.nytimes.com/2020/08/24/opinion/coronavirus-federal-reserve.html)
+- [usaspending.gov](https://www.usaspending.gov)
 
-<!-- https://www.usaspending.gov/#/ -->
 
-china challenging america is a good thing. we have become complacent. 
+
+<!-- We became complacent.  -->
+

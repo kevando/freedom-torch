@@ -1,25 +1,12 @@
 // Styles that apply to this website only
 
-body {
-  background-color: $background-color;
-}
 
 .content {
   padding-left: $content-padding;
   padding-right: $content-padding;
+  padding-bottom: $content-padding;
 }
 
-.site-title {
-  font-family: "Didot";
-  font-size: 13vw;
-  white-space: nowrap;
-  margin: 0;
-  text-align: center;
-  line-height: 0.8em;
-  padding-top: 20px;
-  width: 100%;
-  font-weight: 100;
-}
 .page-title {
   $min: 8vw;
   $max: 60px;
@@ -29,27 +16,6 @@ body {
   font-weight: 800;
 }
 
-.logo-wrapper {
-  text-align: center;
-  padding-top: 20px;
-
-  // Logo
-  img.white-torch {
-    width: 150px;
-  }
-}
-
-
-.site-links {
-  text-align: center;
-  p {
-    margin: 0;
-    line-height: 5rem;
-    a {
-      padding: 1rem 0;
-    }
-  }
-}
 
 blockquote {
   border-left: 5px solid black;
@@ -58,23 +24,4 @@ blockquote {
     margin-left: 20px;
     margin-right: 20px;
   }
-}
-
-// Footer
-
-html,
-body,
-.wrapper {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-.content {
-  flex: 1 0 auto;
-}
-.footer {
-  flex-shrink: 0;
 }
