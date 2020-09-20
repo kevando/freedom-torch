@@ -22,8 +22,9 @@ CCP = Chinese Communist Party
 - 100,000 Chinese students come to America every year.
 - Applw has 2m employees in china. 4x walmart has in the us
 - China has only one time zone
-
-**White Monkey:** White people hired by China to say good things about China
+- China's current president has no term limit
+- China's military belongs to the CCP, not the government
+- **White Monkey:** White people hired by China to say good things about China
 
 ---
 
@@ -45,9 +46,6 @@ CCP = Chinese Communist Party
 - [China's Ideology](https://palladiummag.com/2019/05/31/xi-jinping-in-translation-chinas-guiding-ideology/)
 - [China’s Massive Belt and Road Initiative](https://www.cfr.org/backgrounder/chinas-massive-belt-and-road-initiative)
 
-belt and road
-xi lifetime
-
 ### Population Stats
 
 - **3x** smart phone users than USA
@@ -55,6 +53,3 @@ xi lifetime
 - **10x** food delivery (data)
 - **300x** shared bike ride
 
-- tiktok ban
-  - saga: microsoft, oracle
-- history of taiwan

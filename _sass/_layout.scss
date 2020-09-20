@@ -1,4 +1,4 @@
-@import "mixins/fire-text.scss";
+
 
 $spacing-unit: 1.5rem;
 $header-spacing: 0.5rem;
@@ -82,5 +82,28 @@ table.timeline {
       min-width: 41px;
       text-align: center;
     }
+  }
+  @include phone() {
+
+  td {
+
+    &.date {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    &.title {
+      white-space: nowrap;
+      padding-left: 5px;
+      font-size: 14px;
+      
+      .source {
+        font-size: 12px;
+      }
+    }
+    &.emoji {
+      background-color: red;
+      display: none;
+    }
+  }
   }
 }
