@@ -1,5 +1,147 @@
-- date: 2020-08-09
-  description: "TikTok Founder’s 2018 Pledge To Promote ‘Socialist Core Values’ And Devotion To Chinese Communist Party"
-  sources:
-  # - url: https://thenationalpulse.com/exclusive/tiktok-socialist-values-founders/
-    title: "REVEALED: TikTok Founder’s 2018 Pledge To Promote ‘Socialist Core Values’ And Devotion To Chinese Communist Party"
+# - date: 2020-08-09
+  # title: "TikTok Founder’s 2018 Pledge To Promote ‘Socialist Core Values’ And Devotion To Chinese Communist Party"
+ 
+- date: 2020-09-18
+  title: US sells more weapons to Taiwan
+  url: https://youtu.be/aEsgmeicw5E
+  source: China Uncensored
+  emoji: ⚔️
+
+- date: 1969-09-17
+  title: China admitted to the U.N.
+  description: U.N Ambassador George H. W. Bush and Cavett discuss China and the United Nations.
+  url: https://youtu.be/r9-V7A4NIys
+  emoji: 📺
+
+- date: 2020-09-08
+  title: Disney criticised for Mulan
+  url: https://www.reddit.com/r/movies/comments/iophk9/bbc_news_disney_criticised_for_filming_mulan_in/
+  source: Reddit
+  emoji: 🎬
+
+
+- date: 2020-07-04
+  title: China is a Bully
+  url: https://nypost.com/2020/07/04/the-world-is-finally-uniting-against-chinas-bully-tactics/
+  source: NY Post
+
+- date: 2020-07-14
+  title: The Tik Tok War
+  url: https://stratechery.com/2020/the-tiktok-war/
+  source: stratechery.com
+
+- date: 2020-07-18
+  title: Op-ed The cold war between U.S. and China just got a lot hotter
+  description: Cold war is heating up
+  url: https://www.cnbc.com/2020/07/18/op-ed-the-cold-war-between-us-and-china-just-got-a-lot-hotter.html
+  source: cnbc.com
+  emoji: 🔥
+
+- date: 2020-07-21
+  title: DOJ Indicts Chinese Military Member Posing as Stanford Researcher
+  url: https://thenationalpulse.com/politics/exposed-doj-indicts-chinese-military-member-posing-as-stanford-researcher/
+  source: thenationalpulse.com
+
+- date: 2020-07-23
+  title: TikTok and the privacy perils of China’s first international social media platform
+  url: https://protonmail.com/blog/tiktok-privacy/
+  source: protonmail.com
+  emoji: 📱
+
+- date: 2020-07-25
+  title: "America’s New China Policy: Regime Change"
+  url: https://nationalinterest.org/feature/mike-pompeo-just-declared-america%E2%80%99s-new-china-policy-regime-change-165639
+  source: nationalinterest.org
+  emoji: 🇺🇸
+
+- date: 2020-07-25
+  title: Is TikTok Spying On You?
+  url: https://www.forbes.com/sites/zakdoffman/2020/07/25/beware-tiktok-really-is-spying-on-you-new-security-report-update-trump-pompeo-china-warning/#15a501bc4014
+  source: forbes.com
+  emoji:  🔦
+
+- date: 2020-07-30
+  title: China announces digital currency
+  emoji: 💰
+  source:  scmp.com
+  url: https://www.scmp.com/economy/china-economy/article/3096296/chinas-digital-currency-edges-closer-large-scale-test-four
+
+- date: 2020-07-31
+  url: https://twitter.com/JoshNBCNews/status/1289386191423303680
+  source: twitter.com
+  title: Trump says he will ban Tik Tok
+  emoji: 📵
+
+- date: 2020-08-01
+  title: CA buys $1 billion worth of masks from China
+  url: https://www.newsbreak.com/california/sacramento/news/1550432653753/newsoms-secretive-1-billion-mask-deal-with-chinese-company-sparks-bipartisan-concerns
+
+- date: 2020-08-05
+  url: https://www.smh.com.au/world/asia/china-exporting-ccp-speech-controls-to-australia-as-second-university-caught-in-row-20200805-p55irf.html
+  title: "China 'exporting CCP speech controls to Australia' as second university caught in row"
+  source: smh.com
+  description: CCP Censorship in Australia
+
+- date: 2020-08-05
+  url: https://www.state.gov/announcing-the-expansion-of-the-clean-network-to-safeguard-americas-assets/
+  source: state.gov
+  category: china
+  title: Expansion of the Clean Network
+  summary: Very likely the start of splitting the internet into the East and the West.
+
+- date: 2020-08-05
+  url: https://techcrunch.com/2020/08/05/youtube-bans-thousands-of-chinese-accounts-to-combat-coordinated-influence-operations
+  title: "YouTube bans thousands of Chinese accounts to combat ‘coordinated influence operations"
+  source: techcrunch.com
+  description: YouTube bans thousands of Chinese Accounts
+
+- date: 2018-05-18
+  title: China ends term limits for president
+  description: Ending Term Limits for China’s Xi Is a Big Deal. Here’s Why.
+  url: https://www.nytimes.com/2018/03/10/world/asia/china-xi-jinping-term-limit-explainer.html
+  source: NY Times
+
+- date: 2019-10-02
+  description: "You gotta lower your ideals of freedom if you wanna suck on the warm teet of china"
+  title: South Park - Banned in China Airs
+  url: https://southpark.cc.com/full-episodes/s23e02-band-in-china
+  source: South Park
+
+- date: 2020-01-13
+  title: First COVID19 case outside China
+
+- date: 2020-01-15
+  title: Phase One Trade Deal Signing
+  url: http://agnetwest.com/phase-one-trade-deal-signing-momentous-day-for-u-s-agriculture
+  source: AGNET
+  emoji: 🤝
+
+- date: 2020-02-19
+  title: China expells all US journalists
+
+- date: 2020-04-17
+  title: China’s Worrying Military Exercises Near Taiwan 
+  url: https://thediplomat.com/2020/04/chinas-worrying-military-exercises-near-taiwan/
+  source: thediplomat.com
+
+- date: 2020-06-14
+  title: India has skimish with China.
+  emoji: 🇮🇳
+
+- date: 2020-06-15
+  title: Huawei CFO raises new argument to fight U.S. extradition in Canada court
+  url: https://www.reuters.com/article/us-usa-huawei-tech-canada/huawei-cfo-raises-new-argument-to-fight-us-extradition-in-canada-court-idUSKBN23N00B
+  source: reuters.com
+  emoji: 🇨🇦
+
+- date: 2020-06-25
+  title: India bans Tik Tok
+  emoji: 🇮🇳
+
+- date: 2020-06-24
+  title: Robert O’Brien in Phoenix
+  description: Remarks delivered by National Security Advisor Robert C. O’Brien in Phoenix, Arizona
+  url: https://www.whitehouse.gov/briefings-statements/chinese-communist-partys-ideology-global-ambitions/
+  source: whitehouse.gov
+  emoji: 🇺🇸
+

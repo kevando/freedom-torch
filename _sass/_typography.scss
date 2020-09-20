@@ -52,7 +52,7 @@ li {
 }
 td {
   font-family: $sans-serif;
-  font-size: min(max(1rem, 4vw), 22px);
+  font-size: min(max(1rem, 4vw), 18px);
 }
 blockquote {
   margin: 0;
@@ -61,6 +61,17 @@ blockquote {
     font-size: min(max(1rem, 4vw), 26px);
   }
 }
+
+
+.page-title {
+  $min: 8vw;
+  $max: 60px;
+  font-size: min(max(1rem, #{$min}), #{$max});
+  font-family: $sans-serif;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
 
 // ------- Mobile ----------
 

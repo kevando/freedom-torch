@@ -1,6 +1,6 @@
 ---
-title:  Government
-permalink: /government
+title:  Democracy
+permalink: /democracy
 ---
 
 > Be cautious about putting too much faith or fear in elected individuals.
@@ -41,3 +41,10 @@ Ever wonder how Congress uses the internet? Explore nearly 5,000 connections bet
 
 `The most American thing you can do is hate the government.`
 
+> I don't care who does the electing, as long as I get to do the nominating.
+
+ Lawrence Lessig is a good man to listen to. He created the Creative Commons license and gave some good TED talks.
+
+- [Our democracy no longer represents the people. Here's how we fix it](https://youtu.be/PJy8vTu66tE)
+- [We the People, and the Republic we must reclaim](https://youtu.be/mw2z9lV3W1g)
+- [How the Net destroyed democracy](https://youtu.be/rHTBQCpNm5o)

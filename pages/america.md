@@ -9,11 +9,11 @@ twitter_image_alt: "The statue of liberty smoking a cigarette"
 
 Life as we know it is ending.
 
-For the past 50 years, America's dominated position went unchecked. Our military and economic superiority gave us influence everywhere. American citizens could travel where ever they wanted. Nations sold their oil in our currency. People loved our movies. Football, that never caught on. 
+For the past 50 years, America's dominated position went unchecked. Our military and economic superiority gave us influence everywhere. American citizens could travel where ever they wanted. Nations sold their oil in our currency. People loved our movies. Football, that never caught on.
 
 But that all changes with the rise of China and it's time for America to buckle up.
 
-Luckily, it seems we've been given seat belts. 
+Luckily, it seems we've been given seat belts.
 
 ---
 
@@ -23,15 +23,31 @@ The Corona virus forced many schools to close and go online. From kindergarten t
 
 ### Government
 
-The dirtbags we elected to run things are not helping. Even Federal Reserve Chairman Janet Yellen agrees. 
+The dirtbags we elected to run things are not helping. Even Federal Reserve Chairman Janet Yellen agrees.
+
+### Economy
+
+Bureau of Economic Analysis released numbers that are worse than great depression
+
+### Largest Quarterly drops
+
+- 2008: -8%
+- 1929 -30%
+- 2020: -32.9%
 
 ---
 
 - [schoolclosures.org](https://schoolclosures.org/)
 - [The Senate Is on Vacation While Americans Starve](https://www.nytimes.com/2020/08/24/opinion/coronavirus-federal-reserve.html)
 - [usaspending.gov](https://www.usaspending.gov)
-
-
+- [Largest Quarterly GDP Drop](https://www.bea.gov/news/blog/2020-07-30/gross-domestic-product-second-quarter-2020-advance-estimate-and-annual-update)
 
 <!-- We became complacent.  -->
 
+# Directory
+
+<ul>
+{% for agency in site.data.directory -%}
+  <li><a href="{{ agency.website }}">{{ agency.name }}</a></li>
+{%- endfor -%}
+</ul>

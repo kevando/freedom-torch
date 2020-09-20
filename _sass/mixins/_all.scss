@@ -1,0 +1,8 @@
+@mixin indent() {
+  background-color: #868686;
+  color: transparent;
+  text-shadow: 2px 2px 0px rgba(239, 239, 239, 0.78);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}

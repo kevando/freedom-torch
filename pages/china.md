@@ -1,12 +1,11 @@
 ---
 permalink: /china
 title: China
-
 ---
 
-Tensions between America and China are growing. 
+Tensions between America and China are growing.
 
-Conflict appears inevitable and that means a bumpy road for the whole world. Since we do not teach anything about China in America, let's learn about China and take a look at recent events that brought us here. 
+Conflict appears inevitable and that means a bumpy road for the whole world. Since we do not teach anything about China in America, let's learn about China and take a look at recent events that brought us here.
 
 The first and absolute most important thing Americans need to know about China is that the Chinese people are wondeful not an enemy. It's the CCP that we need to be concerned about.
 
@@ -16,25 +15,7 @@ CCP = Chinese Communist Party
 
 # Recent Events
 
-
-
-
-{% assign china_posts = site.posts | where_exp:"post", "post.category contains 'china'"  %}
-
-<table class="timeline">
-  {% for post in china_posts -%}
-  <tr>
-    <td class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}</td>
-    <td class="emoji">{{ post.emoji  | default: "🇨🇳" }}</td>
-    <!-- <td class="source"><a href="#">{{ post.source  }}</a></td> -->
-    <td class="description">{{ post.description | default: post.source_title  }}</td>
-  </tr>
-  <tr class="spacer"></tr>
-  {%- endfor -%}
-</table>
-
-
-
+{% include china-timeline.html %}
 ---
 
 - FBI opens a new case on China every 10 hours
@@ -42,8 +23,7 @@ CCP = Chinese Communist Party
 - Applw has 2m employees in china. 4x walmart has in the us
 - China has only one time zone
 
-
-**White Monkey:** White people hired by China to say good things about China 
+**White Monkey:** White people hired by China to say good things about China
 
 ---
 
@@ -75,8 +55,6 @@ xi lifetime
 - **10x** food delivery (data)
 - **300x** shared bike ride
 
-
-
 - tiktok ban
-    - saga: microsoft, oracle
+  - saga: microsoft, oracle
 - history of taiwan

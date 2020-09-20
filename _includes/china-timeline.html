@@ -1,29 +1,18 @@
-{% assign china_posts = site.posts | where_exp:"post", "post.category contains 'china'"  %}
+{% assign china_posts = site.data.china_timeline | sort: 'date' | reverse %}
 
 <table class="timeline">
   {% for post in china_posts -%}
+
   <tr>
-    <td class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}</td>
-    <td class="emoji">{{ post.emoji  | default: "🇨🇳" }} </td>
-    <td class="description">{{ post.description  }}</td>
-    <td class="source"><a href="#">{{ post.source  }}</a></td>
+    <td class="date">{{ post.date | date: "%b %d %Y" }} </td>
+    <td class="emoji">{{ post.emoji  | default: "🇨🇳" }}</td>
+    <td class="title">  {{ post.title }}
+    {% if post.url %}
+      <a class="source" href="{{ post.url }}">{{ post.source }}</a>
+    {% endif %}
+    
+    
+    </td>
   </tr>
-  <tr class="spacer"></tr>
   {%- endfor -%}
 </table>
-<!-- 
-
-
-{% assign china_posts = site.posts | where_exp:"post", "post.category contains 'china'"  %}
-
-<table class="timeline-v1">
-  {% for post in china_posts -%}
-  <tr>
-    <td class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}</td>
-    <td class="emoji">{{ post.emoji  | default: "🇨🇳" }} </td>
-    <td class="description">{{ post.description  }}</td>
-    <td class="source"><a href="#">{{ post.source  }}</a></td>
-  </tr>
-  <tr class="spacer"></tr>
-  {%- endfor -%}
-</table> -->
