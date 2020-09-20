@@ -19,6 +19,6 @@ defaults:
 
       twitter_title: "Freedom Torch"
       twitter_description: ""
-      twitter_image: ""
-      twitter_image_alt: ""
+      twitter_image: "/assets/images/icon-64-lady-smoke.jpg"
+      twitter_image_alt: "Freedom Torch"
       twitter_card_type: summary

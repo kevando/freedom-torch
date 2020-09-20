@@ -1,32 +1,29 @@
+$height: 40px;
 
 nav.site {
+  min-height: $height;
+  height: $height;
+  position: absolute;
+  width: 100%;
+
   background-color: $background-color;
   border-top: solid 5px $blue;
-
-  padding-bottom: 0;
-  padding-top: 0;
-  padding-left: $content-padding;
-  padding-right: $content-padding;
-
+  padding: 0 $content-padding;
 
   ul {
-
     float: right;
     padding: 0px;
     margin: 0;
     li {
-
       float: left;
       list-style: none;
       padding: 6px 0;
       margin: 0 5px;
-      font-size: 17px;
+      font-size: 15px;
 
       a {
         color: black;
         font-family: $logo-font;
-        
-        
       }
     }
   }

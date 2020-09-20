@@ -3,29 +3,17 @@ title: Capitalism
 permalink: /capitalism
 ---
 
-Our economic system is not balanced.
+The American economy is out of balance.
 
-How we react to this will decide the fate of America. We need high quality discourse happening in public.
+This time it's not just our current situtation, it's the whole system. How we react to this will decide the fate of America. We need high quality discourse happening in public.
 
----
+> Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance. 
 
-### Socialism
+**-- Eric Weinstein**
 
-Capitalism and Communism which briefly resembled victor and vanquished, increasingly look more like Thelma and Louise; a tragic couple sent over the edge by forces beyond their control. What comes next is anyone’s guess and the world hangs in the balance. **-- Eric Weinstein**
+I like this quote because the image of a car driving off a cliff is what comes to mind when I see the graph below of how much money we print.
 
----
-
-##### Videos
-
-- [Anthropic Capitalism](https://www.edge.org/response-detail/26756)
-- [Capitalism 2.0](https://youtu.be/xzTmBnaiMdE)
-- [Capitalism won’t survive without socialism](https://www.vox.com/policy-and-politics/2017/7/25/15998002/eric-weinstein-capitalism-socialism-revolution)
-
----
-
-### Money
-
-We just printed \$2,000,000,000 and we're still in trouble. This graphs shows the Fed's balance sheet. In otherwords: how much money the US prints. It nearly doubled in 2020.
+We just printed $2,000,000,000 and we're still in trouble. This graphs shows the Fed's balance sheet. In otherwords: how much money the US prints. It nearly doubled in 2020.
 
 ![Money Printer](/assets/images/money_printed.png)
 
@@ -52,13 +40,14 @@ Wealth is not money. Wealth is your ability to generate money. Jeff Bezos does n
 
 <!-- > "Chaos is a ladder" -->
 
-- [The Biggest Wealth Transfer in History is Upon Us - Here is What it Means](https://youtu.be/iNlBizfi-jM) (video)
 
-<!-- - Laugh [r/LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism) -->
 <!--
 
 # Monopoly
 Stiffles competition. Google, Amazon, Apple, and Facebook all need to be broken up
+
+
+for capitalism to work we need competition
 
 - [The Four](/)
 
@@ -80,6 +69,21 @@ Areas of strentgh
 concern
 
 .. look at Ray's charts here. -->
+
+---
+
+
+
+---
+
+- [Anthropic Capitalism](https://www.edge.org/response-detail/26756)
+- [Capitalism 2.0](https://youtu.be/xzTmBnaiMdE)
+- [Capitalism won’t survive without socialism](https://www.vox.com/policy-and-politics/2017/7/25/15998002/eric-weinstein-capitalism-socialism-revolution)
+- [The Federal Reserve vs Covid-19](https://youtu.be/GI7sBsBHdCk) (meme)
+- [The Biggest Wealth Transfer in History is Upon Us - Here is What it Means](https://youtu.be/iNlBizfi-jM) (video)
+- [r/LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism)
+---
+
 
 # 💸
 
