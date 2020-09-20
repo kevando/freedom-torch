@@ -1,27 +1,15 @@
-# Basic Information
 title: Freedom Torch
 description: It's free to give a shit.
-
-# Domain Configuration
 baseurl: "/" 
 url: "https://freedomtorch.net" 
-
-twitter_username: kevando_
-google_analytics: UA-16078011-4
-
 permalink: /:year-:month-:day-:slug
-
-
-# Build settings
+twitter_handle: freedomtorch29
+google_analytics: UA-87938049-1
+icons_dir: /assets/icons
 theme: minima
 plugins:
   - jekyll-feed
 
-# Reference paths
-icons_dir: /assets/icons
-
-
-# Default Settings
 defaults:
   -
     scope:
@@ -34,6 +22,3 @@ defaults:
       twitter_image: ""
       twitter_image_alt: ""
       twitter_card_type: summary
-      
-
-twitter_handle: 1freedomtorch
