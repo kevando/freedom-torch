@@ -13,8 +13,8 @@ $content-padding: 1em;
 
 @import "base";
 @import "typography";
-@import "layout";
 
-@import "nav";
-@import "footer";
-@import "congress-connections";
+@import "page", "timeline", "d3";
+
+
+@import "nav", "footer";

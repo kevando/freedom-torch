@@ -23,7 +23,25 @@ nav.site {
 
       a {
         color: black;
-        font-family: $logo-font;
+        font-family: $sans-serif;
+      }
+    }
+  }
+}
+
+@include phone() {
+  nav.site {
+    background-color: $blue;
+    position: relative;
+    border-bottom: solid $red 5px;
+    border-top-width: 1px;
+
+    ul {
+      float: left;
+      li {
+        a {
+          color: white;
+        }
       }
     }
   }

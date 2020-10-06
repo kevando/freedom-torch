@@ -1,0 +1,28 @@
+---
+layout: empty
+years: ["2020","2018"]
+---
+
+{% assign years = layout.years %}
+
+{% assign china_posts = site.data.china_timeline | sort: 'date' | reverse %}
+
+<div class="timeline">
+
+  {% for year in years %}
+  <h1>{{ year }}</h1>
+  {%    for post in china_posts -%}
+  {%      capture event_year %}{{post.date | date: "%Y"}}{% endcapture %}
+
+  {%      if event_year == year %}
+  <div class="row">
+    <div class="left"><span class="icon">{{ post.icon  | default: "🇨🇳" }}</span></div>
+    <div class="right"><span class="description">{{ post.description }} </span></div>
+  </div>
+  {%      endif %}
+
+  {%    endfor %}
+  <!-- <hr /> -->
+  {% endfor %}
+
+</div>

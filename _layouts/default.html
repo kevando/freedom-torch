@@ -1,8 +1,13 @@
 ---
 layout: empty
+nav_links:
+    Democracy: /democracy
+    Capitalism: /capitalism
+    America: /america
+    China: /china
 ---
 
-{% include nav.html %}
+{% include nav.html nav_links=page.nav_links %}
 
 <div class="content">
     {% include header.html %}

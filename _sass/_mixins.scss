@@ -29,6 +29,32 @@
 // }
 
 
+
+// ---- Typography ----
+
+
+
+// $sans-serif: Verdana;
+// $logo-font: "Didot";
+
+
+@mixin fontSize($min: 1px, $max: 1px) {
+  font-size: min(max(1rem, #{$min}), #{$max});
+}
+
+@mixin font($name) {
+  $family-name: 'Comic Sans';
+
+  @if($name == 'serif') {
+    $family-name: "Neuton";
+  }
+
+  font-family: $family-name;
+}
+
+
+
+
 $big-time: 1400px;
 $small-time: 500px;
 

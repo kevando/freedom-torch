@@ -16,9 +16,9 @@ $bold: 700;
 // --------------------------------------
 
 h1 {
-  font-family: $serif;
+  @include font('serif');
+  @include fontSize(8vw, 50px);
   font-weight: $normal;
-  font-size: min(max(1rem, 8vw), 50px);
   letter-spacing: 1px;
 }
 h2 {
@@ -45,8 +45,8 @@ p {
   font-size: min(max(1rem, 6vw), 32px);
 }
 li {
-  font-family: $serif;
-  font-size: min(max(1rem, 5vw), 32px);
+  @include font('serif');
+  @include fontSize(6vw, 32px);
 }
 td {
   font-family: $sans-serif;
@@ -60,16 +60,12 @@ blockquote {
   }
 }
 
-
 .page-title {
-  $min: 8vw;
-  $max: 60px;
-  font-size: min(max(1rem, #{$min}), #{$max});
+  @include fontSize(10vw, 60px);
   font-family: $sans-serif;
   letter-spacing: 1px;
   font-weight: 800;
 }
-
 
 // ------- Mobile ----------
 

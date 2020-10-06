@@ -1,18 +1,8 @@
-
 <nav class="site">
-
-  <ul>
-
-  {% for link in site.data.nav_links %}
-
-    {% unless page.permalink == link.permalink %}
-    <li><a href="{{ site.url }}/{{ link.permalink }}">{{ link.label }}</a></li>
-    {% endunless %}
-
-  {% endfor %}
-
-  
-
-    
-  </ul>
+	<ul>
+		
+		<li><a href="{{ site.url }}/america">America</a></li>
+		<li><a href="{{ site.url }}/china">China</a></li>
+		<!-- <li><img src="/assets/icons/icon-32-torch-2.png" /></li> -->
+	</ul>
 </nav>
